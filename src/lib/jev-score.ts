@@ -1,5 +1,5 @@
 import { createServerFn } from "@tanstack/react-start";
-import { JEV_QUESTION, hold, questionIsForbidden, verdictFromProbability, type JevVerdict } from "@/lib/jev-gate";
+import { JEV_QUESTION, hold, holdWhenKeyMissing, questionIsForbidden, verdictFromProbability, type JevVerdict } from "@/lib/jev-gate";
 
 export type SleeveAsk = {
   btcUsd: number | null;
@@ -29,7 +29,8 @@ export const scoreSleeveAdd = createServerFn({ method: "POST" })
       return hold("rule", "Jev refused a forbidden question · HOLD");
     }
     const key = process.env.TYPESAFE_API_KEY;
-    if (!key) return hold("unconfigured", "Jev key missing · HOLD");
+    const missing = holdWhenKeyMissing(key);
+    if (missing) return missing;
     try {
       const res = await fetch("https://api.typesafe.ai/v1/systemone", {
         method: "POST",
