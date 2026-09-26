@@ -1,4 +1,5 @@
-import type { JevVerdict } from "./jev-gate";
+import { driftLocks } from "./drift-lock.ts";
+import type { JevVerdict } from "./jev-gate.ts";
 
 export type Stance = "HOLD" | "ACCUMULATE" | "BUY" | "WAIT";
 export type GapRegime = "cheap" | "mixed" | "closed";
@@ -410,33 +411,24 @@ export function coreClip(lanes: Lane[]): { stance: Stance; note: string; navPct:
 
 export function fitness(s: DeskState, lanes: Lane[]) {
   const high = twoLaneHigh(lanes);
-  const g = gapScan(s.gapRegime);
-  const scores = {
-    coreMandate: 96,
-    sleeveSegregation: canArmNine(s) && s.riskProfile <= RISK_MAX ? 90 : 40,
-    twoLaneHonesty: high ? 90 : 70,
-    pr3dSplit: 92,
-    m3rcScope: 90,
-    tapeCoherence: 88,
-    triggerUx: 90,
-    dataHonesty: 86,
-    makerChecker: 88,
-    gapHonesty: g.closed ? 92 : 88,
-    v4cHonesty: s.v4c ? 90 : 86,
-    liveTape: liveTapeFresh(s) ? 82 : 55,
-  };
-  const hardFails: string[] = [];
-  if (s.riskProfile > RISK_MAX) hardFails.push("risk profile above 30% mandate ceiling");
-  const avg = Object.values(scores).reduce((a, b) => a + b, 0) / Object.values(scores).length;
+  const nine = nineCall(s, lanes);
+  const core = coreClip(lanes);
+  const { locks, hardFails } = driftLocks({
+    riskProfile: s.riskProfile,
+    riskMax: RISK_MAX,
+    liveTape: liveTapeFresh(s),
+    high,
+    coreStance: core.stance,
+    coreNav: core.navPct,
+    nineAction: nine.action,
+    nineNeedsCoord: nine.needsCoord === true,
+    canArm: canArmNine(s),
+  });
+  const values = Object.values(locks);
+  const avg = values.reduce((a, b) => a + b, 0) / values.length;
   const overall = hardFails.length ? Math.min(49, avg) : Math.round(avg);
-  const deployReady =
-    overall >= 85 &&
-    hardFails.length === 0 &&
-    high &&
-    scores.liveTape >= 80 &&
-    scores.sleeveSegregation >= 80 &&
-    scores.coreMandate >= 90;
-  return { scores, hardFails, overall, high, deployReady };
+  const deployReady = hardFails.length === 0 && values.every((n) => n === 100);
+  return { scores: locks, hardFails, overall, high, deployReady };
 }
 
 export type V4cMode = "OFF" | "IDLE" | "VACUUM" | "BRAKE";
@@ -521,7 +513,7 @@ export function eightCall(s: DeskState) {
 export function nineCall(s: DeskState, lanes: Lane[]) {
   const high = twoLaneHigh(lanes);
   const g = gapScan(s.gapRegime);
-  if (!s.b9) return { yes: false, reason: "9-B9LL trigger OFF", action: "WAIT" as const, navPct: 0 };
+  if (!s.b9) return { yes: false, reason: "9-B9LL trigger OFF", action: "WAIT" as const, navPct: 0, needsCoord: false };
   if (s.simPaused) return { yes: false, reason: "sim paused 07:00 ET", action: "WAIT" as const, navPct: 0 };
   if (s.discPick === "select") {
     return {

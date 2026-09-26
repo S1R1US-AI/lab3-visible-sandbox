@@ -1093,7 +1093,7 @@ export function DeskApp() {
               <p>
                 P {money(pTotal)} · L {money(-lTotal)} · NET {money(pTotal - lTotal)}
               </p>
-              <p>Fitness {d.fit.overall}/100 · deployReady {String(d.fit.deployReady)}</p>
+              <p>Fitness {d.fit.overall}/100 · locks {d.fit.deployReady ? "PASS" : "FAIL"}</p>
               <p className="text-xs">
                 <span className="text-orange">7-B0T</span> core · {SEVEN_B0T_SUMMARY}
               </p>

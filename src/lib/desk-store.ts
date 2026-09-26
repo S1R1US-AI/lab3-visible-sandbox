@@ -112,7 +112,7 @@ export const useDesk = create<DeskState & Actions>()((set, get) => ({
     }
     const lanes = activeLanes(s);
     const n = nineCall(s, lanes);
-    if (!n.yes || n.action !== "ACCUMULATE") {
+    if (!n.yes || !n.needsCoord || n.action !== "ACCUMULATE") {
       set({
         pendingApproved: false,
         pending: `Approve blocked · risk ${s.riskProfile}% · ${s.b9Mode} · discount ${s.discPick} · ${n.reason}`,

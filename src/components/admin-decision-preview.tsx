@@ -117,7 +117,7 @@ export function AdminDecisionPreview() {
           k="FITNESS"
           v={`${d.fit.overall}/100`}
           tone={d.fit.deployReady ? "text-primary" : "text-danger"}
-          sub={d.fit.deployReady ? "deploy-ready" : "not deploy-ready"}
+          sub={d.fit.deployReady ? "locks pass" : "locks fail"}
         />
         <Cell
           k="HIGH"
