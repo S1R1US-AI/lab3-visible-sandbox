@@ -1,5 +1,4 @@
 import { driftLocks } from "./drift-lock.ts";
-import type { JevVerdict } from "./jev-gate.ts";
 
 export type Stance = "HOLD" | "ACCUMULATE" | "BUY" | "WAIT";
 export type GapRegime = "cheap" | "mixed" | "closed";
@@ -240,7 +239,6 @@ export type DeskState = {
   callLog: string[];
   pending: string | null;
   pendingApproved: boolean | null;
-  jev: JevVerdict | null;
   core: Sleeve;
   b8pl: Sleeve;
   b9pl: Sleeve;
