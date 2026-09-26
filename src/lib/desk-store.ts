@@ -18,6 +18,7 @@ import {
   RISK_MAX,
 } from "./desk-logic";
 import { hold } from "./jev-gate";
+import { rejectSellOrShort } from "./mandate-fail";
 import { controlsFromDesk, deskPatchFromControls, readAdminControls, writeAdminControls } from "./admin-settings";
 import { useGradPick } from "./grad-pick-store";
 
@@ -112,6 +113,17 @@ export const useDesk = create<DeskState & Actions>()((set, get) => ({
     }
     const lanes = activeLanes(s);
     const n = nineCall(s, lanes);
+    const mandate = rejectSellOrShort(n.action);
+    if (!mandate.ok) {
+      set({
+        pendingApproved: false,
+        pending: `Approve blocked · ${mandate.reason}`,
+        callLog: [`Mandate fail · ${mandate.reason}`, ...s.callLog].slice(0, 40),
+      });
+      return;
+    }
+    // Core BTC stack is immutable on Approve — sleeve paper only.
+    const coreBtc = s.core.btc;
     if (!n.yes || !n.needsCoord || n.action !== "ACCUMULATE") {
       set({
         pendingApproved: false,
@@ -125,7 +137,7 @@ export const useDesk = create<DeskState & Actions>()((set, get) => ({
       pendingApproved: true,
       pending: `USER Approve applied · risk ${s.riskProfile}% · ${s.b9Mode} · discount ${s.discPick} · sleeve paper add · core stack untouched`,
       callLog: [
-        `Coordinator (bot 6) A · paper ACCUMULATE sleeve ${n.navPct * 100}% · core stack untouched · ${s.b9Mode}`,
+        `Coordinator (bot 6) A · paper ACCUMULATE sleeve ${n.navPct * 100}% · core stack untouched (${coreBtc} BTC) · ${s.b9Mode}`,
         ...s.callLog,
       ].slice(0, 40),
       b9pl: {
