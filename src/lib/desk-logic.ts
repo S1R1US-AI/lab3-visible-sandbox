@@ -1,3 +1,5 @@
+import type { JevVerdict } from "./jev-gate";
+
 export type Stance = "HOLD" | "ACCUMULATE" | "BUY" | "WAIT";
 export type GapRegime = "cheap" | "mixed" | "closed";
 export type GapState = "cheap" | "fair" | "rich";
@@ -237,6 +239,7 @@ export type DeskState = {
   callLog: string[];
   pending: string | null;
   pendingApproved: boolean | null;
+  jev: JevVerdict | null;
   core: Sleeve;
   b8pl: Sleeve;
   b9pl: Sleeve;

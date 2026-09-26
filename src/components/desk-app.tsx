@@ -32,6 +32,8 @@ import { pumpCall, PUMP_NEED, PUMP_FUTURE_ROADMAP_NOTE } from "@/lib/pump-plan";
 import { pullPumpFeed } from "@/lib/pump-feed";
 import { parseAgentCall, liveLaneNote, type G0Live } from "@/lib/desk-logic";
 import { getPublicTape } from "@/lib/public-tape";
+import { scoreSleeveAdd } from "@/lib/jev-score";
+import { hold } from "@/lib/jev-gate";
 import { cn } from "@/lib/cn";
 
 const PAGES = ["desk", "pump", "pl", "morning", "faq", "roadmap", "sitemap", "analysis", "media"] as const;
@@ -224,6 +226,45 @@ export function DeskApp() {
     hydrateAdminSettings();
     hydratePumpSettings();
   }, []);
+
+  useEffect(() => {
+    if (!desk.b9 || !d.nine.yes) {
+      desk.setJev(hold("rule", d.nine.yes ? "9-B0T off · HOLD" : d.nine.reason));
+      return;
+    }
+    let stop = false;
+    const timer = window.setTimeout(() => {
+      void scoreSleeveAdd({
+        data: {
+          btcUsd: desk.liveIngest?.btcUsd ?? null,
+          rsi14: desk.liveIngest?.rsi14 ?? null,
+          fearGreed: desk.liveIngest?.fearGreed ?? null,
+          fearLabel: desk.liveIngest?.fearLabel ?? "",
+          stance: desk.liveIngest?.stance ?? "",
+          gap: desk.gapRegime,
+        },
+      })
+        .then((verdict) => {
+          if (!stop) desk.setJev(verdict);
+        })
+        .catch(() => {
+          if (!stop) desk.setJev(hold("error", "Jev unreachable · HOLD"));
+        });
+    }, 250);
+    return () => {
+      stop = true;
+      window.clearTimeout(timer);
+    };
+  }, [
+    desk.b9,
+    desk.gapRegime,
+    desk.liveIngest?.btcUsd,
+    desk.liveIngest?.rsi14,
+    desk.liveIngest?.fearGreed,
+    desk.liveIngest?.stance,
+    d.nine.yes,
+    d.nine.reason,
+  ]);
 
   useEffect(() => {
     let stop = false;
@@ -783,7 +824,8 @@ export function DeskApp() {
                         type="button"
                         data-nine-approve=""
                         onClick={() => desk.approve()}
-                        className="min-h-11 flex-1 rounded-md border border-primary text-xs font-semibold text-primary"
+                        disabled={desk.jev?.action !== "PASS"}
+                        className="min-h-11 flex-1 rounded-md border border-primary text-xs font-semibold text-primary disabled:opacity-40"
                       >
                         Approve
                       </button>
@@ -797,6 +839,14 @@ export function DeskApp() {
                       </button>
                     </div>
                     <p className="text-xs text-muted">{d.nine.reason}</p>
+                    <p
+                      data-jev-verdict=""
+                      className={cn("desk-mono text-xs", desk.jev?.action === "PASS" ? "text-primary" : "text-accent")}
+                    >
+                      {desk.jev
+                        ? `${desk.jev.action} · ${desk.jev.probability == null ? "—" : desk.jev.probability.toFixed(2)} · cutoff ${desk.jev.cutoff.toFixed(2)}`
+                        : "Jev · scoring"}
+                    </p>
                     <p
                       data-nine-result=""
                       className={cn(

@@ -17,6 +17,7 @@ import {
   RISK_MIN,
   RISK_MAX,
 } from "./desk-logic";
+import { hold } from "./jev-gate";
 import { controlsFromDesk, deskPatchFromControls, readAdminControls, writeAdminControls } from "./admin-settings";
 import { useGradPick } from "./grad-pick-store";
 
@@ -40,6 +41,7 @@ const seed = (): DeskState => ({
   callLog: [],
   pending: null,
   pendingApproved: null,
+  jev: null,
   core: { p: 1840, l: 0, btc: 0.42, usdc: 0 },
   b8pl: { p: 120, l: 40, btc: 0, usdc: 80 },
   b9pl: { p: 80, l: 20, btc: 0, usdc: 180 },
@@ -61,6 +63,7 @@ type Actions = {
   setPredLean: (p: PredLean) => void;
   setGapRegime: (g: GapRegime) => void;
   setDiscPick: (p: DeskState["discPick"]) => void;
+  setJev: (jev: DeskState["jev"]) => void;
   approve: () => void;
   deny: () => void;
   reset: () => void;
@@ -90,13 +93,23 @@ export const useDesk = create<DeskState & Actions>()((set, get) => ({
   setGapRegime: (gapRegime) => set({ gapRegime, pendingApproved: null }),
   setDiscPick: (discPick) => {
     if (discPick === "select") {
-      set({ discPick });
+      set({ discPick, jev: null });
       return;
     }
-    set({ discPick, gapRegime: discPick, pendingApproved: null });
+    set({ discPick, gapRegime: discPick, pendingApproved: null, jev: null });
   },
+  setJev: (jev) => set({ jev }),
   approve: () => {
     const s = get();
+    const jev = s.jev ?? hold("rule", "Jev has not scored · HOLD");
+    if (jev.action !== "PASS") {
+      set({
+        pendingApproved: false,
+        pending: jev.reason,
+        callLog: [`Jev HOLD · ${jev.reason}`, ...s.callLog].slice(0, 40),
+      });
+      return;
+    }
     const lanes = activeLanes(s);
     const n = nineCall(s, lanes);
     if (!n.yes || n.action !== "ACCUMULATE") {

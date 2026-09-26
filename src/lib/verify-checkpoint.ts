@@ -79,6 +79,7 @@ function stub(p: Partial<DeskState>): DeskState {
     callLog: [],
     pending: null,
     pendingApproved: null,
+    jev: null,
     core: { p: 0, l: 0, btc: 0, usdc: 0 },
     b8pl: { p: 0, l: 0, btc: 0, usdc: 0 },
     b9pl: { p: 0, l: 0, btc: 0, usdc: 0 },
