@@ -20,7 +20,7 @@ flowchart TB
   style STOP2 fill:#333,color:#fff
 ```
 
-**Checkpoint 152 (preserve full desk)**
+**Checkpoint 152 (preserve full desk)** — pending [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) on `main`
 
 - Approve gated on: `nineCall` yes **&&** `needsCoord` **&&** `action === ACCUMULATE`
 - `jevOutsideApp: 100` — Jev not inside the app

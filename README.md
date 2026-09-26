@@ -16,6 +16,6 @@ The older clickable still is in `snapshot/clickable-still.html`.
 | Living roadmap | [`ops/sensei/ROADMAP.md`](./ops/sensei/ROADMAP.md) |
 | Glossary (a+b+c) | [`ops/sensei/GLOSSARY.md`](./ops/sensei/GLOSSARY.md) |
 | Flows | [`ops/sensei/flows/INDEX.md`](./ops/sensei/flows/INDEX.md) |
-| Outer Jev companion | [`ops/outer-jev/`](./ops/outer-jev/) |
+| Outer Jev companion | [`ops/outer-jev/`](./ops/outer-jev/) — pending [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) |
 
 Sensei docs live under `ops/` like outer Jev. They are never imported by `src/`. They do not unlock Coinbase create, sell, or short.

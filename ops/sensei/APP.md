@@ -53,4 +53,4 @@ Lab 3 visible sandbox is the **first project** that instantiates Sensei Bot App:
 
 ## Version functionality (Sensei version)
 
-“Sensei version” means the living documentation revision tracked in [ROADMAP.md](./ROADMAP.md) and pointed from `checkpoints/ROADMAP-141.md`. Checkpoint 152+ items (Approve gate, `jevOutsideApp: 100`, Sensei oversight, admin detail, flows) are part of the Sensei version baseline, not optional footnotes.
+“Sensei version” means the living documentation revision tracked in [ROADMAP.md](./ROADMAP.md) and pointed from `checkpoints/ROADMAP-141.md`. Sensei oversight, admin detail, and flows are part of this baseline now. Checkpoint 152 desk items (Approve gate, `jevOutsideApp: 100`, `ops/outer-jev/` on main) stay **pending PR #6** until that PR merges — see [ROADMAP.md](./ROADMAP.md).

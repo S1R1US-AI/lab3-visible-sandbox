@@ -32,7 +32,7 @@ Summary of Sensei Bot App baseline items (detail in [`ops/sensei/ROADMAP.md`](..
 - Sensei Bot App package under `ops/sensei/` (ops-only; never imported by `src/`)
 - Sensei Bot id `d40cd9e7-579d-4fc6-b860-60143c9d0b42` oversights standards; interfaces with Grok Bot, Desk Steward, Copilot patches
 - Communication standards a+b+c (glossary + Lab 3 operational drift + checkable meaning)
-- Checkpoint 152: preserve full desk; Approve gated on `nineCall` yes && `needsCoord` && `action === ACCUMULATE`; `jevOutsideApp: 100`
+- Checkpoint 152 (**pending PR #6**, not on main yet): preserve full desk; Approve gated on `nineCall` yes && `needsCoord` && `action === ACCUMULATE`; `jevOutsideApp: 100`
 - Full admin detail visibility protocol (`ops/sensei/ADMIN-DETAIL.md`)
 - Logic / workflow Mermaid diagrams (`ops/sensei/flows/`)
 - Sensei version functionality + baseline for all future S1R1US projects

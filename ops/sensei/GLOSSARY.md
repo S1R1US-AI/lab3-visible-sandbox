@@ -61,9 +61,9 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 | **nineCall** | Desk gate flag: coordination / nine-bot sleeve path is in play. Approve for sleeve add is gated on `nineCall` yes **and** related conditions (see Checkpoint 152). |
 | **needsCoord** | Coordination required before the protected action proceeds. |
 | **ACCUMULATE** | Paper action intent: add to the stack on paper. Never sell / never short. |
-| **Approve gated (Checkpoint 152)** | User Approve is gated on `nineCall === yes && needsCoord && action === ACCUMULATE`. Preserve full desk; do not invent weaker gates. |
-| **outer Jev** | Operator hook under `ops/outer-jev/`. Scores *patches / coding agents*, not the live tape. Not imported by `src/`. |
-| **jevOutsideApp** | Architecture score / contract: Jev remains outside the running app (`jevOutsideApp: 100` at Checkpoint 152). In-src Jev callers are drift. |
+| **Approve gated (Checkpoint 152)** | User Approve is gated on `nineCall === yes && needsCoord && action === ACCUMULATE`. Preserve full desk; do not invent weaker gates. **Pending on main until PR #6 merges.** |
+| **outer Jev** | Operator hook under `ops/outer-jev/`. Scores *patches / coding agents*, not the live tape. Not imported by `src/`. **Tree lands on main with PR #6.** |
+| **jevOutsideApp** | Architecture score / contract: Jev remains outside the running app (`jevOutsideApp: 100` at Checkpoint 152). In-src Jev callers are drift. **Contract in force on main after PR #6.** |
 | **scan-runtime** | `ops/outer-jev/scan-runtime.mjs` — fails if Jev leaked back into `src/`. Run before merge. |
 | **No TypeSafe key = HOLD** | Optional key only in operator env (`~/.s1r1us/outer-jev.env` / `$TYPESAFE_API_KEY`). Missing key → do not merge. Never commit keys. |
 | **never-sell** | Hard lock: no sell tool, no sell path, no “sell the stack” behavior on this desk. |

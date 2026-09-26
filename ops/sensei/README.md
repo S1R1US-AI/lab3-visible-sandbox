@@ -58,5 +58,5 @@ Legacy desk design assets (still valid for desk bots):
 
 ## Related ops
 
-- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md`
+- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md` (**pending PR #6** on `main`)
 - Checkpoint roadmap note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
