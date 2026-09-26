@@ -47,3 +47,11 @@ export function verdictFromProbability(probability: number, cutoff = JEV_CUTOFF)
     reason: `Jev ${JEV_QUESTION} ${probability.toFixed(2)} ≥ ${cutoff.toFixed(2)} · proposal only · no size · no sell`,
   };
 }
+
+/** Scoring path without TYPESAFE_API_KEY stays HOLD unconfigured. Never invent a key. */
+export function holdWhenKeyMissing(key: string | undefined | null): JevVerdict | null {
+  if (key == null || String(key).trim() === "") {
+    return hold("unconfigured", "Jev key missing · HOLD");
+  }
+  return null;
+}

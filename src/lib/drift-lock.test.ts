@@ -25,10 +25,16 @@ test("an accumulate without Approve fails the maker lock", () => {
   assert.ok(hardFails.some((f) => f.includes("Approve")));
 });
 
-test("a sell stance fails never-sell", () => {
+test("a sell stance fails never-sell via mandate-fail", () => {
   const { locks, hardFails } = driftLocks({ ...base, coreStance: "SELL" });
   assert.equal(locks.neverSell, 0);
-  assert.ok(hardFails.some((f) => f.includes("sell")));
+  assert.ok(hardFails.some((f) => f.includes("never_sell") || f.includes("sell")));
+});
+
+test("a short stance fails never-short via mandate-fail", () => {
+  const { locks, hardFails } = driftLocks({ ...base, nineAction: "SHORT" });
+  assert.equal(locks.neverShort, 0);
+  assert.ok(hardFails.some((f) => f.includes("never_short") || f.includes("short")));
 });
 
 test("two-lane HIGH with no core add is a hard fail", () => {
