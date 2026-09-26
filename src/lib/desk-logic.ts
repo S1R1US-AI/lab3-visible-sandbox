@@ -1,5 +1,4 @@
 import { driftLocks } from "./drift-lock.ts";
-import type { JevVerdict } from "./jev-gate.ts";
 
 export type Stance = "HOLD" | "ACCUMULATE" | "BUY" | "WAIT";
 export type GapRegime = "cheap" | "mixed" | "closed";
@@ -240,7 +239,6 @@ export type DeskState = {
   callLog: string[];
   pending: string | null;
   pendingApproved: boolean | null;
-  jev: JevVerdict | null;
   core: Sleeve;
   b8pl: Sleeve;
   b9pl: Sleeve;
@@ -716,4 +714,3 @@ PROPRIETARY
 Logic diagrams, flow charts, this paper, admin instruction module: system admin + S1R1US.ai only. Not FAQ, not public Roadmap, not public sitemap, not live s1r1us.ai public docs, not GitHub.
 
 Testable. Not ready to deploy live sells.`;
-
