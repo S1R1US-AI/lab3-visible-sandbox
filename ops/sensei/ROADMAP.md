@@ -2,7 +2,7 @@
 
 > Paper desk only. This roadmap does **not** write to https://s1r1us.ai.  
 > Sensei version for Checkpoint 152+ · package home: `ops/sensei/`  
-> **Accuracy:** Checkpoint 152 / `ops/outer-jev/` are **pending PR #6** (not on `main` yet). Marked `[~]` until #6 merges.
+> **Accuracy:** Checkpoint 152 / `ops/outer-jev/` are **on `main`** via [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) (`24b80a6`, user APPROVE 6).
 
 Scannable status legend:
 
@@ -26,14 +26,14 @@ timeline
                        : Coinbase create locked
       Maker-checker    : 7-B0T CLIP two-lane HIGH
                        : 9-B0T Approve/Deny only
+      Checkpoint 152   : jevOutsideApp 100
+                       : ops/outer-jev on main
       Sensei baseline  : glossary + flows + admin detail
     section Next
-      PR 6 merge       : Checkpoint 152 on main
-                       : ops/outer-jev present
-                       : jevOutsideApp 100
       Sensei version   : living ROADMAP + Steward audits
       Patch discipline : scan-runtime every PR
       Bot interface    : propose → Sensei → Steward → APPROVE
+      Admin media      : refresh retired 01:43 Jev labels
     section Later
       New S1R1US projects inherit ops/sensei package
     section Never on this desk
@@ -44,7 +44,7 @@ timeline
 
 ## Now — Lab 3 paper desk (in force on main)
 
-Inherited from Lab 3 sandbox chats and ROADMAP-141 (Checkpoint 152 desk changes are **not** on `main` until PR #6 merges):
+Inherited from Lab 3 sandbox chats, ROADMAP-141, and Checkpoint 152 (`24b80a6`):
 
 - `[x]` **Paper desk only** — not live s1r1us.ai
 - `[x]` **Tape display only** — not a trade instruction
@@ -52,21 +52,22 @@ Inherited from Lab 3 sandbox chats and ROADMAP-141 (Checkpoint 152 desk changes 
 - `[x]` **9-B0T sleeve add** — user **Approve** or **Deny**; **AUTO does not fire**
 - `[x]` **Never sell / never short / Coinbase create locked**
 - `[x]` **No FAQ by agent / no size picking by agent**
+- `[x]` **Checkpoint 152** — Jev outside `src/`; Approve gated on `nineCall` yes && `needsCoord` && `action === ACCUMULATE`; `jevOutsideApp: 100`
+- `[x]` **`ops/outer-jev/` on main** — `scan-runtime`, QUESTIONS, CONFIG
 - `[x]` **Communication standards a+b+c** — glossary + Lab 3 operational drift + checkable meaning ([GLOSSARY.md](./GLOSSARY.md))
 - `[x]` **Sensei Bot App baseline** landed under `ops/sensei/` (this pack)
 - `[x]` **Sensei Bot oversights standards** — interfaces with Grok Bot, Desk Steward, Copilot/patch agents ([BOT-INTERFACE.md](./BOT-INTERFACE.md))
 - `[x]` **Full admin detail visibility protocol** ([ADMIN-DETAIL.md](./ADMIN-DETAIL.md))
 - `[x]` **Logic flow charts + workflow diagrams** ([flows/INDEX.md](./flows/INDEX.md))
+- `[x]` **Instruction module** — public + private ([INSTRUCTIONS.md](./INSTRUCTIONS.md))
 
 ---
 
-## Next — paper hardening (includes pending PR #6)
+## Next — paper hardening
 
-- `[~]` **Merge PR #6 (Checkpoint 152)** — preserve full desk; Approve gated on `nineCall` yes && `needsCoord` && `action === ACCUMULATE`; `jevOutsideApp: 100`. Until then, these are **not** in force on `main`.
-- `[~]` **`ops/outer-jev/` on main** — `scan-runtime`, QUESTIONS, CONFIG land with PR #6. Relative links to `../outer-jev/` resolve after #6 merges (or on a branch rebased onto #6 head).
-- `[~]` Keep `node ops/outer-jev/scan-runtime.mjs` (and `npm run scan:jev` when scripted) on every proposed patch **after** outer-jev exists on the merge base
-- `[~]` Finish stripping any leftover in-src Jev callers before desk branches merge
+- `[~]` Keep `node ops/outer-jev/scan-runtime.mjs` (and `npm run scan:jev` when scripted) on every proposed patch
 - `[~]` Optional TypeSafe key only in operator home (`~/.s1r1us/outer-jev.env`); missing key = HOLD
+- `[~]` Refresh Library / `public/admin-media` figures that still show retired 01:43 `jevScope` / `sleeve_add_allowed` labels (historical art)
 - `[ ]` Sensei **version functionality** — treat this ROADMAP + glossary as the citeable Sensei version for audits
 - `[ ]` Desk Steward + Sensei joint audits using ADMIN-DETAIL templates on every non-trivial PR
 - `[ ]` Ensure root README and checkpoints always point at `ops/sensei/ROADMAP.md` as the living Sensei roadmap
@@ -106,13 +107,14 @@ Inherited from Lab 3 sandbox chats and ROADMAP-141 (Checkpoint 152 desk changes 
 | Full admin detail visibility protocol | Now |
 | Logic / workflow Mermaid flows under `ops/sensei/flows/` | Now |
 | Preserve ROADMAP-141 content; pointer + Sensei bullet list | Now (`checkpoints/ROADMAP-141.md`) |
-| Checkpoint 152 desk + `ops/outer-jev/` on main | **Next** — pending [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) |
+| Checkpoint 152 desk + `ops/outer-jev/` on main | **Now** — [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) (`24b80a6`) |
 
 ---
 
 ## Related links
 
-- [Sensei home](./README.md) · [APP.md](./APP.md) · [GLOSSARY.md](./GLOSSARY.md)
+- [Sensei home](./README.md) · [APP.md](./APP.md) · [GLOSSARY.md](./GLOSSARY.md) · [INSTRUCTIONS.md](./INSTRUCTIONS.md)
 - [ADMIN-DETAIL.md](./ADMIN-DETAIL.md) · [BOT-INTERFACE.md](./BOT-INTERFACE.md) · [flows](./flows/INDEX.md)
-- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — **pending PR #6** on `main` (present on `copilot/checkpoint-152-full-desk-files`)
+- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — **on `main`** (PR #6)
+- Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
 - Historical note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
