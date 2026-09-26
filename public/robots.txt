@@ -1,0 +1,4 @@
+# Public site may be indexed. Admin media / logic diagrams must not.
+User-agent: *
+Disallow: /admin-media/
+Disallow: /admin-media

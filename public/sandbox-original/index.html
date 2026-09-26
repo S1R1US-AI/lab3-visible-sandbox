@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>S1R1U$ SANDBOX · 8-B8LL · 9-B9LL · PR3D · M3RC</title>
+<meta name="description" content="S1R1US sandbox for testing 8-B8LL, 9-B9LL, PR3D, Morning Report triggers. Paper only. Never sell the stack." />
+<link rel="canonical" href="https://s1r1us.ai/" />
+<style>
+:root{--bg:#07080c;--panel:#10131a;--ink:#e8edf5;--muted:#8b97ab;--line:#243044;--green:#3dff8a;--red:#ff4d5a;--gold:#f5c542;--cyan:#5eead4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:var(--cyan)}header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#07080cee;z-index:20}
+.brand{font-weight:700;letter-spacing:.08em} .tag{color:var(--gold);font-size:11px}
+nav{display:flex;flex-wrap:wrap;gap:8px} nav button,nav a.navb{background:#151924;border:1px solid var(--line);color:var(--ink);padding:6px 10px;border-radius:6px;cursor:pointer;text-decoration:none}
+nav button.on{border-color:var(--green);color:var(--green)}
+.wrap{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 52px)}
+aside{border-right:1px solid var(--line);padding:12px;background:#0b0e14}
+.bot{display:flex;justify-content:space-between;padding:8px;border:1px solid var(--line);margin-bottom:6px;border-radius:8px}
+.hold{color:#c9d4e5}.acc{color:var(--green)}.wait{color:var(--gold)}
+main{padding:16px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+h2,h3{margin:0 0 10px} .muted{color:var(--muted)}
+.trigger{display:flex;align-items:center;gap:10px;margin:8px 0}
+.sym{width:36px;height:36px;border-radius:8px;border:0;font-size:22px;font-weight:800;cursor:pointer}
+.sym.on{background:#0d3b22;color:var(--green)}.sym.off{background:#3b1014;color:var(--red)}
+.word{cursor:pointer;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
+.word.on{color:var(--green)}.word.off{color:var(--red)}
+.gif{width:72px;height:72px;border-radius:12px;border:1px solid var(--line);display:grid;place-items:center;position:relative;overflow:hidden;cursor:pointer}
+.gif span{position:relative;z-index:1;font-weight:800}
+.gif.on::before{content:"";position:absolute;inset:-20%;background:conic-gradient(from var(--a,0deg),#3dff8a,#102,#3dff8a);animation:spin 1.4s linear infinite}
+.gif.off::before{content:"";position:absolute;inset:0;background:#2a1216}
+@keyframes spin{to{--a:360deg}}
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--line);font-size:11px}
+.p{color:var(--green)}.l{color:var(--red)}
+table{width:100%;border-collapse:collapse} td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left}
+.ad{display:flex;gap:6px} .ad button{border:0;padding:6px 10px;border-radius:6px;cursor:pointer;font-weight:700}
+.a{background:#123d28;color:var(--green)}.d{background:#3d1218;color:var(--red)}
+.hidden{display:none} .expand{cursor:pointer;color:var(--cyan)}
+.banner{background:#14110a;border:1px solid #4a3b12;color:var(--gold);padding:10px;border-radius:8px;margin-bottom:12px}
+footer{padding:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand">S1R1U$ · SANDBOX</div>
+    <div class="tag">PAPER / SIM · Coinbase create LOCKED · Never sell the stack</div>
+  </div>
+  <nav>
+    <button class="navb on" data-page="desk">Desk</button>
+    <button class="navb" data-page="pl">P/L</button>
+    <button class="navb" data-page="morning">Morning Report</button>
+    <button class="navb" data-page="faq">FAQ</button>
+    <button class="navb" data-page="roadmap">Roadmap</button>
+    <button class="navb" data-page="sitemap">Sitemap</button>
+    <button class="navb" data-page="analysis">Analysis</button>
+    <a class="navb" href="https://s1r1us.ai/" target="_blank" rel="noopener">Live s1r1us.ai</a>
+  </nav>
+</header>
+<div class="wrap">
+<aside>
+  <h3>Bots 1–6</h3>
+  <div class="bot"><span>1 Filings</span><span class="hold">HOLD</span></div>
+  <div class="bot"><span>2 Earnings</span><span class="hold">HOLD</span></div>
+  <div class="bot"><span>3 Sector Research</span><span class="hold">HOLD</span></div>
+  <div class="bot"><span>4 Sentiment</span><span class="hold">HOLD</span></div>
+  <div class="bot"><span>5 Rotation</span><span class="acc">ACCUMULATE</span></div>
+  <div class="bot"><span>6 Coordinator</span><span class="hold">HOLD</span></div>
+  <div class="bot"><span>7 7-B0T AUTO</span><span class="acc">ACCUMULATE</span></div>
+  <div class="bot"><span>G M0D3 AUTO</span><span class="acc">ACCUMULATE</span></div>
+  <p class="muted">Two agreeing lanes required for HIGH conviction. GM isolated sleeve — does not vote 1–7.</p>
+  <div id="admin-pl" class="card" style="margin-top:10px">
+    <strong>Admin P/L</strong>
+    <div>P <span class="p" id="pVal">+$0</span> · L <span class="l" id="lVal">$0</span></div>
+    <div class="muted" id="netVal">NET $0 · paper USDC sleeve</div>
+  </div>
+</aside>
+<main>
+<div class="banner">SANDBOX ONLY. No live orders. Mandate: maximize BTC accumulation · never sell the core stack · never short · 9-B9LL sleeve may trade ≤30% of paper profits only.</div>
+
+<section id="page-desk">
+  <div class="grid">
+    <div class="card" id="seven">
+      <h2>7-B0T tab</h2>
+      <p class="muted">Triggers sit under 7-B0T, then 8, 9, PR3D, M3RC.</p>
+      <div class="muted">7-B0T Menu Link · active</div>
+    </div>
+
+    <div class="card" data-bot="b8">
+      <h2>8-B8LL B0T</h2>
+      <div class="gif off" data-gif="b8"><span>8</span></div>
+      <div class="trigger">
+        <button class="sym off" data-sym="b8">−</button>
+        <span class="word off" data-word="b8">trigger</span>
+      </div>
+      <p class="muted">When ON and 7-B0T + bots 1–6 scan = yes → 8-B8LL call = yes. Linked under 9-B9LL on live site proposal.</p>
+      <div class="pill">simulation on adds 8-B8LL to Morning Report</div>
+    </div>
+
+    <div class="card" data-bot="b9">
+      <h2>9-B9LL B0T · Fully loaded</h2>
+      <div class="gif off" data-gif="b9"><span>9</span></div>
+      <div class="trigger">
+        <button class="sym off" data-sym="b9">−</button>
+        <span class="word off" data-word="b9">trigger</span>
+      </div>
+      <label>Mode
+        <select id="b9mode"><option value="manual">manual</option><option value="auto">auto</option></select>
+      </label>
+      <label>Universe
+        <select id="b9uni"><option value="combo">whales + spot top 5%</option><option value="whales">top 5% whale only</option></select>
+      </label>
+      <p class="muted">Same awareness as 7-B0T and 8-B8LL. Day-trade sleeve. Never sell core stack. Never gamble &gt;30% of profits.</p>
+      <div id="b9call" class="card" style="margin-top:8px">
+        <div>Pending call: <strong id="callTxt">WAIT · no trigger</strong></div>
+        <div class="ad">
+          <button class="a" id="approve">A approve</button>
+          <button class="d" id="deny">D deny</button>
+        </div>
+        <div class="muted" id="callState">manual gate idle</div>
+      </div>
+    </div>
+
+    <div class="card" data-bot="pr3d">
+      <h2>PR3D · Prediction trigger</h2>
+      <div class="gif off" data-gif="pr3d"><span>P</span></div>
+      <div class="trigger">
+        <button class="sym off" data-sym="pr3d">−</button>
+        <span class="word off" data-word="pr3d">trigger</span>
+      </div>
+      <p class="muted">Separate pathway: Kalshi / prediction tape. Does not replace 7-B0T. Can inform ACCUMULATE size only.</p>
+    </div>
+
+    <div class="card" data-bot="m3rc">
+      <h2>M3RC Trigger · Morning Report Call</h2>
+      <div class="gif off" data-gif="m3rc"><span>M</span></div>
+      <div class="trigger">
+        <button class="sym off" data-sym="m3rc">−</button>
+        <span class="word off" data-word="m3rc">trigger</span>
+      </div>
+      <p class="muted">When ON + 7-B0T + bots 1–6 = yes, 8-B8LL may also fire into the 07:30 ET report.</p>
+    </div>
+  </div>
+</section>
+
+<section id="page-pl" class="hidden">
+  <div class="card">
+    <h2>P/L tab</h2>
+    <p>Profits = <span class="p">P green</span> · Losses = <span class="l">L red</span></p>
+    <table>
+      <thead><tr><th>Sleeve</th><th>Mode</th><th>P</th><th>L</th><th>Net</th></tr></thead>
+      <tbody id="plRows"></tbody>
+    </table>
+    <h3 style="margin-top:16px">S1R1U$ fake token + AI agents</h3>
+    <p class="expand" id="expTok">expand</p>
+    <div id="tokList" class="hidden"></div>
+    <h3>System bots vs external agents</h3>
+    <p class="expand" id="expBot">expand</p>
+    <div id="botList" class="hidden"></div>
+  </div>
+</section>
+
+<section id="page-morning" class="hidden">
+  <div class="card">
+    <h2>Morning Report · Admin 07:30 America/New_York</h2>
+    <div id="mrep"></div>
+    <h3>Mandate fitness</h3>
+    <div id="fit"></div>
+  </div>
+</section>
+
+<section id="page-faq" class="hidden">
+  <div class="card">
+    <h2>FAQ</h2>
+    <p><strong>Is this live trading?</strong> No. Sandbox + paper. Live site Coinbase create stays locked until go-live path.</p>
+    <p><strong>Can 9-B9LL sell BTC?</strong> Only a bounded paper day-trade sleeve funded by ≤30% of realized paper profits. Core stack is never sold. Shorts forbidden.</p>
+    <p><strong>What is PR3D?</strong> Prediction-market pathway (Kalshi / similar). Advisory tape. Separate from 7-B0T vote.</p>
+    <p><strong>What is M3RC?</strong> Morning Report Call trigger. Controls whether extra bot calls land in the 07:30 ET admin report.</p>
+    <p><strong>Deploy?</strong> Test here first. Do not ship sell-stack behavior to production.</p>
+  </div>
+</section>
+
+<section id="page-roadmap" class="hidden">
+  <div class="card">
+    <h2>Sandbox roadmap</h2>
+    <ol>
+      <li>UI triggers + CSS +/- (this build)</li>
+      <li>Wire read-only public tape (Coinbase candles, F&G) — no keys</li>
+      <li>PR3D read-only Kalshi snapshot cache (not live bets)</li>
+      <li>9-B9LL copy-trade research on public whale prints already on s1r1us.ai</li>
+      <li>Fitness gate in Morning Report before any production merge</li>
+      <li>Hard deadline alignment with live OSS roadmap 2026-12-01 09:00 ET</li>
+    </ol>
+  </div>
+</section>
+
+<section id="page-sitemap" class="hidden">
+  <div class="card">
+    <h2>Sitemap</h2>
+    <ul>
+      <li>Desk / 7-B0T tab</li>
+      <li>8-B8LL trigger</li>
+      <li>9-B9LL Fully loaded</li>
+      <li>PR3D Prediction</li>
+      <li>M3RC Morning Report Call</li>
+      <li>P/L</li>
+      <li>FAQ · Roadmap · Analysis</li>
+      <li>Live: https://s1r1us.ai/ · /h1v3 · /roadmap · /board · /agent · /compute · /app</li>
+    </ul>
+    <p>XML: <code>sitemap.xml</code> in this folder.</p>
+  </div>
+</section>
+
+<section id="page-analysis" class="hidden">
+  <div class="card">
+    <h2>Pre-code analysis (also in ANALYSIS.md)</h2>
+    <pre id="analysisBox" style="white-space:pre-wrap"></pre>
+  </div>
+</section>
+</main>
+</div>
+<footer>
+  Education / game-theory sandbox. Not financial advice. Never send seeds. Operator identity unpublished. Apache-2.0 spirit aligned with S1R1US-LABs.
+</footer>
+<script>
+const state = {
+  b8:false,b9:false,pr3d:false,m3rc:false,
+  sim:true, b9mode:'manual', universe:'combo',
+  calls:[],
+  pl:{
+    core:{p:1840,l:0,mode:'hold-stack'},
+    b8:{p:120,l:40,mode:'sim'},
+    b9:{p:310,l:95,mode:'manual'},
+    pr3d:{p:0,l:0,mode:'advisory'},
+    token:{p:22,l:8,mode:'fake S1R1U$'},
+    agents:{p:540,l:210,mode:'external paper'}
+  }
+};
+const analysis = `GAINS IN THE LOGIC
+- Orthogonal bots 1–6 + coordinator already exist on s1r1us.ai. Adding admin-gated triggers is consistent with 07:30 ET Admin Console.
+- Separate PR3D pathway (A) plus fold-into-awareness (B) is the right split: prediction markets are noisy and whale-swayable; they should inform size/timing of ACCUMULATE, never invent a SELL of the stack.
+- 30% of profits cap + never-sell-core is the only way 9-B9LL can exist without breaking mandate 2.
+- Morning Report fitness score is the correct merge gate.
+
+WEAK SPOTS
+- "9-B9LL may sell" vs "Never sell bitcoin" is a mandate collision if the sleeve is not physically segregated. Production must use a separate paper/live sleeve, not the accumulation stack.
+- Copying top 5% whale wallets in 1m/sub-minute is latency-and-attribution hard. Public prints on Coinbase/HL/OKX + ≥5 BTC outs (already on live tape) are usable; claiming "best official whale ranking" is not stable. Optimize sources routinely, but treat ranks as hypotheses.
+- Kalshi odds can be wrong and thin near expiry. Using them as a 1-minute execution trigger is a weak spot. Use as regime filter (24h/1h), not sniper.
+- GitHub "most successful AI BTC day-trade agent" is not identifiable by stars/commits. High-commit repos are often frameworks (OKX MCP, Clawtrade, NyxTrade, cubexch ai-fund) not proven BTC PnL. FriesTrader is equities. Zetryn is memecoins. None beat a verified public accumulation desk.
+- X "top 5 followed AI BTC accumulation chats" change weekly and are marketing-heavy. Do not wire social rank into size.
+- Trigger rule "8 on + 7 on + bots1-6 yes => 8 yes" can amplify correlated error. Keep two-lane HIGH conviction from existing 7-B0T logic.
+- Auto 9-B9LL without A/D on the main page violates maker-checker (bot 6). Default MANUAL.
+
+A AND B
+A: keep PR3D as its own trigger and log.
+B: 7-B0T already lists Polymarket/Kalshi as a labeled sub-analyst. Fold PR3D output into that label only when PR3D is ON.
+Both: separate pathway + optional fold. Do not merge order tickets.
+
+ULTIMATE 24h ACCUMULATION DESIGN
+1. Core stack: 7-B0T two-lane HIGH only. BUY 2% / ACCUMULATE 1% / HOLD 0. Stops block add-ons, never sell.
+2. 8-B8LL: extra research sleeve into Morning Report when triggered.
+3. 9-B9LL: isolated day sleeve ≤30% of paper profits; A/D in manual; auto only if fitness≥70 and PR3D not fighting crowded-long rule.
+4. PR3D: Kalshi/prediction as timing overlay. If prediction book leans dump while whales accumulate on tape, prefer tape + mandate (accumulate weakness), size down.
+5. External agents (H1V3): paper BTC only; never escrow.
+6. Efficiency: cache public tape (already 1.8s core / fill). Do not poll Kalshi every second.
+
+FITNESS (sandbox static seed)
+Core mandate alignment: 82
+9-B9LL segregation: 61 (needs sleeve lock in prod)
+PR3D separation: 78
+Trigger UX completeness: 88
+Data-source honesty: 70
+OVERALL SANDBOX FITNESS: 76 / 100 — testable, not deploy-ready for live sells.`;
+
+document.getElementById('analysisBox').textContent = analysis;
+
+function setTrig(key, on){
+  state[key]=on;
+  document.querySelectorAll(`[data-sym="${key}"],[data-word="${key}"],[data-gif="${key}"]`).forEach(el=>{
+    el.classList.toggle('on', on); el.classList.toggle('off', !on);
+    if(el.matches('[data-sym]')) el.textContent = on ? '+' : '−';
+  });
+  render();
+}
+document.querySelectorAll('[data-sym],[data-word],[data-gif]').forEach(el=>{
+  el.addEventListener('click',()=>{
+    const k=el.dataset.sym||el.dataset.word||el.dataset.gif;
+    setTrig(k, !state[k]);
+  });
+});
+document.getElementById('b9mode').onchange=e=>{state.b9mode=e.target.value;render()};
+document.getElementById('b9uni').onchange=e=>{state.universe=e.target.value;render()};
+
+function maybeCall(){
+  const botsYes = true; // 5 Rotation ACCUMULATE + 7 AUTO
+  const eight = state.b8 && botsYes;
+  const nine = state.b9 && botsYes;
+  const pr = state.pr3d;
+  document.getElementById('callTxt').textContent = nine
+    ? (state.universe==='whales' ? 'ACCUMULATE sleeve · copy whale top5% · 1h bias' : 'ACCUMULATE sleeve · whales+spot top5% · 3m avg vs last')
+    : 'WAIT · 9-B9LL off';
+  return {eight,nine,pr};
+}
+
+document.getElementById('approve').onclick=()=>{
+  if(!state.b9){document.getElementById('callState').textContent='denied: trigger off';return;}
+  if(state.b9mode==='auto'){document.getElementById('callState').textContent='auto already routing paper sleeve';return;}
+  state.pl.b9.p += 15;
+  document.getElementById('callState').textContent='APPROVED · paper clip on isolated sleeve · core stack untouched';
+  render();
+};
+document.getElementById('deny').onclick=()=>{
+  document.getElementById('callState').textContent='DENIED · no clip';
+};
+
+function money(n){return (n>=0?'+':'')+n.toFixed(0)+' USDC'}
+function renderPL(){
+  const rows=[
+    ['Core stack (never sell)','hold',state.pl.core],
+    ['8-B8LL sim',state.pl.b8.mode,state.pl.b8],
+    ['9-B9LL '+state.b9mode,state.pl.b9.mode,state.pl.b9],
+    ['PR3D advisory',state.pl.pr3d.mode,state.pl.pr3d],
+    ['S1R1U$ fake token',state.pl.token.mode,state.pl.token],
+    ['External AI agents paper',state.pl.agents.mode,state.pl.agents]
+  ];
+  document.getElementById('plRows').innerHTML=rows.map(([n,m,x])=>`<tr><td>${n}</td><td>${m}</td><td class="p">${money(x.p)}</td><td class="l">${money(-x.l)}</td><td class="${x.p-x.l>=0?'p':'l'}">${money(x.p-x.l)}</td></tr>`).join('');
+  const P=Object.values(state.pl).reduce((s,x)=>s+x.p,0);
+  const L=Object.values(state.pl).reduce((s,x)=>s+x.l,0);
+  document.getElementById('pVal').textContent=money(P);
+  document.getElementById('lVal').textContent=money(-L);
+  document.getElementById('netVal').textContent='NET '+money(P-L)+' · paper USDC sleeve';
+  document.getElementById('tokList').innerHTML='Top S1R1U$ paper: desk +22 / sim −8 / hive agent +4';
+  document.getElementById('botList').innerHTML='Top system: 7-B0T, Rotation, 9-B9LL<br>Top external: H1V3 paper desks (TEST until go-live)';
+}
+document.getElementById('expTok').onclick=()=>document.getElementById('tokList').classList.toggle('hidden');
+document.getElementById('expBot').onclick=()=>document.getElementById('botList').classList.toggle('hidden');
+
+function renderMorning(){
+  const c=maybeCall();
+  const lines=[
+    'Cycle: sandbox '+new Date().toISOString(),
+    'Bots 1–6: Filings HOLD · Earnings HOLD · Sector HOLD · Sentiment HOLD · Rotation ACCUMULATE · Coordinator HOLD',
+    '7-B0T AUTO ACCUMULATE · GM AUTO ACCUMULATE (isolated)',
+    '8-B8LL: '+(c.eight?'ON · included in report':'OFF'),
+    '9-B9LL: '+(c.nine?'ON · '+state.b9mode+' · '+state.universe:'OFF'),
+    'PR3D: '+(c.pr?'ON · separate prediction path':'OFF'),
+    'M3RC: '+(state.m3rc?'ON':'OFF'),
+    'Mandate check: core stack sell=NO short=NO crowded-long chase=blocked',
+    '9-B9LL profit cap remaining: 30% of paper profits sleeve',
+    'Fitness overall: 76/100 — sandbox only'
+  ];
+  document.getElementById('mrep').innerHTML=lines.map(x=>'<div>'+x+'</div>').join('');
+  document.getElementById('fit').innerHTML='<table><tr><td>Core mandate</td><td>82</td></tr><tr><td>Sleeve segregation</td><td>61</td></tr><tr><td>PR3D split A/B</td><td>78</td></tr><tr><td>UX triggers</td><td>88</td></tr><tr><td>Data honesty</td><td>70</td></tr></table>';
+}
+
+function render(){renderPL();renderMorning();maybeCall()}
+render();
+
+document.querySelectorAll('nav button[data-page]').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('nav button[data-page]').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    document.querySelectorAll('main>section').forEach(s=>s.classList.add('hidden'));
+    document.getElementById('page-'+b.dataset.page).classList.remove('hidden');
+  };
+});
+</script>
+</body>
+</html>

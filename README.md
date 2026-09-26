@@ -1,9 +1,7 @@
-# Lab 3 viewable sandbox
+# Lab 3
 
-Clickable snapshot of the S1R1U$ Lab 3 desk.
+Paper trading desk for S1R1US. Not the live site at s1r1us.ai.
 
-- Not https://s1r1us.ai (that is live production on DigitalOcean `main`).
-- Not a Vercel account.
-- Paper only. Coinbase create LOCKED. Never sell the stack.
+Coinbase create stays locked. The desk does not sell the stack.
 
-Open `index.html` in a browser, or use GitHub Pages after you enable it on this repo (Settings → Pages → Deploy from branch `main` / root).
+The older clickable still is in `snapshot/clickable-still.html`.

@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #07080c;
+  --color-surface: #10131a;
+  --color-raised: #161b24;
+  --color-fg: #e8edf5;
+  --color-muted: #8b97ab;
+  --color-border: #243044;
+  --color-primary: #3dff8a;
+  --color-danger: #ff4d5a;
+  --color-accent: #f5c542;
+  --color-cyan: #3d9dff;
+  --color-orange: #ff8a3d;
+  --color-purple: #c084fc;
+  --color-gold: #e4c15a;
+  --color-disclosure: #4b5563;
+  --color-dark-green: #9dffc4;
+  --color-pink: #f472b6;
+  --shadow-border: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .desk-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 1.6s linear infinite;
+}
+
+@keyframes rainbow-shift {
+  to {
+    background-position: 200% center;
+  }
+}
+.text-rainbow {
+  background-image: linear-gradient(
+    90deg,
+    #ff4d5a,
+    #ff8a3d,
+    #f5c542,
+    #3dff8a,
+    #3d9dff,
+    #c084fc,
+    #ff4d5a
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow-shift 3s linear infinite;
+}
+
+@keyframes gold-shimmer {
+  to {
+    background-position: 200% center;
+  }
+}
+.text-shimmer-gold {
+  background-image: linear-gradient(
+    90deg,
+    #8a6a1a,
+    #e4c15a,
+    #fff4c2,
+    #e4c15a,
+    #b8922a,
+    #fff1a8,
+    #8a6a1a
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gold-shimmer 2.4s linear infinite;
+}
+
+.text-disclosure {
+  color: var(--color-disclosure);
+}
+
+.text-eth {
+  background-image: linear-gradient(90deg, #c084fc, #f472b6, #c084fc);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes fairytail-flash {
+  0%,
+  49% {
+    color: #ff4ecf;
+  }
+  50%,
+  100% {
+    color: #c084fc;
+  }
+}
+.text-fairytail {
+  animation: fairytail-flash 0.55s step-end infinite;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.st-accumulate,
+.st-high,
+.st-on {
+  color: var(--color-primary);
+}
+.st-hold,
+.st-minus {
+  color: var(--color-danger);
+}
+.st-wait,
+.st-expand {
+  color: var(--color-purple);
+}
+.st-off {
+  color: var(--color-accent);
+}
+.st-plus {
+  color: var(--color-primary);
+}
