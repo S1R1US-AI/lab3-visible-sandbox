@@ -2,7 +2,7 @@
 
 **Baseline standards guardian for all S1R1US projects.**
 
-Sensei Bot App is the portable paper-only standards package that every S1R1US project inherits: glossary, roadmap, logic flows, admin detail protocol, and bot interface rules. It lives under `ops/sensei/` — operator documentation only. Nothing here is imported by `src/`. Nothing here writes to [s1r1us.ai](https://s1r1us.ai).
+Sensei Bot App is the portable paper-only standards package that every S1R1US project inherits: glossary, roadmap, instruction module, logic flows, admin detail protocol, and bot interface rules. It lives under `ops/sensei/` — operator documentation only. Nothing here is imported by `src/`. Nothing here writes to [s1r1us.ai](https://s1r1us.ai).
 
 | Field | Value |
 | --- | --- |
@@ -10,12 +10,13 @@ Sensei Bot App is the portable paper-only standards package that every S1R1US pr
 | Role | Grok Bot teammate — standards oversight |
 | Scope today | Lab 3 sandbox paper desk only |
 | Package home | `ops/sensei/` (same ops pattern as `ops/outer-jev/`) |
+| Desk contract | Checkpoint 152 on `main` (`24b80a6`, PR #6, APPROVE 6) |
 
 ## What this is
 
 Sensei Bot App defines the **a+b+c communication standards** (glossary + Lab 3 operational drift + checkable meaning) so every bot, patch, and steward audit speaks the same language. It does **not** run desk logic, pick sizes, sell, short, write FAQ copy, or hold TypeSafe keys.
 
-Current instantiation: **Lab 3 visible sandbox** — paper trading desk for testing S1R1US.ai desk ideas. Coinbase create stays locked. Never sell. Never short. Tape is display only.
+Current instantiation: **Lab 3 visible sandbox** — paper trading desk for testing S1R1US.ai desk ideas. Coinbase create stays locked. Never sell. Never short. Tape is display only. Jev is outside the app.
 
 ## How Sensei interfaces
 
@@ -36,6 +37,7 @@ Sequence (detail in [BOT-INTERFACE.md](./BOT-INTERFACE.md)):
 
 | Doc | Purpose |
 | --- | --- |
+| [INSTRUCTIONS.md](./INSTRUCTIONS.md) | Private / agent instruction module (this is the instruction module) |
 | [APP.md](./APP.md) | Portable baseline package definition |
 | [GLOSSARY.md](./GLOSSARY.md) | a+b+c standards + Lab 3 terms |
 | [ROADMAP.md](./ROADMAP.md) | Living Sensei-version roadmap (phases Now / Next / Later / Never) |
@@ -43,10 +45,14 @@ Sequence (detail in [BOT-INTERFACE.md](./BOT-INTERFACE.md)):
 | [BOT-INTERFACE.md](./BOT-INTERFACE.md) | How Sensei aligns other S1R1US bots |
 | [flows/INDEX.md](./flows/INDEX.md) | Logic and workflow diagrams (Mermaid) |
 
-Legacy desk design assets (still valid for desk bots):
+Public instruction (desk operators, not agents): [`public/sandbox-original/INSTRUCTIONS.md`](../../public/sandbox-original/INSTRUCTIONS.md).
+
+Legacy desk design assets (historical layout only — 01:43 EDT stills still draw retired in-app Jev):
 
 - `public/admin-media/S1R1US-bot-functions-flowchart.png`
 - `public/admin-media/S1R1US-full-logic-diagram.png`
+
+Prefer Mermaid in `ops/sensei/flows/` for current process.
 
 ## Hard scope
 
@@ -55,8 +61,10 @@ Legacy desk design assets (still valid for desk bots):
 - Do **not** weaken `drift-lock`, `shared-security`, or mandate gates.
 - Do **not** touch live s1r1us.ai from this work.
 - Outer Jev stays in `ops/outer-jev/`. Missing TypeSafe key = **HOLD**.
+- In-app Jev (`sleeve_add_allowed`, `jevScope`, `scoreSleeveAdd`) is **retired**. Re-introducing it is operational drift / FAIL.
 
 ## Related ops
 
-- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md` (**pending PR #6** on `main`)
-- Checkpoint roadmap note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
+- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md` (**on `main`**, PR #6)
+- Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
+- Historical checkpoint-141 note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
