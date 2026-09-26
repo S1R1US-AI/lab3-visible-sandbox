@@ -1148,7 +1148,7 @@ export function DeskApp() {
                 — click to open the Official Roadmap and official timeline. Updates to logic and data
                 flow have been made on the Official Roadmap (and official timeline). Updated System
                 Logic is considered proprietary information; thus logic charts remain only on the
-                system admin research paper and system admin media files (stamp 2026-09-16 18:29:05 EDT).
+                system admin research paper and system admin media files (stamp 2026-09-26 01:43 EDT).
                 IBIT / ETHA / GLD inform the admin only and do not vote HIGH.
               </p>
               <p>
@@ -1308,7 +1308,7 @@ export function DeskApp() {
                 <p className="text-xs text-disclosure">
                   INTERNAL ADMIN. Logic diagrams are not on FAQ, roadmap, sitemap.xml, README, schema,
                   live s1r1us.ai, or GitHub. They live only in this paper and the MEDIA library.
-                  Stamp 2026-09-16 18:29:05 EDT · overlay never votes HIGH · figures 20260916-1829EDT.
+                  Stamp 2026-09-26 01:43 EDT · overlay never votes HIGH · figures 20260926-0143EDT.
                 </p>
                 <p className="mt-2 text-xs text-fg">{ETH_FLIP_PUBLIC_NOTE}</p>
               </header>
@@ -1318,21 +1318,21 @@ export function DeskApp() {
               <pre className="whitespace-pre-wrap text-xs leading-5">{SUPER_GROK_REVIEW}</pre>
               <figure>
                 <h3 className="text-primary">Figure 1. S1R1U$ SANDBOX full logic diagram</h3>
-                <p className="text-xs text-disclosure">S1R1US.ai Proprietary · 2026-09-16 18:29:05 EDT · stamp on image · overlay never votes HIGH</p>
+                <p className="text-xs text-disclosure">S1R1US.ai Proprietary · 2026-09-26 01:43 EDT · stamp on image · overlay never votes HIGH</p>
                 <img
-                  src="/admin-media/S1R1US-full-logic-diagram-20260916-1829EDT.png"
-                  alt="Admin media. S1R1U$ SANDBOX full logic diagram. 2026-09-16 18:29:05 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH. Not public documentation."
-                  title="Figure 1. S1R1U$ SANDBOX full logic diagram · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary"
+                  src="/admin-media/S1R1US-full-logic-diagram-20260926-0143EDT.png"
+                  alt="Admin media. S1R1U$ SANDBOX full logic diagram. 2026-09-26 01:43 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH. Not public documentation."
+                  title="Figure 1. S1R1U$ SANDBOX full logic diagram · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary"
                   className="mt-2 w-full rounded-lg border border-border"
                 />
               </figure>
               <figure>
                 <h3 className="text-primary">Figure 2. S1R1U$ all bot functions flowchart</h3>
-                <p className="text-xs text-disclosure">S1R1US.ai Proprietary · 2026-09-16 18:29:05 EDT · GO-2 overlay awareness only · never HIGH</p>
+                <p className="text-xs text-disclosure">S1R1US.ai Proprietary · 2026-09-26 01:43 EDT · GO-2 overlay awareness only · never HIGH</p>
                 <img
-                  src="/admin-media/S1R1US-bot-functions-flowchart-20260916-1829EDT.png"
-                  alt="Admin media. S1R1U$ all bot functions flowchart. 2026-09-16 18:29:05 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH. Not public documentation."
-                  title="Figure 2. S1R1U$ all bot functions flowchart · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary"
+                  src="/admin-media/S1R1US-bot-functions-flowchart-20260926-0143EDT.png"
+                  alt="Admin media. S1R1U$ all bot functions flowchart. 2026-09-26 01:43 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH. Not public documentation."
+                  title="Figure 2. S1R1U$ all bot functions flowchart · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary"
                   className="mt-2 w-full rounded-lg border border-border"
                 />
               </figure>
@@ -1345,28 +1345,28 @@ export function DeskApp() {
                 <p className="text-sm text-primary">S1R1US AI SANDBOX library</p>
                 <p className="text-xs text-disclosure">
                   INTERNAL. Same stamped images as the research paper. Not on FAQ, roadmap, sitemap.xml,
-                  live s1r1us.ai, or GitHub. Stamp 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary. Overlay never votes HIGH.
+                  live s1r1us.ai, or GitHub. Stamp 2026-09-26 01:43 EDT · S1R1US.ai Proprietary. Overlay never votes HIGH.
                 </p>
               </header>
               <section className="rounded-xl border border-border bg-surface p-4">
                 <h3 className="text-fg">S1R1US AI SANDBOX library</h3>
                 <figure className="mt-4">
                   <h4 className="text-primary">Figure 1. S1R1U$ SANDBOX full logic diagram</h4>
-                  <p className="text-xs">From research paper · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary</p>
+                  <p className="text-xs">From research paper · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary</p>
                   <img
-                    src="/admin-media/S1R1US-full-logic-diagram-20260916-1829EDT.png"
-                    alt="S1R1US AI SANDBOX library. Figure 1. 2026-09-16 18:29:05 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH."
-                    title="S1R1US AI SANDBOX library — Figure 1 · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary"
+                    src="/admin-media/S1R1US-full-logic-diagram-20260926-0143EDT.png"
+                    alt="S1R1US AI SANDBOX library. Figure 1. 2026-09-26 01:43 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH."
+                    title="S1R1US AI SANDBOX library — Figure 1 · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary"
                     className="mt-2 w-full rounded-lg border border-border"
                   />
                 </figure>
                 <figure className="mt-6">
                   <h4 className="text-primary">Figure 2. S1R1U$ all bot functions flowchart</h4>
-                  <p className="text-xs">From research paper · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary</p>
+                  <p className="text-xs">From research paper · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary</p>
                   <img
-                    src="/admin-media/S1R1US-bot-functions-flowchart-20260916-1829EDT.png"
-                    alt="S1R1US AI SANDBOX library. Figure 2. 2026-09-16 18:29:05 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH."
-                    title="S1R1US AI SANDBOX library — Figure 2 · 2026-09-16 18:29:05 EDT · S1R1US.ai Proprietary"
+                    src="/admin-media/S1R1US-bot-functions-flowchart-20260926-0143EDT.png"
+                    alt="S1R1US AI SANDBOX library. Figure 2. 2026-09-26 01:43 EDT. S1R1US.ai Proprietary. Overlay never votes HIGH."
+                    title="S1R1US AI SANDBOX library — Figure 2 · 2026-09-26 01:43 EDT · S1R1US.ai Proprietary"
                     className="mt-2 w-full rounded-lg border border-border"
                   />
                 </figure>
