@@ -1,0 +1,75 @@
+Base branch: main
+Repo: S1R1US-AI/lab3-visible-sandbox
+New Copilot branch from main. Do not checkout morlex-hybrid-desk (desk-logic there is a stub).
+Do not merge any PR. Open one new PR to main. The operator merges.
+Do not merge or reopen PR #2, #4, or #5.
+Do not touch s1r1us.ai or S1R1US-LABs.
+Do not add a TypeSafe key.
+Ignore /home/workdir/artifacts.
+
+GOAL
+Checkpoint 152 on a new PR: full desk files, no Jev inside src/, outer Jev only in ops/outer-jev/.
+
+EDIT ORDER (do not delete jev-gate until 1–4 compile)
+
+1) src/lib/desk-logic.ts
+   Keep the full file (700+ lines). Delete only:
+     import type { JevVerdict } from "./jev-gate.ts";
+     jev: JevVerdict | null;
+   Do not replace this file with a stub.
+
+2) src/lib/desk-store.ts
+   Delete: import { hold } from "./jev-gate";
+   Delete seed field jev and action setJev.
+   In setDiscPick, stop writing jev.
+   approve() must NOT call hold() or read s.jev.
+   approve() only checks nineCall: n.yes && n.needsCoord && n.action === "ACCUMULATE".
+   deny() unchanged. Core stack untouched.
+
+2b) src/lib/verify-checkpoint.ts
+    Delete the fixture field jev: null.
+
+3) src/lib/drift-lock.ts
+   Delete the jev-gate import and jevScope / sleeve_add_allowed.
+   Rename lock jevScope → jevOutsideApp.
+   jevOutsideApp = 100 always (Jev is not in the running desk).
+   Remove hardFail "jev question left the sleeve-add contract".
+   Keep neverSell, neverShort, createLocked, paperOnly, sleeveCap, twoLane, makerChecker, liveTape.
+
+4) src/components/desk-app.tsx
+   Delete scoreSleeveAdd, hold, setJev, and the scoring useEffect.
+   Delete desk.jev / data-jev-verdict UI.
+   Keep Approve and Deny.
+   Approve disabled={!d.nine.yes || !d.nine.needsCoord || d.nine.action !== "ACCUMULATE"}
+
+5) Then delete:
+     src/lib/jev-gate.ts
+     src/lib/jev-score.ts
+     src/lib/jev-gate.test.ts
+
+6) Copy these from commit 53bfb84 (do not copy that commit’s desk-logic.ts):
+     ops/outer-jev/CONFIG.md
+     ops/outer-jev/QUESTIONS.md
+     ops/outer-jev/scan-runtime.mjs
+     ops/outer-jev/score-patch.mjs
+     checkpoints/CHECKPOINT-152.md
+   Add package.json script:
+     "scan:jev": "node ops/outer-jev/scan-runtime.mjs"
+   Do not add a new .github workflow.
+
+7) Grep src/ for: jev-gate, scoreSleeveAdd, setJev, JevVerdict, sleeve_add_allowed
+   Fail if any remain. ops/outer-jev/ may keep Jev.
+
+8) npx tsc --noEmit && node ops/outer-jev/scan-runtime.mjs
+   If either fails, stop.
+
+9) Open a NEW PR to main titled:
+   Checkpoint 152: Jev outside src/, desk files complete
+   Do not merge it. Comment the PR URL.
+
+CONTRACT
+Desk micro-decisions stay code + human.
+Outer Jev questions: patch_touches_sell_path, patch_weakens_a_lock, patch_writes_faq_or_size, patch_on_mandate
+Cutoff 0.70. No key = HOLD the patch.
+Paper only. Never sell. Never short. Coinbase create stays locked.
+Tape is display only. Not a trade instruction.
