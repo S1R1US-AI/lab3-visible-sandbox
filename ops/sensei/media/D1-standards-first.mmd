@@ -1,0 +1,16 @@
+flowchart TB
+  H[Human statement / intent] --> C{Clear true/false?}
+  C -->|Unclear / mixed / illogical| HOLD[HOLD — pause and ask human]
+  HOLD --> H
+  C -->|Clear| STD[1. STANDARDS first — GLOSSARY a+b+c]
+  STD --> A[a — shared definitions]
+  STD --> B[b — Lab 3 operational drift]
+  STD --> Cc[c — checkable meaning / evidence]
+  A --> TB[Team Boolean contract]
+  B --> TB
+  Cc --> TB
+  TB --> S[Sensei meaning: PASS / HOLD / FAIL]
+  TB --> SEC[Security controls: SECURE / HOLD / FAIL]
+  S -.->|neither rewrites peer words| SEC
+  S --> NEXT[Then roles / lanes — see D3]
+  SEC --> NEXT
