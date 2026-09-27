@@ -29,5 +29,7 @@ Sensei docs live under `ops/` like outer Jev. They are never imported by `src/`.
 - Jev is **outside** the running desk. `src/` does not import Jev, does not call TypeSafe, and does not score `sleeve_add_allowed`.
 - Sleeve adds are maker-checker only. The user must click **Approve**. AUTO does not fire.
 - Hard locks stay in `src/lib/drift-lock.ts`: neverSell, neverShort, paperOnly, createLocked, sleeveCap, twoLane, makerChecker, liveTape, **jevOutsideApp: 100**.
-- Outer Jev scores *patches / coding agents* (`ops/outer-jev/QUESTIONS.md`). No TypeSafe key = HOLD. No user **APPROVE** = no merge.
+- Outer Jev scores *patches / coding agents* (`ops/outer-jev/QUESTIONS.md`). Run `npm run scan:jev` before merge. Optional `npm run score:patch -- --state state.json` when key present. No TypeSafe key = HOLD. No user **APPROVE** = no merge.
 - Do not write https://s1r1us.ai from this repo.
+
+Admin-media stills with retired 01:43 Jev labels: [`public/admin-media/RETIRED-LABELS.md`](./public/admin-media/RETIRED-LABELS.md) (historical only).
