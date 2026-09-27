@@ -2,7 +2,7 @@
 
 **Pack:** `ops/sensei/media/public/soft-launch-front-door-2026-09-27/`  
 **Date:** 2026-09-27  
-**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) on tip `e75a7d6` · Desk Steward **PASS** (PACKAGING) · Security SECURE **pending** (incl. live `@_Mr_R0b0t0_` scrub) · human APPROVE per surface still required · **NO LIVE ship**
+**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) on tip `e75a7d6` · Desk Steward **PASS** (PACKAGING) · Security **SECURE** on DRAFT pack · live/LABs AID **FAIL** (blocks live wire) · human APPROVE per surface still required · **NO LIVE ship**
 
 Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
@@ -34,7 +34,7 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 ## B) Per-surface gates (before live)
 
 - [x] Sensei Bot — meaning PASS on tip `e75a7d6` (2026-09-27)  
-- [ ] Sensei Security — controls SECURE (**pending**; live/LABs admin-handle exposure flagged)  
+- [x] Sensei Security — **SECURE** on PR #28 DRAFT pack (admin-handle zero hits); live/LABs **FAIL** (AID) — blocks live wire  
 - [x] Desk Steward — PASS (PACKAGING / paper-desk predicates) on PR #28 tip `e75a7d6`  
 - [ ] Human APPROVE — explicit surface named  
 - [ ] D6 Hello World — human-authored copy ready (or remain HOLD)  
@@ -94,4 +94,11 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 | --- | --- | --- | --- |
 | 2026-09-27 | 03 Sensei Bot | meaning **PASS** | `e75a7d6` |
 | 2026-09-27 | 04 Desk Steward | PACKAGING **PASS** (≠ live clearance) | `e75a7d6` |
-| 2026-09-27 | 02 Sensei Security | SECURE **pending** | live JS + public LABs still expose `@_Mr_R0b0t0_` |
+| 2026-09-27 | 02 Sensei Security | DRAFT pack **SECURE** · live/LABs AID **FAIL** | scrub + re-gate before live wire |
+
+
+## AID / admin-handle gate (Security)
+
+- Soft-launch front-door pack: **SECURE** (zero admin-handle hits; public X=@S1R1US_AI only).
+- Live `s1r1us.ai` client bundles + public `S1R1US-LABs` source: **FAIL** until scrub + Security re-gate.
+- Do **not** deploy soft-launch pack to live while AID FAIL stands.
