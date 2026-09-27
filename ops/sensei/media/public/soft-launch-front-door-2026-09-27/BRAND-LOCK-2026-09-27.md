@@ -13,14 +13,14 @@ Homepage theme **MUST** include this Godzilla site logo in chrome.
 
 | Menu | Bot | Verdict | Pack assets |
 | --- | --- | --- | --- |
-| 01 | Dream Talk | **KEEP** checkpoint / menu official (Alex Grey Mother Earth) | `Dream-Talk-logo*.png` |
+| 01 | Dream Talk | **KEEP** checkpoint / menu official Mother Earth logo | `Dream-Talk-logo*.png` |
 | 02 | Sensei Security | **KEEP** checkpoint / menu official | `Sensei-Security-logo*.png` |
 | 03 | Sensei Bot | **KEEP** checkpoint / menu official | `Sensei-Bot-logo*.png` |
 | 04 | Desk Steward | **KEEP** checkpoint / menu official | `Desk-Steward-logo*.png` |
 | 05 | Distrobi | **APPROVED v2** charcoal/gold/teal | `Distrobi-logo*.png` |
 | 06 | Grok Bot | **APPROVED v2** charcoal/gold/teal | `Grok-botlogo*.png` |
 
-Source record: `APPROVED-MARKS.md` (from `/workspace/soft-launch-approved-marks-2026-09-27/`).  
+Source record: `APPROVED-MARKS.md` (from `/workspace/soft-launch-approved-marks-2026-09-27/`). 
 Research Studio HTML uses `*-logo-medium.png` @ 160×160. Bot marks **must not** replace site logo/favicon.
 
 Alt/title = bot names without the word "logo".

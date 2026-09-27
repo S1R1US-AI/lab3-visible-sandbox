@@ -6,7 +6,7 @@
 ## Research Studio 01–06
 | # | Bot | Verdict | Source |
 | --- | --- | --- | --- |
-| 01 | Dream Talk | KEEP checkpoint / menu official (Alex Grey Mother Earth rendition) — do not replace | `bots/Dream-Talk-logo*.png` from brand pack / web-draft |
+| 01 | Dream Talk | KEEP checkpoint / menu official Mother Earth logo — do not replace | `bots/Dream-Talk-logo*.png` from brand pack / web-draft |
 | 02 | Sensei Security | KEEP checkpoint / menu official | `bots/Sensei-Security-logo*.png` |
 | 03 | Sensei Bot | KEEP checkpoint / menu official | `bots/Sensei-Bot-logo*.png` |
 | 04 | Desk Steward | KEEP checkpoint / menu official | `bots/Desk-Steward-logo*.png` |

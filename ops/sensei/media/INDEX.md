@@ -1,8 +1,8 @@
 # Sensei media — Grok library SoT (D1–D5)
 
-**Package:** `ops/sensei/media/`  
-**Role:** Source of truth for private Sensei/Grok training diagrams (standards → roles → approve → sandbox → self-improve).  
-**Stamp:** 2026-09-27 · branch `docs/sensei-media-d1-d5-20260927`  
+**Package:** `ops/sensei/media/` 
+**Role:** Source of truth for private Sensei/Grok training diagrams (standards → roles → approve → sandbox → self-improve). 
+**Stamp:** 2026-09-27 · branch `docs/sensei-media-d1-d5-20260927` 
 **Scope:** Ops-only. Not imported by `src/`. Not live s1r1us.ai. No public FAQ rewrite. No contested geopolitics.
 
 ## Diagram set
@@ -40,7 +40,7 @@ Citation notes only — logos live in each bot’s Grok Bot media assets (not co
 
 | Bot | Status | Note | Grok media cite |
 | --- | --- | --- | --- |
-| 01 Dream Talk | **APPROVED** 2026-09-27 | Womanly Mother Earth; Alex Grey–inspired **original** (not a commercial listing copy). Overwatch / thought-experiment avatar. No project source. | `dream-talk-mother-earth-avatar.png` |
+| 01 Dream Talk | **APPROVED** 2026-09-27 | Official checkpoint/menu Mother Earth logo (S1R1US Dream Talk mark). Overwatch / thought-experiment avatar. No project source. | `dream-talk-mother-earth-avatar.png` |
 | 02 Sensei Security | **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | `sensei-security-avatar.png` |
 | 03 Sensei Bot | **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards. | `sensei-bot-avatar.png` |
 | 04 Lab 3 Desk Steward | **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Mandate. | `desk-steward-avatar.png` |
@@ -63,7 +63,7 @@ Mermaid `.md` / `.mmd` are **authoritative** on `main` (PR #16). PNGs were rende
 
 ```bash
 npx -y @mermaid-js/mermaid-cli -p /path/to/puppeteer-config.json \
-  -i ops/sensei/media/D1-standards-first.mmd -o ops/sensei/media/D1-standards-first.png
+ -i ops/sensei/media/D1-standards-first.mmd -o ops/sensei/media/D1-standards-first.png
 ```
 
 ## Public Distrobi pack (2026-09-27)
