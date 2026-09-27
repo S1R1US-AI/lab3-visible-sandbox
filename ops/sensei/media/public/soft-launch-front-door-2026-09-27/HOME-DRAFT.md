@@ -32,6 +32,16 @@ Godzilla Mode / G0Dz1LLa M0De (SLEEVE)
   NOT site chrome (icon-512 / favicon = Godzilla dragon forever)
 ```
 
+## Screensavers (APPROVED behavior · ops DRAFT)
+
+Display-only Matrix overlays — **no auth / no saver-lock**. Spec: [`SCREENSAVERS.md`](./SCREENSAVERS.md).
+
+1. **GM intro** — first click on G0Dz1LLa M0De → rainbow saver **2.5s once/session**
+2. **GM idle** — in GM context, **5 min no click** → GM saver; **click/ESC** dismisses
+3. **Classic idle** — home, **5 min no click** → classic saver; **mousemove/click/ESC** dismisses
+
+Live ship still **HOLD**.
+
 ## Theme notes
 
 | Item | Choice |

@@ -860,3 +860,27 @@ a:hover { text-decoration: underline; }
 .gm-card img {
   background: transparent !important;
 }
+
+/* ——— Fullscreen Matrix screensavers (classic + Godzilla Mode) ———
+   Separate from .matrix-rain ghost. No auth / no saver-lock. */
+.screensaver-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #000;
+  display: none;
+  pointer-events: auto;
+  cursor: none;
+}
+.screensaver-overlay.is-active,
+.screensaver-overlay:not([hidden]) {
+  display: block;
+}
+.screensaver-overlay[hidden] {
+  display: none !important;
+}
+.screensaver-overlay canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
