@@ -9,12 +9,12 @@ import {
   EIGHT_B8LL_SUMMARY,
   EIGHT_WHEN_MORNING,
   NINE_B9LL_SUMMARY,
-  gmLaneView,
   g0PaperCall,
   gapPairs,
-  type GapRegime,
   type PredLean,
-  OVERLAY_PUBLIC_NOTE,
+  parseAgentCall,
+  liveLaneNote,
+  type G0Live,
 } from "@/lib/desk-logic";
 import { useDesk, useDerived, hydrateAdminSettings } from "@/lib/desk-store";
 import { usePump, hydratePumpSettings } from "@/lib/pump-store";
@@ -30,7 +30,6 @@ import { VerifyPanel } from "@/components/verify-panel";
 import { SECURITY_LINE } from "@/lib/shared-security";
 import { pumpCall, PUMP_NEED, PUMP_FUTURE_ROADMAP_NOTE } from "@/lib/pump-plan";
 import { pullPumpFeed } from "@/lib/pump-feed";
-import { parseAgentCall, liveLaneNote, type G0Live } from "@/lib/desk-logic";
 import { getPublicTape } from "@/lib/public-tape";
 import { cn } from "@/lib/cn";
 
@@ -156,15 +155,6 @@ function TriggerCard({
         </span>
       </div>
       {children ? <div className="mt-auto flex min-h-0 flex-col gap-3 pt-3">{children}</div> : null}
-    </div>
-  );
-}
-
-function SectionLabel({ kicker, note }: { kicker: string; note: string }) {
-  return (
-    <div className="flex items-baseline justify-between gap-3">
-      <h3 className="text-xs tracking-[0.22em] text-muted">{kicker}</h3>
-      <p className="text-xs text-muted">{note}</p>
     </div>
   );
 }
