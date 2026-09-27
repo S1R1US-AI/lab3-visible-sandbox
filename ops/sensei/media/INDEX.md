@@ -9,13 +9,13 @@
 
 | ID | Title | Mermaid source | PNG export |
 | --- | --- | --- | --- |
-| D1 | Standards-first (GLOSSARY a+b+c + Team Boolean) | [D1-standards-first.md](./D1-standards-first.md) | [D1-standards-first.png](./D1-standards-first.png)  |
-| D2 | Sandbox map (Lab 3 / homepage / mobile) | [D2-sandbox-map.md](./D2-sandbox-map.md) | [D2-sandbox-map.png](./D2-sandbox-map.png)  |
-| D3 | Roles / lanes (incl. Dream Talk overwatch) | [D3-roles-lanes.md](./D3-roles-lanes.md) | [D3-roles-lanes.png](./D3-roles-lanes.png)  |
-| D4 | Approve loop | [D4-approve-loop.md](./D4-approve-loop.md) | [D4-approve-loop.png](./D4-approve-loop.png)  |
-| D5 | Self-improve inside lane | [D5-self-improve.md](./D5-self-improve.md) | [D5-self-improve.png](./D5-self-improve.png)  |
+| D1 | Standards-first (GLOSSARY a+b+c + Team Boolean) | [D1-standards-first.md](./D1-standards-first.md) · [D1-standards-first.mmd](./D1-standards-first.mmd) | `D1-standards-first.png` — **HOLD** binary push (see below) |
+| D2 | Sandbox map (Lab 3 / homepage / mobile) | [D2-sandbox-map.md](./D2-sandbox-map.md) · [D2-sandbox-map.mmd](./D2-sandbox-map.mmd) | `D2-sandbox-map.png` — **HOLD** binary push |
+| D3 | Roles / lanes (incl. Dream Talk overwatch) | [D3-roles-lanes.md](./D3-roles-lanes.md) · [D3-roles-lanes.mmd](./D3-roles-lanes.mmd) | `D3-roles-lanes.png` — **HOLD** binary push |
+| D4 | Approve loop | [D4-approve-loop.md](./D4-approve-loop.md) · [D4-approve-loop.mmd](./D4-approve-loop.mmd) | `D4-approve-loop.png` — **HOLD** binary push |
+| D5 | Self-improve inside lane | [D5-self-improve.md](./D5-self-improve.md) · [D5-self-improve.mmd](./D5-self-improve.mmd) | `D5-self-improve.png` — **HOLD** binary push |
 
-See [manifest.json](./manifest.json) for checksums and export status.
+See [manifest.json](./manifest.json) for checksums of locally rendered PNGs.
 
 ## Story lock (order)
 
@@ -37,9 +37,9 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 - Glossary / Team Boolean: [GLOSSARY.md](../GLOSSARY.md)
 - Workspace PNG practice renders (not SoT): `/workspace/sensei-flow-exports/` (legacy flow exports 01–07)
 
-## PNG export
+## PNG export (HOLD on this PR)
 
-PNG renders for D1–D5 are committed beside the Mermaid sources (rendered 2026-09-27 via `@mermaid-js/mermaid-cli`). Mermaid `.md` / `.mmd` remain editable SoT; regenerate with:
+Mermaid `.md` / `.mmd` are **authoritative** on this branch. PNGs were rendered 2026-09-27 via `@mermaid-js/mermaid-cli` in the agent workspace (`/workspace/lab3-visible-sandbox-media/ops/sensei/media/*.png`) with SHA-256 recorded in `manifest.json`, but **binary PNG commit is HOLD** for this PR (GitHub MCP text `push_files` / `create_or_update_file` cannot land true PNG bytes; `gh` CLI not logged in for `git push`). Human can add PNGs in a follow-up with normal git auth, or regenerate:
 
 ```bash
 npx -y @mermaid-js/mermaid-cli -p /path/to/puppeteer-config.json \
