@@ -29,6 +29,18 @@ See [manifest.json](./manifest.json) for checksums of locally rendered PNGs.
 
 Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thought experiment**. It is part of an experiment to align Grok bots with human principles and a search for ultimate truth. **Overwatch only** — never project source, never lane influence.
 
+
+## Bot visual identity (menu logos) — 2026-09-27
+
+Citation notes only — logos live in each bot’s Grok Bot media assets (not committed as large binaries here).
+
+| Bot | Status | Note | Grok media cite |
+| --- | --- | --- | --- |
+| 06 Dream Talk | **APPROVED** 2026-09-27 | Womanly Mother Earth; Alex Grey–inspired **original** (not a commercial listing copy). Overwatch / thought-experiment avatar. No project source. | `dream-talk-mother-earth-avatar.png` |
+| 03 Distrobi | **added** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). | `distrobi-bot-avatar.png` |
+
+Workspace practice copies may exist under agent assets; Lab 3 SoT remains citation + Mermaid docs.
+
 ## Related
 
 - Private training: [TRAINING-OUTLINE.md](../TRAINING-OUTLINE.md)

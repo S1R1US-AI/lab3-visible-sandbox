@@ -48,6 +48,13 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 - Dream Talk as build owner or source author  
 - Weakening never-sell / never-short / Coinbase create locked “because tests pass”
 
+
+## Bot visual identity (menu logos) — 2026-09-27
+
+- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- **03 Distrobi** — menu logo **added** 2026-09-27: cosmic soft-launch / distribution emblem (original). Asset: Grok Bot media `distrobi-bot-avatar.png`.
+- Lab 3 docs **cite** these; do **not** commit huge binary logos into git on this PR unless already policy.
+
 ## Related
 
 - [media/INDEX.md](./media/INDEX.md) · [ROADMAP.md](./ROADMAP.md) · [flows/INDEX.md](./flows/INDEX.md)

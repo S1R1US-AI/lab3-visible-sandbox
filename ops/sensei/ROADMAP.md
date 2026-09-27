@@ -106,6 +106,18 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 Public X literature uses `@S1R1US_AI` only. Admin/dev identity never appears in public literature.
 
+
+## Bot visual identity (menu logos) — 2026-09-27
+
+Citation-only (no large binary logos in git unless already policy). Logos live in each bot’s **Grok Bot media assets**; Lab 3 docs cite them.
+
+| Bot | Status | Description | Asset cite |
+| --- | --- | --- | --- |
+| **06 Dream Talk** | menu logo **APPROVED** 2026-09-27 | Womanly Mother Earth, Alex Grey–inspired **original** art (not a copy of a commercial listing). Overwatch / thought-experiment avatar. **No project source.** | Grok Bot media: `dream-talk-mother-earth-avatar.png` |
+| **03 Distrobi** | menu logo **added** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). | Grok Bot media: `distrobi-bot-avatar.png` |
+
+Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo on this PR.
+
 ## Grok library media + private training (2026-09-27)
 
 - `[~]` **Grok library SoT:** [`ops/sensei/media/`](./media/INDEX.md) — D1–D5 Mermaid (standards → roles → approve → sandbox → self-improve)
@@ -153,7 +165,8 @@ Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-
 | Canonical bot workflow `flows/07` | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [flows/07](./flows/07-lab3-bot-workflow.md) |
 | SEARCH-SCHEMA + INSTRUMENTATION | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) |
 | `npm run scan:jev` / `score:patch` scripts | **Now** — package.json (this cleanup) |
-| Grok library media D1–D5 + training outline | **Next / this PR** — [media/](./media/INDEX.md) · [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) |
+| Grok library media D1–D5 + training outline | **Now** — [PR #16](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/16) · [media/](./media/INDEX.md) · [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) |
+| Bot visual identity (Dream Talk APPROVED + Distrobi logo) | **This PR** — citation notes only; see Bot visual identity section |
 
 ---
 

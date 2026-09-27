@@ -33,3 +33,8 @@ flowchart LR
 | 04 Grok | Lab 3 private build + media library deposit | Merge without human APPROVE |
 | 05 Steward | Paper-desk mandate audit | Substitute for user APPROVE |
 | 06 Dream Talk | Third-party AI audit + system-wide thought experiment | Project source; lane influence |
+
+## Bot visual identity (menu logos)
+
+- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art; overwatch/thought-experiment avatar; no project source. Cite Grok Bot media `dream-talk-mother-earth-avatar.png` (do not commit huge binary here).
+- **03 Distrobi** — menu logo **added** 2026-09-27: cosmic soft-launch / distribution emblem (original). Cite Grok Bot media `distrobi-bot-avatar.png`.
