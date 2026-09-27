@@ -124,13 +124,13 @@ Citation-only (no large binary logos in git unless already policy). Logos live i
 | **05 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | Grok Bot media: `distrobi-bot-avatar.png` |
 | **06 Grok Bot** | menu logo **APPROVED** 2026-09-27 | Geometric builder-researcher mark (**original**). Lab 3 builder. | Grok Bot media: `grok-bot-avatar.png` |
 
-Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo on this PR.
+Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo unless policy.
 
 ## Grok library media + private training (2026-09-27)
 
 - `[~]` **Grok library SoT:** [`ops/sensei/media/`](./media/INDEX.md) — D1–D5 Mermaid (standards → roles → approve → sandbox → self-improve)
 - `[~]` **Private training outline:** [`TRAINING-OUTLINE.md`](./TRAINING-OUTLINE.md)
-- `[~]` PNG exports for D1–D5 — rendered locally 2026-09-27; **HOLD** binary commit on this PR (Mermaid SoT; see media/INDEX)
+- `[~]` PNG exports for D1–D5 — rendered locally 2026-09-27; **HOLD** binary commit (Mermaid SoT; see media/INDEX)
 - `[x]` Sandbox-map callout — Lab 3 paper ≠ live homepage ≠ mobile (see [D2](./media/D2-sandbox-map.md))
 
 Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-map](./media/D2-sandbox-map.md) · [D3 roles-lanes](./media/D3-roles-lanes.md) · [D4 approve-loop](./media/D4-approve-loop.md) · [D5 self-improve](./media/D5-self-improve.md)
@@ -174,7 +174,9 @@ Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-
 | SEARCH-SCHEMA + INSTRUMENTATION | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) |
 | `npm run scan:jev` / `score:patch` scripts | **Now** — package.json (this cleanup) |
 | Grok library media D1–D5 + training outline | **Now** — [PR #16](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/16) · [media/](./media/INDEX.md) · [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) |
-| Bot visual identity (01–06 ALL menu logos **APPROVED** 2026-09-27) | **This PR** — citation notes only; human APPROVED all six |
+| Bot visual identity (01–06 ALL menu logos **APPROVED** 2026-09-27) | **Now** — [PR #18](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/18) citations; menu renumber [PR #20](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/20) |
+| Public pack DRAFT (`ops/sensei/media/public/`) | **Now** — [PR #17](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/17) · live SEO/FAQ **HOLD** |
+| Web draft SEO HTML + logo PNGs | **Now** — [PR #21](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/21) · **NO LIVE** |
 
 ---
 

@@ -1,6 +1,6 @@
-# Web draft 2026-09-27 — Distrobi DRAFT static HTML (NO LIVE / NO MERGE)
+# Web draft 2026-09-27 — Distrobi DRAFT static HTML (NO LIVE)
 
-**Status:** DRAFT deposit under Lab 3 ops media. Production target: https://s1r1us.ai  
+**Status:** DRAFT deposit on `main` under Lab 3 ops media (landed via PR #21). Production target: https://s1r1us.ai — **live publish HOLD** until per-surface human APPROVE.  
 **Author:** Distrobi (public pack). Grok builds Lab 3 under Sensei plan.  
 **Public X:** @S1R1US_AI only.  
 **Dream Talk:** overwatch only — never project source / lane rewrite.
@@ -14,7 +14,7 @@
 5. Distrobi — public / soft-launch  
 6. Grok Bot — Lab 3 builder under Sensei plan  
 
-**Note:** Open PR #20 currently lists Sensei Bot before Sensei Security. This HTML pack uses the authoritative order above (Security before Sensei Bot). Another task may fix PR #20 separately.
+**Note:** Menu order matches tip of `main` after PR #20 (oversight-first: 02 Sensei Security before 03 Sensei Bot). This HTML pack uses the same authoritative order.
 
 ## Paths
 
@@ -31,4 +31,4 @@
 - FAQ wording DRAFT; live post HOLD  
 - No Lab 3 private desk mechanics / never-sell internals / Coinbase create details  
 - No contested geopolitics; belief ≠ definition  
-- Do **not** merge until human APPROVE  
+- Do **not** live-publish until human APPROVE per surface  
