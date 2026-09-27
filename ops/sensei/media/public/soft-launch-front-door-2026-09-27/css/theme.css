@@ -144,19 +144,38 @@ a:hover { text-decoration: underline; }
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1.15rem;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
   font-size: 0.92rem;
 }
-.nav a {
-  color: var(--muted);
+/* Unified prominent top-nav pills — gold/teal emphasis for all items */
+.nav a,
+.nav a.nav-discord,
+.nav a.nav-emphasis {
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 0.01em;
   text-decoration: none;
-  padding-bottom: 0.15rem;
-  border-bottom: 2px solid transparent;
+  padding: 0.2rem 0.55rem 0.25rem;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.14), rgba(46, 196, 182, 0.08));
+  box-shadow: 0 0 0 1px rgba(46, 196, 182, 0.12);
 }
-.nav a:hover { color: var(--text); }
-.nav a[aria-current="page"] {
+.nav a:hover,
+.nav a.nav-discord:hover,
+.nav a.nav-emphasis:hover {
   color: var(--text);
-  border-bottom-color: var(--gold);
+  border-color: var(--gold);
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.22), rgba(46, 196, 182, 0.12));
+  text-decoration: none;
+}
+.nav a[aria-current="page"],
+.nav a.nav-discord[aria-current="page"],
+.nav a.nav-emphasis[aria-current="page"] {
+  color: var(--text);
+  border-color: var(--gold);
+  box-shadow: 0 0 12px rgba(201, 162, 39, 0.22);
 }
 
 .header-mark {
