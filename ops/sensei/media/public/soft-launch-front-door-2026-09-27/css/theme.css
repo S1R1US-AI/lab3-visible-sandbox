@@ -570,3 +570,22 @@ a:hover { text-decoration: underline; }
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/* Gate triad 7/8/9 */
+.studio-subhead {
+  margin: 1.75rem 0 0.35rem;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: rgba(200, 205, 212, 0.92);
+}
+.lede.tight { margin-top: 0; margin-bottom: 0.85rem; font-size: 0.92rem; }
+.gate-grid { margin-top: 0.5rem; }
+.bot-card[data-bot="seven-bot"] .logo-frame,
+.bot-card[data-bot="eight-bot"] .logo-frame,
+.bot-card[data-bot="nine-bot"] .logo-frame {
+  border-radius: 22%;
+  background: transparent;
+}
+.bot-card[data-bot="seven-bot"] .role { color: rgba(201, 162, 39, 0.95); }
+.bot-card[data-bot="eight-bot"] .role { color: rgba(217, 70, 166, 0.95); }
+.bot-card[data-bot="nine-bot"] .role { color: rgba(255, 122, 26, 0.95); }
