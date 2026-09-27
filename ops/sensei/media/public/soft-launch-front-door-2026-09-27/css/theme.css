@@ -18,7 +18,7 @@
   --gold-dim: rgba(201, 162, 39, 0.18);
   --teal: #2ec4b6;
   --teal-dim: rgba(46, 196, 182, 0.16);
-  --matrix: rgba(46, 196, 120, 0.55);
+  --matrix: rgba(61, 255, 26, 0.42);
   --warn: #e6b35a;
   --danger: #c45c5c;
   --radius: 14px;
@@ -42,7 +42,7 @@ body {
   position: relative;
 }
 
-/* ——— Matrix rain ghost ——— */
+/* ——— Matrix rain ghost (classic greens on charcoal) ——— */
 .matrix-rain {
   position: fixed;
   inset: 0;
@@ -50,16 +50,38 @@ body {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.11;
+  /* Ghost: readable Matrix glyphs on laptop/phone; not screensaver-bright */
+  opacity: 0.40;
+}
+.matrix-rain-ghost2 {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.15;
+  /* normal blend — screen was adding green wash over charcoal */
 }
 .matrix-veil {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  /* Light charcoal veil — body/canvas fade are already #121619; do not crush green rain */
   background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(18, 22, 25, 0.55), transparent 70%),
-    linear-gradient(180deg, rgba(18, 22, 25, 0.35), rgba(18, 22, 25, 0.72) 40%, rgba(18, 22, 25, 0.9));
+    radial-gradient(ellipse 80% 55% at 50% 0%, rgba(18, 22, 25, 0.18), transparent 72%),
+    linear-gradient(180deg, rgba(18, 22, 25, 0.06), rgba(18, 22, 25, 0.16) 42%, rgba(18, 22, 25, 0.28));
+}
+/* Very subtle green atmosphere — charcoal stays the ground; green is the rain */
+.matrix-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 65% 50% at 50% 30%, rgba(61, 255, 26, 0.016), transparent 68%),
+    radial-gradient(ellipse 45% 35% at 78% 78%, rgba(47, 158, 44, 0.010), transparent 62%);
 }
 
 .wrap {
