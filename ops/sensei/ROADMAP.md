@@ -177,6 +177,7 @@ Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-
 | Bot visual identity (01–06 ALL menu logos **APPROVED** 2026-09-27) | **Now** — [PR #18](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/18) citations; menu renumber [PR #20](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/20) |
 | Public pack DRAFT (`ops/sensei/media/public/`) | **Now** — [PR #17](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/17) · live SEO/FAQ **HOLD** |
 | Web draft SEO HTML + logo PNGs | **Now** — [PR #21](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/21) · **NO LIVE** |
+| Checkpoint 161 — 10/1 resume stamp | **Now** (this PR) — [`CHECKPOINT-161.md`](../../checkpoints/CHECKPOINT-161.md); **152 desk locks still in force**; operational freeze narrative of hold-branch 160 superseded |
 
 ---
 
@@ -188,4 +189,5 @@ Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-
 - Outer Jev: [`ops/outer-jev/`](../outer-jev/) — **on `main`** (PR #6); [`score-patch.mjs`](../outer-jev/score-patch.mjs) (PR #10)
 - [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) · [flows/07](./flows/07-lab3-bot-workflow.md)
 - Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
+- Checkpoint 161 (10/1 resume stamp; 152 still in force): [`checkpoints/CHECKPOINT-161.md`](../../checkpoints/CHECKPOINT-161.md)
 - Historical note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)

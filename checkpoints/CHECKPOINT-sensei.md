@@ -10,7 +10,7 @@ Paper only. Does not write https://s1r1us.ai. No `src/` Sensei decision logic.
 - **Package:** `ops/sensei/`
 - **Bot id:** `d40cd9e7-579d-4fc6-b860-60143c9d0b42`
 - **Instruction module:** [`ops/sensei/INSTRUCTIONS.md`](../ops/sensei/INSTRUCTIONS.md) (private) + [`public/sandbox-original/INSTRUCTIONS.md`](../public/sandbox-original/INSTRUCTIONS.md) (public)
-- **Current contract:** Checkpoint 152 is **in force**. Outer Jev + score-patch are on `main`. In-app Jev is retired. Canonical handoff is flows/07.
+- **Current contract:** Checkpoint 152 is **in force** (architecture SoT). Checkpoint 161 is the **10/1 resume / readiness stamp** ([`CHECKPOINT-161.md`](./CHECKPOINT-161.md)); it does not supersede 152 desk locks. Outer Jev + score-patch are on `main`. In-app Jev is retired. Canonical handoff is flows/07.
 
 ## Delivered
 
