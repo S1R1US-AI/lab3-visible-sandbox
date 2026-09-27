@@ -37,10 +37,10 @@ Citation notes only — logos live in each bot’s Grok Bot media assets (not co
 | Bot | Status | Note | Grok media cite |
 | --- | --- | --- | --- |
 | 01 Sensei Security | **added** 2026-09-27 | Shield/keyhole protective emblem (**original**). | `sensei-security-avatar.png` |
-| 02 Sensei Bot | **added** 2026-09-27 | Glossary book + golden S / sacred geometry (**original**). | `sensei-bot-avatar.png` |
+| 02 Sensei Bot | **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). | `sensei-bot-avatar.png` |
 | 03 Distrobi | **added** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). | `distrobi-bot-avatar.png` |
 | 04 Grok Bot | **added** 2026-09-27 | Geometric builder-researcher mark (**original**). | `grok-bot-avatar.png` |
-| 05 Lab 3 Desk Steward | **added** 2026-09-27 | Paper desk blotter / check ribbon (**original**). | `desk-steward-avatar.png` |
+| 05 Lab 3 Desk Steward | **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). | `desk-steward-avatar.png` |
 | 06 Dream Talk | **APPROVED** 2026-09-27 | Womanly Mother Earth; Alex Grey–inspired **original** (not a commercial listing copy). Overwatch / thought-experiment avatar. No project source. | `dream-talk-mother-earth-avatar.png` |
 
 Workspace practice copies may exist under agent assets; Lab 3 SoT remains citation + Mermaid docs.

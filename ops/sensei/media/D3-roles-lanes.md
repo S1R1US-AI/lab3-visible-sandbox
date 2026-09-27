@@ -37,8 +37,8 @@ flowchart LR
 ## Bot visual identity (menu logos)
 
 - **01 Sensei Security** — menu logo **added** 2026-09-27: shield/keyhole protective emblem (original). Cite Grok Bot media `sensei-security-avatar.png` (do not commit huge binary here).
-- **02 Sensei Bot** — menu logo **added** 2026-09-27: glossary book + golden S / sacred geometry (original). Cite Grok Bot media `sensei-bot-avatar.png`.
+- **02 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Cite Grok Bot media `sensei-bot-avatar.png`.
 - **03 Distrobi** — menu logo **added** 2026-09-27: cosmic soft-launch / distribution emblem (original). Cite Grok Bot media `distrobi-bot-avatar.png`.
 - **04 Grok Bot** — menu logo **added** 2026-09-27: geometric builder-researcher mark (original). Cite Grok Bot media `grok-bot-avatar.png`.
-- **05 Lab 3 Desk Steward** — menu logo **added** 2026-09-27: paper desk blotter / check ribbon (original). Cite Grok Bot media `desk-steward-avatar.png`.
+- **05 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Cite Grok Bot media `desk-steward-avatar.png`.
 - **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art; overwatch/thought-experiment avatar; no project source. Cite Grok Bot media `dream-talk-mother-earth-avatar.png` (do not commit huge binary here).
