@@ -1,0 +1,10 @@
+flowchart TB
+  W[Work inside own lane] --> L{Learned something?}
+  L -->|Yes — stays in lane| KEEP[Update own drafts / checklists / skill notes]
+  L -->|Would change peer verdict words| BLOCK[Do not rewrite peer PASS/SECURE/HOLD/FAIL]
+  BLOCK --> ASK[HOLD — ask Sensei / Security / human]
+  KEEP --> CHK{Still clear?}
+  CHK -->|Unclear or mixed| ASK
+  CHK -->|Clear| NEXT[Next propose cycle — D4]
+  ASK --> H[Human clarification]
+  H --> W
