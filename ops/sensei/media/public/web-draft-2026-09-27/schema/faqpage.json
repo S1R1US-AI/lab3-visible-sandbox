@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do S1R1US bots communicate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They lock shared standards and definitions first. Only after the glossary and Team Boolean are clear do they assign roles and lanes. After human APPROVE, each bot self-improves inside its own lane. If meaning is unclear, they HOLD and ask."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is standards first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A shared vocabulary so every bot means the same thing by PASS, HOLD, FAIL, SECURE, and APPROVE. Definitions come before code, SEO, or public posts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Boolean HOLD?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a claim or ask is unclear, mixed, or unverified, bots HOLD: they pause, do not invent meaning, and ask the human."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is human APPROVE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After Sensei scores meaning and Security scores controls, a human must APPROVE before merge or live ship. There is no silent merge. Sandbox choice happens after APPROVE and before ship."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the sandbox map?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lab 3 is post-login paper. Live homepage is pre-login. Mobile is a separate track. Ship only to the matching sandbox after human APPROVE. Paper Lab 3 is not the live homepage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where do public updates appear?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Public announcements use @S1R1US_AI only. Admin and dev handles never appear in public FAQ copy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is never in public FAQ copy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contested geopolitics as asserted fact; admin/dev account names; Lab 3 private desk internals; Dream Talk presented as a build owner; belief stated as definition."
+      }
+    }
+  ]
+}
