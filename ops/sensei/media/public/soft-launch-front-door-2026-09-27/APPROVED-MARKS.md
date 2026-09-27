@@ -21,3 +21,7 @@ Godzilla `icon-512.png` kept. Favicon **geometry** = Godzilla; pack `favicon.svg
 ## Godzilla Mode
 - **G0Dz1LLa M0De** / SEO **godzilla mode** — APPROVED 2026-09-27 (readable charcoal)
 - Site chrome icon-512/favicon untouched
+
+## Neural Network
+- **Neural Network** / SEO **neural network** — APPROVED 2026-09-27 (hub · rainbow · invisible bg · JEV paths)
+- Apex over 01–09 + Godzilla Mode; replace feature mentions with this mark
