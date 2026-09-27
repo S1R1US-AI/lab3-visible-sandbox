@@ -77,3 +77,12 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 | `favicon.svg` metadata | Scrubbed — no “trading bots” / “bitcoin accumulation” language |
 
 **Distrobi PACKAGING PASS (remediation DRAFT)** pending Security re-gate (and Sensei if meaning-touching). Live homepage still **HOLD**.
+
+## Mark APPROVE placement (2026-09-27)
+
+- [x] 01–04 KEEP menu official (Dream Talk / Sensei Security / Sensei Bot / Desk Steward)
+- [x] 05 Distrobi + 06 Grok REPLACE with human-APPROVED v2 charcoal/gold/teal
+- [x] Godzilla `icon-512` + favicon geometry preserved; favicon metadata Security-scrubbed
+- [ ] Security re-gate on new Distrobi/Grok assets (+ prior remediation)
+- [ ] Sensei if meaning-touching
+- Live **HOLD**

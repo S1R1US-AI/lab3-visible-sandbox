@@ -1,24 +1,24 @@
 # Research Studio branding placement (2026-09-27)
 
-## HARD LOCK (site chrome — separate from this file’s scope)
-**Godzilla dragon** = s1r1us.ai site logo **and** favicon. **NEVER overwrite.**  
-Pack keeps `images/icon-512.png` + favicon set from official live brand only.  
-See `BRAND-LOCK-2026-09-27.md`. Bot redesign does **not** touch site chrome.
+## HARD LOCK (site chrome)
+**Godzilla dragon** = site logo + favicon. **NEVER overwrite.** See `BRAND-LOCK-2026-09-27.md`.  
+Favicon SVG metadata remains Security-scrubbed (geometry = Godzilla; no trading-bots language).
 
-## Human decision (via 06 Grok) — 01–06 ONLY
-**DESIGN NEW** Research Studio menu marks in charcoal / gold / teal, then place them.  
-Grok generates draft marks → **human APPROVE** → Distrobi replaces **`images/bots/*` only** and folds into Security remediation PR #26.
-
-## Already on PR #26 (placement shell — enlarge-existing interim)
-- Research Studio uses `*-logo-medium.png` at **160×160** with charcoal/gold/teal frames
-- Clear names/roles
-- Site chrome unchanged: Godzilla `icon-512` + favicon (never substitute)
-
-## Pending
-| Gate | Owner |
+## Human APPROVE (via 06 Grok) — placed on PR #26
+| Bots | Action |
 | --- | --- |
-| New 01–06 draft marks | 06 Grok |
-| APPROVE new marks | Human |
-| Swap pack `images/bots/*` only + push to PR #26 | Distrobi (after APPROVE) |
+| 01–04 Dream Talk / Sensei Security / Sensei Bot / Desk Steward | **KEEP** menu official — not replaced by v2 |
+| 05 Distrobi + 06 Grok Bot | **REPLACE** with APPROVED v2 charcoal/gold/teal (`*-logo.png` / medium / card / large) |
 
-Do **not** invent Hello World hero. Do **not** replace site logo/favicon. Live homepage **HOLD**.
+Placement shell: Research Studio `*-logo-medium.png` @ **160×160**, charcoal/gold/teal frames, clear names/roles.
+
+## Gates
+| Gate | Status |
+| --- | --- |
+| Human APPROVE Distrobi + Grok v2 | Done |
+| Assets on PR #26 | This commit |
+| Security re-gate (new Distrobi/Grok assets + prior remediation) | Requested |
+| Sensei if meaning-touching | Requested if needed |
+| Live | **HOLD** |
+
+No Hello World invent. No site chrome swap.
