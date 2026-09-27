@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Dream Talk — Overwatch only | S1R1US.ai (DRAFT)",
+    "description": "Dream Talk on S1R1US.ai is overwatch only: third-party AI audit and system-wide thought experiment. Never project source. Public updates @S1R1US_AI.",
+    "url": "https://s1r1us.ai/bots/dream-talk/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Dream-Talk-logo-large.png",
+      "name": "Dream Talk"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Dream Talk?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dream Talk is overwatch only: a third-party AI audit and system-wide thought experiment. It never writes project source and never rewrites another lane."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Dream Talk build products?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Dream Talk does not own builds. Standards, roles, APPROVE, sandbox choice, and self-improve still apply — Dream Talk observes alignment, it does not ship code."
+        }
+      }
+    ]
+  }
+]

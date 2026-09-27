@@ -1,0 +1,124 @@
+/* S1R1US.ai DRAFT public bot pages — Distrobi soft-launch pack 2026-09-27
+   Production target: https://s1r1us.ai — DRAFT deposit only under Lab 3 ops media.
+   Paper Lab 3 ≠ live homepage until per-surface APPROVE. */
+:root {
+  --bg: #0b1220;
+  --bg-elev: #121a2b;
+  --bg-card: #162033;
+  --line: #243049;
+  --text: #e8eef8;
+  --muted: #9aa8c0;
+  --accent: #5b8cff;
+  --accent-2: #7dd3c7;
+  --warn: #e6b35a;
+  --radius: 12px;
+  --max: 960px;
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 1.25rem 1.25rem 3rem; }
+.banner {
+  background: #1a2338;
+  border-bottom: 1px solid var(--line);
+  color: var(--warn);
+  font-size: 0.875rem;
+  padding: 0.65rem 1.25rem;
+  text-align: center;
+}
+header.site {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 1rem; padding: 1.25rem 0 0.5rem; border-bottom: 1px solid var(--line); margin-bottom: 1.75rem;
+}
+.brand { font-weight: 700; letter-spacing: 0.04em; font-size: 1.1rem; color: var(--text); }
+.brand span { color: var(--accent-2); }
+nav.menu { display: flex; flex-wrap: wrap; gap: 0.65rem 1rem; font-size: 0.9rem; }
+nav.menu a { color: var(--muted); }
+nav.menu a:hover, nav.menu a[aria-current="page"] { color: var(--text); }
+h1 { font-size: clamp(1.6rem, 3vw, 2.1rem); line-height: 1.25; margin: 0 0 0.75rem; }
+h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; color: var(--text); }
+h3 { font-size: 1.05rem; margin: 1.25rem 0 0.5rem; }
+p { color: var(--muted); margin: 0 0 1rem; }
+p.lead { color: var(--text); font-size: 1.05rem; }
+.role-pill {
+  display: inline-block; background: var(--bg-elev); border: 1px solid var(--line);
+  color: var(--accent-2); font-size: 0.8rem; padding: 0.25rem 0.65rem; border-radius: 999px;
+  margin-bottom: 0.75rem; letter-spacing: 0.02em;
+}
+.hero {
+  display: grid; gap: 1.5rem; align-items: center;
+  grid-template-columns: 1fr;
+  background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.25rem; margin-bottom: 1.5rem;
+}
+@media (min-width: 720px) {
+  .hero { grid-template-columns: 1.1fr 1fr; }
+}
+.hero img.large {
+  width: 100%; max-width: 640px; height: auto; border-radius: 10px;
+  border: 1px solid var(--line); background: #0a101c; display: block;
+}
+.media-row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0 1.75rem;
+}
+.media-row figure {
+  margin: 0; background: var(--bg-card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 0.75rem; text-align: center;
+}
+.media-row img { width: 100%; max-width: 320px; height: auto; border-radius: 8px; }
+.media-row figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 0.5rem; }
+.card-grid {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin: 1.5rem 0;
+}
+.card {
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem;
+}
+.card img { width: 100%; max-width: 240px; align-self: center; border-radius: 8px; }
+.card h2 { font-size: 1.05rem; margin: 0.35rem 0 0; }
+.card .meta { font-size: 0.8rem; color: var(--accent-2); }
+.steps {
+  list-style: none; padding: 0; margin: 0 0 1.5rem; counter-reset: step;
+}
+.steps li {
+  counter-increment: step; position: relative;
+  background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 0.85rem 1rem 0.85rem 3rem; margin-bottom: 0.65rem; color: var(--muted);
+}
+.steps li::before {
+  content: counter(step); position: absolute; left: 0.85rem; top: 0.85rem;
+  width: 1.4rem; height: 1.4rem; border-radius: 50%; background: var(--accent);
+  color: #fff; font-size: 0.75rem; font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.links {
+  display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem;
+  padding: 1rem; background: var(--bg-elev); border: 1px solid var(--line);
+  border-radius: var(--radius); margin: 1.5rem 0;
+}
+.links a { font-weight: 600; font-size: 0.95rem; }
+footer.site {
+  margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+  font-size: 0.85rem; color: var(--muted);
+}
+.faq details {
+  background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 0.75rem 1rem; margin-bottom: 0.65rem;
+}
+.faq summary { cursor: pointer; font-weight: 600; color: var(--text); }
+.faq details p { margin: 0.65rem 0 0.25rem; }
+.note {
+  font-size: 0.85rem; color: var(--warn); border-left: 3px solid var(--warn);
+  padding: 0.5rem 0.75rem; margin: 1rem 0; background: rgba(230,179,90,0.08);
+}

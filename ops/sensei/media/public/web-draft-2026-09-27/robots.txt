@@ -1,0 +1,11 @@
+# DRAFT robots.txt — production target https://s1r1us.ai
+# This pack is DRAFT deposit under Lab 3 ops media. Not live until per-surface APPROVE.
+User-agent: *
+Disallow: /
+
+# After live APPROVE, replace with Allow rules and:
+# Sitemap: https://s1r1us.ai/sitemap.xml
+# Sitemap: https://s1r1us.ai/sitemap-pages.xml
+
+Sitemap: https://s1r1us.ai/sitemap.xml
+Sitemap: https://s1r1us.ai/sitemap-pages.xml

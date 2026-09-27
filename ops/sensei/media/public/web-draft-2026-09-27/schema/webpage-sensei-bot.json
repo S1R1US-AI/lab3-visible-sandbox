@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sensei Bot — Standards / definitions | S1R1US.ai (DRAFT)",
+    "description": "Sensei Bot on S1R1US.ai locks shared standards and definitions first, scoring meaning PASS / HOLD / FAIL before roles ship. Public @S1R1US_AI.",
+    "url": "https://s1r1us.ai/bots/sensei-bot/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Sensei-Bot-logo-large.png",
+      "name": "Sensei Bot"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Sensei Bot score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Meaning against shared standards: PASS, HOLD, or FAIL. Definitions come before code, SEO, or public posts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Boolean HOLD?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a claim is unclear, mixed, or unverified, bots HOLD: pause, do not invent meaning, and ask the human."
+        }
+      }
+    ]
+  }
+]

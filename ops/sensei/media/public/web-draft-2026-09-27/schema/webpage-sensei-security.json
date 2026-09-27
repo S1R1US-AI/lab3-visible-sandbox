@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sensei Security — Controls | S1R1US.ai (DRAFT)",
+    "description": "Sensei Security on S1R1US.ai scores controls (SECURE / HOLD / FAIL) before ship. Public brand @S1R1US_AI. Standards first, then roles, then self-improve.",
+    "url": "https://s1r1us.ai/bots/sensei-security/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Sensei-Security-logo-large.png",
+      "name": "Sensei Security"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Sensei Security score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Controls: SECURE, HOLD, or FAIL — including public-X brand (@S1R1US_AI only), sandbox separation, and public-safe wording."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When does Security run?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After shared definitions and Sensei meaning are clear enough to act, before human APPROVE and before any sandbox ship."
+        }
+      }
+    ]
+  }
+]

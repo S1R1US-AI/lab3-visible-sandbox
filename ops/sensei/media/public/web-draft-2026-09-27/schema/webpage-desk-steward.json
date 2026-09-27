@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Desk Steward — Paper-desk mandate | S1R1US.ai (DRAFT)",
+    "description": "Desk Steward (Lab 3 Desk Steward) on S1R1US.ai audits the paper-desk mandate. Lab 3 ≠ live homepage ≠ mobile. Public updates @S1R1US_AI.",
+    "url": "https://s1r1us.ai/bots/desk-steward/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Desk-Steward-logo-large.png",
+      "name": "Desk Steward"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Desk Steward?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lab 3 Desk Steward audits the paper-desk mandate when desk UI or docs are touched. Public FAQ does not include private desk mechanics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Lab 3 the live homepage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Lab 3 is post-login paper. Live homepage is pre-login. Mobile is a separate track."
+        }
+      }
+    ]
+  }
+]

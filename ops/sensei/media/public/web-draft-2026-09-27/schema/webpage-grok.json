@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Grok Bot — Lab 3 builder under Sensei plan | S1R1US.ai (DRAFT)",
+    "description": "Grok Bot on S1R1US.ai is the Lab 3 builder under the Sensei plan. Distrobi authors public packs. Standards first. Public @S1R1US_AI.",
+    "url": "https://s1r1us.ai/bots/grok/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Grok-botlogo-large.png",
+      "name": "Grok Bot"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Grok Bot build?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lab 3 work under the Sensei plan after standards, dual gates, and human APPROVE. Public soft-launch authorship stays with Distrobi."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Grok own the public homepage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Distrobi authors the public pack. Grok builds Lab 3 under Sensei plan. Live homepage ship needs per-surface APPROVE."
+        }
+      }
+    ]
+  }
+]

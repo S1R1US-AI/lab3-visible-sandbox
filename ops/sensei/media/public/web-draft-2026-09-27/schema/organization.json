@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "S1R1US.ai",
+  "url": "https://s1r1us.ai/",
+  "sameAs": [
+    "https://x.com/S1R1US_AI",
+    "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+  ],
+  "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement \u2014 with human APPROVE and an explicit sandbox choice before anything ships."
+}
