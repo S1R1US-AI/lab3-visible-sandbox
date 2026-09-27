@@ -1,12 +1,21 @@
 # Soft-launch brand lock (human 2026-09-27)
 
-## Site chrome
-- Logo: https://s1r1us.ai/icon-512.png (`icon-512.png`) — from live brand.txt
-- Favicon: https://s1r1us.ai/favicon.svg (+ ico / 48 / apple-touch)
-- Do not invent a new site mark for the front door
+## HARD LOCK — site chrome (NEVER overwrite)
 
-## Homepage feature representation (HUMAN LOCK)
-Use the **menu logos we designed** (Lab 3 APPROVED 01–06) on the homepage to represent each bot’s features — not abstract icons, not Godzilla-as-bot-stand-in.
+| Surface | Mark | Pack wiring | Rule |
+| --- | --- | --- | --- |
+| **Site logo** | **Godzilla dragon** (official S1R1US mark) | `images/icon-512.png` (from live `https://s1r1us.ai/icon-512.png`) | **NEVER overwrite.** Header / brand identity chrome must use this mark. |
+| **Favicon** | **Same Godzilla dragon mark** | `images/favicon.svg` (+ `favicon.ico`, `favicon-48.png`, `apple-touch-icon.png` from live brand) | **NEVER overwrite.** Do not substitute bot art or new generated marks. |
+
+Homepage theme **MUST** include this Godzilla site logo in chrome (header / brand identity).
+
+Remediation / redesign PRs **preserve** this lock. Scrub SVG `<title>`/`<desc>` metadata only when Security requires (no “trading bots” / “bitcoin accumulation”); do **not** replace the mark geometry or swap the PNG/ICO set for bot avatars.
+
+Godzilla JPGs in the source brand pack (`S1R1US-Godzilla-Logo.jpg`, etc.) are **reference** for the same site identity; primary chrome assets remain `icon-512` + favicon set from official live brand only.
+
+## SEPARATE — Research Studio 01–06 bot marks
+
+01–06 menu marks are **not** the site logo. Redesign (charcoal/gold/teal drafts → human APPROVE → Distrobi place) applies **only** to `images/bots/*`. That work **must not** replace site logo or favicon.
 
 | Menu | Bot | Feature lane on home | Asset stem |
 | --- | --- | --- | --- |
@@ -21,3 +30,4 @@ Alt/title = bot names without the word "logo".
 7/8/9-B0T stay separate (leet + SEO); not these six menu cards.
 Hello World = human-owned.
 Public X = @S1R1US_AI only.
+Live homepage = **HOLD**.

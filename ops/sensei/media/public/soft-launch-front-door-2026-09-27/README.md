@@ -16,7 +16,7 @@ Covers soft-launch brief slices **D1–D10** (front-end): homepage shell, theme 
 
 ## Brand lock (human 2026-09-27)
 
-Official site chrome + APPROVED menu logos — **no abstract / geometric placeholders**, no Godzilla-as-bot-stand-in.
+Site chrome = **Godzilla dragon** (`icon-512` + favicon) — **NEVER overwrite**. Research Studio 01–06 marks are **separate** (no bot art as site logo; no Godzilla-as-bot-stand-in).
 
 | Asset | Path in pack |
 | --- | --- |
@@ -25,7 +25,7 @@ Official site chrome + APPROVED menu logos — **no abstract / geometric placeho
 | 01–06 menu logos | `images/bots/*-logo-card.png` (+ medium) |
 | Brand lock note | `BRAND-LOCK-2026-09-27.md` |
 
-Godzilla JPGs in the source brand pack are **reference only**. Primary chrome = icon-512 + favicon.
+**HARD LOCK:** Godzilla dragon = site logo + favicon (NEVER overwrite). Source JPGs = same identity reference. Primary chrome = live `icon-512` + favicon set only.
 
 Companion public timeline DRAFT (SEO / D8 paste stock): Lab 3 **PR #24** — https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/24
 
