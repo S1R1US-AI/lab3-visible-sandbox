@@ -9,7 +9,7 @@
 1. **Standards / definitions first** — [D1](./media/D1-standards-first.md)  
    GLOSSARY **a+b+c** + **Team Boolean**. Sensei: PASS/HOLD/FAIL. Security: SECURE/HOLD/FAIL. HOLD ≠ FAIL. Neither rewrites the other’s words.
 2. **Roles / lanes** — [D3](./media/D3-roles-lanes.md)  
-   01 Security · 02 Sensei · 03 Distrobi · 04 Grok · 05 Steward · 06 Dream Talk (**overwatch only**).
+   01 Dream Talk (**overwatch only**) · 02 Sensei Security (controls) · 03 Sensei Bot (standards) · 04 Lab 3 Desk Steward (mandate) · 05 Distrobi (public/soft-launch) · 06 Grok Bot (Lab 3 builder).
 3. **Approve** — [D4](./media/D4-approve-loop.md)  
    propose → Sensei meaning → Security → Steward (if mandate) → **human APPROVE** → merge. No silent merge.
 4. **Sandbox map** — [D2](./media/D2-sandbox-map.md)  
@@ -51,14 +51,16 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 ## Bot visual identity (menu logos) — 2026-09-27
 
+**Menu order (oversight-first):** 01 Dream Talk · 02 Sensei Security · 03 Sensei Bot · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Ids unchanged; APPROVED status + filenames unchanged.
+
 **Human APPROVED all six menu logos 2026-09-27.**
 
-- **01 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original). Asset: Grok Bot media `sensei-security-avatar.png`.
-- **02 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Asset: Grok Bot media `sensei-bot-avatar.png`.
-- **03 Distrobi** — menu logo **APPROVED** 2026-09-27: cosmic soft-launch / distribution emblem (original). Asset: Grok Bot media `distrobi-bot-avatar.png`.
-- **04 Grok Bot** — menu logo **APPROVED** 2026-09-27: geometric builder-researcher mark (original). Asset: Grok Bot media `grok-bot-avatar.png`.
-- **05 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Asset: Grok Bot media `desk-steward-avatar.png`.
-- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- **01 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- **02 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original); controls. Asset: Grok Bot media `sensei-security-avatar.png`.
+- **03 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic); standards. Asset: Grok Bot media `sensei-bot-avatar.png`.
+- **04 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset); mandate. Asset: Grok Bot media `desk-steward-avatar.png`.
+- **05 Distrobi** — menu logo **APPROVED** 2026-09-27: cosmic soft-launch / distribution emblem (original); public/soft-launch. Asset: Grok Bot media `distrobi-bot-avatar.png`.
+- **06 Grok Bot** — menu logo **APPROVED** 2026-09-27: geometric builder-researcher mark (original); Lab 3 builder. Asset: Grok Bot media `grok-bot-avatar.png`.
 - Lab 3 docs **cite** these; do **not** commit huge binary logos into git on this PR unless already policy.
 
 ## Related

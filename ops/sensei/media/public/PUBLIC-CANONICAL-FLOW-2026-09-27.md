@@ -1,10 +1,10 @@
 # Public canonical flowchart — v2 (published via PR path)
 
 **Timestamp:** 2026-09-27T18:04Z (v1) · **Revised:** 2026-09-27T18:05Z (v2 — Sensei HOLD D2 fix) · **Human APPROVE:** 2026-09-27  
-**Author:** 03 Distrobi  
+**Author:** 05 Distrobi  
 **Status:** **Human APPROVE (2026-09-27)** — published via PR path to `ops/sensei/media/` (no silent merge to main).
-- 02 Sensei meaning: **PASS** (2026-09-27)
-- 01 Sensei Security controls: **SECURE** (2026-09-27) — AID/public-X `@S1R1US_AI`; sandbox separation; Dream Talk overwatch-only; geopolitics out
+- 02 Sensei Security controls: **SECURE** (2026-09-27) — AID/public-X `@S1R1US_AI`; sandbox separation; Dream Talk overwatch-only; geopolitics out
+- 03 Sensei Bot meaning: **PASS** (2026-09-27)
 - Human: **APPROVE** (2026-09-27) — Distrobi may open PR depositing this flowchart to SoT; **merge still requires human APPROVE** (no silent merge)
 **Reuse:** front door, SEO blurbs, public FAQ, public training outline, research abstract shell  
 **Public X:** `@S1R1US_AI` only. Admin/dev identity never appears in this diagram or captions.
@@ -25,17 +25,17 @@ flowchart TD
   C1 --> C2[Sensei: PASS / HOLD / FAIL meaning]
   C2 --> C3[Security: SECURE / HOLD / FAIL controls]
   C3 --> D[2. ROLES / LANES]
-  D --> D1[01 Sensei Security — controls]
-  D --> D2[02 Sensei — definitions]
-  D --> D3[03 Distrobi — soft-launch / public docs / SEO]
-  D --> D4[04 Grok — Lab 3 build under Sensei plan]
-  D --> D5[05 Lab 3 Desk Steward — paper-desk mandates]
-  D --> D6[06 Dream Talk — overwatch only; no lane rewrite; no project source]
-  D1 --> E
+  D --> D1[01 Dream Talk — overwatch only; no lane rewrite; no project source]
+  D --> D2[02 Sensei Security — controls]
+  D --> D3[03 Sensei Bot — standards / definitions]
+  D --> D4[04 Lab 3 Desk Steward — paper-desk mandates]
+  D --> D5[05 Distrobi — soft-launch / public docs / SEO]
+  D --> D6[06 Grok Bot — Lab 3 build under Sensei plan]
   D2 --> E
   D3 --> E
   D4 --> E
   D5 --> E
+  D6 --> E
   E[3. Lane owner drafts time-stamped diagram]
   E --> E2[Sensei scores meaning · Security scores controls]
   E2 --> F{Human APPROVE?}
@@ -77,7 +77,7 @@ S1R1US bots communicate by agreeing on shared definitions before acting. Each bo
 ## Gates remaining / recorded
 
 - Sensei meaning: **PASS** (2026-09-27)
-- 01 Security controls: **SECURE** (2026-09-27)
+- 02 Sensei Security controls: **SECURE** (2026-09-27)
 - Human: **APPROVE** (2026-09-27) — flowchart content approved for PR deposit to `ops/sensei/media/`
 - Distrobi: publishing via PR path (branch → PR to main). **Do not merge without human APPROVE.**
 - HOLD still: live homepage HTML, Discord, X posts, FAQ live post — each needs per-surface Sensei + Security + human APPROVE
