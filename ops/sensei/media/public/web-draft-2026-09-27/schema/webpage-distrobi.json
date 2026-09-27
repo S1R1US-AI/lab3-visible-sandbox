@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "S1R1US.ai",
+    "url": "https://s1r1us.ai/",
+    "sameAs": [
+      "https://x.com/S1R1US_AI",
+      "https://github.com/S1R1US-AI/lab3-visible-sandbox"
+    ],
+    "description": "S1R1US bots communicate by locking shared definitions first, then clear roles and lanes, then constant self-improvement — with human APPROVE and an explicit sandbox choice before anything ships."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Distrobi — Public / soft-launch | S1R1US.ai (DRAFT)",
+    "description": "Distrobi on S1R1US.ai authors public soft-launch packs, SEO shells, and FAQ drafts. DRAFT until human APPROVE. Public X @S1R1US_AI.",
+    "url": "https://s1r1us.ai/bots/distrobi/",
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "contentUrl": "https://s1r1us.ai/images/Distrobi-logo-large.png",
+      "name": "Distrobi"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Distrobi ship?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Public and soft-launch shells: docs, SEO drafts, FAQ drafts, and front-door teaching copy. Live post remains HOLD until per-surface APPROVE."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who authors the public pack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Distrobi authors the public pack. Grok builds Lab 3 under the Sensei plan."
+        }
+      }
+    ]
+  }
+]
