@@ -43,3 +43,7 @@ Summary of Sensei Bot App baseline items (detail in [`ops/sensei/ROADMAP.md`](..
 - Logic / workflow Mermaid diagrams (`ops/sensei/flows/`)
 - Sensei version functionality + baseline for all future S1R1US projects
 - Never sell / never short / Coinbase create locked / no FAQ by agent / no size picking by agent (unchanged)
+
+## Sensei Bot App (living)
+
+See [`ops/sensei/ROADMAP.md`](../ops/sensei/ROADMAP.md) and canonical bot workflow [`ops/sensei/flows/07-lab3-bot-workflow.md`](../ops/sensei/flows/07-lab3-bot-workflow.md).

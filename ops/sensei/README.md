@@ -68,3 +68,9 @@ Prefer Mermaid in `ops/sensei/flows/` for current process.
 - Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md` (**on `main`**, PR #6)
 - Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
 - Historical checkpoint-141 note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
+
+## 2026-09-27 updates
+
+- Canonical handoff: [flows/07-lab3-bot-workflow.md](./flows/07-lab3-bot-workflow.md)
+- [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md)
+- Outer: [`score-patch.mjs`](../outer-jev/score-patch.mjs) on main (PR #10)

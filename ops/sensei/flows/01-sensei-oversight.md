@@ -1,6 +1,6 @@
 # 01 — Sensei oversight of other bots
 
-Sensei Bot oversees standards adherence across S1R1US bots. It does not replace Desk Steward mandate inventory or user APPROVE.
+Sensei Bot oversees standards adherence across S1R1US bots. It does not replace Desk Steward mandate inventory or user APPROVE. Skill: **lab-3-sensei-workflow**. Canonical sequence: [07-lab3-bot-workflow](./07-lab3-bot-workflow.md).
 
 ```mermaid
 flowchart TB
@@ -17,7 +17,7 @@ flowchart TB
   end
 
   subgraph Gates
-    J[Outer Jev ops/outer-jev]
+    J["Outer Jev: hard rules + scan-runtime + optional score-patch"]
     ST[Desk Steward mandate audit]
     U[User APPROVE]
   end
@@ -31,7 +31,7 @@ flowchart TB
   AD -->|PASS provisional| J
   AD -->|HOLD / FAIL| X[Stop — no merge]
   J -->|clear| ST
-  J -->|HOLD| X
+  J -->|HOLD / FAIL| X
   ST -->|desk OK / N/A| U
   ST -->|mandate FAIL| X
   U -->|APPROVE| M[Merge allowed]
@@ -42,4 +42,5 @@ flowchart TB
 
 - Sensei id: `d40cd9e7-579d-4fc6-b860-60143c9d0b42`
 - Paper Lab 3 only until a new project inherits the package
-- See [BOT-INTERFACE.md](../BOT-INTERFACE.md)
+- Outer Jev: `scan-runtime.mjs` always; `score-patch.mjs` when key present (PR #10)
+- See [BOT-INTERFACE.md](../BOT-INTERFACE.md) · [INSTRUMENTATION.md](../INSTRUMENTATION.md)
