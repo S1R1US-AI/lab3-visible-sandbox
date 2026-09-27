@@ -22,18 +22,24 @@ AUTO does not fire a sleeve add. No key means HOLD. Paper only.
 | Drift / security locks | `src/lib/drift-lock.ts`, `src/lib/shared-security.ts` | yes |
 | Outer questions | `ops/outer-jev/QUESTIONS.md` | no |
 | Leak scanner | `ops/outer-jev/scan-runtime.mjs` | no |
+| Patch scorer (optional) | `ops/outer-jev/score-patch.mjs` | no |
 | Operator key | `$TYPESAFE_API_KEY` in the operator home / shell | no |
 
 Do not put `TYPESAFE_API_KEY` in this repo. Do not invent a key.
+Do not use OpenJev or other stand-ins.
 
 ## Operator steps
 
 1. Keep the key in the operator environment only:
    `export TYPESAFE_API_KEY=...`  (from TypeSafe, never committed)
+   Optional gateway (same System One shape):
+   `export TYPESAFE_BASE_URL=https://openrouter.ai/api` (or Vercel AI Gateway / Cloudflare)
 2. Before a patch lands on `main`, run:
    `node ops/outer-jev/scan-runtime.mjs`
    Fail means Jev leaked back into `src/`. Do not merge.
-3. If a key is present, score the *patch / coding agent* with the questions in QUESTIONS.md.
+3. If a key is present, score the *patch / coding agent*:
+   `node ops/outer-jev/score-patch.mjs --state state.json`
+   Four atomic nouls in one `/v1/systemone` call (see QUESTIONS.md).
    Cutoff 0.70. Under cutoff = HOLD. No key = HOLD / do not merge.
 4. Hard rules run with no model at all:
    - never add a sell tool
