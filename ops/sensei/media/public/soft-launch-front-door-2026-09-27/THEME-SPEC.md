@@ -67,3 +67,13 @@ Defined in `css/theme.css`:
 ---
 
 *D2 theme swap spec · Distrobi · 2026-09-27 · NO LIVE*
+
+## Per-bot Research Studio framing (2026-09-27 theme align)
+
+Homepage theme follows each **official menu logo** by name:
+- Cards use official `*-logo.png` (Godzilla site chrome unchanged)
+- Circular frames for Dream Talk / Sensei Security / Sensei Bot / Desk Steward character marks
+- Squircle frames for Distrobi / Grok Bot APPROVED v2 marks
+- Accent border/glow sampled from each mark — studio chrome does not override the logo
+
+Live HOLD. No third-party artist attribution in copy.
