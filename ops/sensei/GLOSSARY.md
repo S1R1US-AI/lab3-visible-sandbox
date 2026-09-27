@@ -74,6 +74,19 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 | **PASS** | Change or audit meets glossary, roadmap, locks, and checkable evidence. |
 | **HOLD** | Stop merge / stop action until missing key, APPROVE, scan, or clarification is resolved. |
 | **FAIL** | Violates mandate, architecture, locks, or glossary (including operational drift with green tests). |
+| **Team Boolean contract** | Human ↔ bots contract for interpreting statements and assigning verdicts; see [Team Boolean contract (human ↔ bots)](#team-boolean-contract-human--bots). |
+
+---
+
+## Team Boolean contract (human ↔ bots)
+
+- Boolean basics (true/false, and/or/not) are assumed known to bots.
+- This term defines how S1R1US bots treat human statements while building OSS under shared standards.
+- Clear true/false human statement → act with scoped verdict (Sensei: PASS/FAIL for meaning; Security Sensei: SECURE/FAIL for controls).
+- Unclear, mixed, or illogical human statement → HOLD, pause, ask human to clarify. Never invent a ship.
+- HOLD ≠ FAIL (unknown is not denied).
+- Sensei owns mission meaning vocabulary (PASS/HOLD/FAIL). Security Sensei owns security vocabulary (SECURE/HOLD/FAIL). Neither rewrites the other’s words.
+- Every bot’s duty: understand the human; if not understood → pause and ask.
 
 ---
 
