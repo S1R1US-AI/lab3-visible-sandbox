@@ -35,8 +35,8 @@ timeline
       Bot workflow 07  : propose Sensei Jev Steward APPROVE
     section Next
       Sensei version   : living ROADMAP + Steward audits
-      Patch discipline : scan-runtime + score-patch every PR
-      Admin media      : refresh retired 01:43 Jev labels
+      Patch discipline : scan:jev + score:patch every PR
+      Admin media      : RETIRED-LABELS hold (no PNG regen)
     section Later
       New S1R1US projects inherit ops/sensei package
     section Never on this desk
@@ -71,13 +71,14 @@ Inherited from Lab 3 sandbox chats, ROADMAP-141, and Checkpoint 152 (`24b80a6`):
 
 ## Next — paper hardening
 
-- `[~]` Keep `node ops/outer-jev/scan-runtime.mjs` (and `npm run scan:jev` when scripted) on every proposed patch
-- `[~]` When key present: `node ops/outer-jev/score-patch.mjs --state state.json` (cutoff 0.70); missing key = HOLD
+- `[x]` `npm run scan:jev` scripts `node ops/outer-jev/scan-runtime.mjs` — keep running on every proposed patch
+- `[x]` `npm run score:patch` scripts `node ops/outer-jev/score-patch.mjs` (pass `-- --state state.json`; needs TypeSafe key)
+- `[~]` When key present: `npm run score:patch -- --state state.json` (cutoff 0.70); missing key = HOLD
 - `[~]` Optional TypeSafe key only in operator home (`~/.s1r1us/outer-jev.env`); never commit; never OpenJev
-- `[~]` Refresh Library / `public/admin-media` figures that still show retired 01:43 `jevScope` / `sleeve_add_allowed` labels (historical art)
-- `[ ]` Sensei **version functionality** — treat this ROADMAP + glossary as the citeable Sensei version for audits
+- `[~]` Admin-media PNG refresh HOLD — see [`public/admin-media/RETIRED-LABELS.md`](../../public/admin-media/RETIRED-LABELS.md) (01:43 `jevScope` / `sleeve_add_allowed` figures are historical only; current contract `jevOutsideApp` 100 + outer score-patch; do not replace binary art unless easy)
+- `[x]` Sensei **version functionality** — cite this ROADMAP + [`GLOSSARY.md`](./GLOSSARY.md) as the Sensei version for audits
 - `[ ]` Desk Steward + Sensei joint audits using ADMIN-DETAIL templates on every non-trivial PR
-- `[ ]` Ensure root README and checkpoints always point at `ops/sensei/ROADMAP.md` as the living Sensei roadmap
+- `[x]` Root README and checkpoints point at `ops/sensei/ROADMAP.md` as the living Sensei roadmap
 
 ---
 
@@ -126,13 +127,17 @@ Skill: `lab-3-sensei-workflow`. Roles: Sensei standards · Grok builds · Stewar
 
 | Item | Status |
 | --- | --- |
-| Sensei version functionality | Next / cite this ROADMAP |
+| Sensei version functionality | **Now** — cite this ROADMAP + GLOSSARY |
 | Sensei Bot App as baseline for all future projects | Now (Lab 3 first); Later (others) |
 | Sensei oversights standards; interfaces other bots | Now |
 | Full admin detail visibility protocol | Now |
 | Logic / workflow Mermaid flows under `ops/sensei/flows/` | Now |
 | Preserve ROADMAP-141 content; pointer + Sensei bullet list | Now (`checkpoints/ROADMAP-141.md`) |
 | Checkpoint 152 desk + `ops/outer-jev/` on main | **Now** — [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) (`24b80a6`) |
+| Outer `score-patch.mjs` | **Now** — [PR #10](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/10) (`5346feb`) |
+| Canonical bot workflow `flows/07` | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [flows/07](./flows/07-lab3-bot-workflow.md) |
+| SEARCH-SCHEMA + INSTRUMENTATION | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) |
+| `npm run scan:jev` / `score:patch` scripts | **Now** — package.json (this cleanup) |
 
 ---
 

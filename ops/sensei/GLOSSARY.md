@@ -65,6 +65,7 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 | **outer Jev** | Operator hook under `ops/outer-jev/`. Scores *patches / coding agents*, not the live tape. Not imported by `src/`. **On `main` as of PR #6.** |
 | **jevOutsideApp** | Architecture score / contract: Jev remains outside the running app (`jevOutsideApp: 100` at Checkpoint 152). In-src Jev callers are drift. **In force on `main`.** |
 | **scan-runtime** | `ops/outer-jev/scan-runtime.mjs` — fails if Jev leaked back into `src/`. Run before merge. |
+| **score-patch** | `ops/outer-jev/score-patch.mjs` — optional outer patch scorer (four atomic nouls / one System One call; needs `--state` + TypeSafe key; cutoff 0.70; PR #10). Missing key = HOLD. |
 | **No TypeSafe key = HOLD** | Optional key only in operator env (`~/.s1r1us/outer-jev.env` / `$TYPESAFE_API_KEY`). Missing key → do not merge. Never commit keys. |
 | **never-sell** | Hard lock: no sell tool, no sell path, no “sell the stack” behavior on this desk. |
 | **never short** | Hard lock: no shorting path. |

@@ -18,7 +18,9 @@
     "check:auth": "node scripts/check-auth-invariant.mjs",
     "test": "node --test 'scripts/**/*.test.mjs' && node --experimental-strip-types --test src/lib/app-data/app-data.test.ts src/lib/app-data/readiness-schedule.test.ts src/lib/auth/gate-identity.test.ts src/lib/auth/sign-in-gate.test.ts",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "scan:jev": "node ops/outer-jev/scan-runtime.mjs",
+    "score:patch": "node ops/outer-jev/score-patch.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.4",
