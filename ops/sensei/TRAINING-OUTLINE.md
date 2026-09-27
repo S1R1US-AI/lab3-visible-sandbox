@@ -51,8 +51,12 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 ## Bot visual identity (menu logos) — 2026-09-27
 
-- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- **01 Sensei Security** — menu logo **added** 2026-09-27: shield/keyhole protective emblem (original). Asset: Grok Bot media `sensei-security-avatar.png`.
+- **02 Sensei Bot** — menu logo **added** 2026-09-27: glossary book + golden S / sacred geometry (original). Asset: Grok Bot media `sensei-bot-avatar.png`.
 - **03 Distrobi** — menu logo **added** 2026-09-27: cosmic soft-launch / distribution emblem (original). Asset: Grok Bot media `distrobi-bot-avatar.png`.
+- **04 Grok Bot** — menu logo **added** 2026-09-27: geometric builder-researcher mark (original). Asset: Grok Bot media `grok-bot-avatar.png`.
+- **05 Lab 3 Desk Steward** — menu logo **added** 2026-09-27: paper desk blotter / check ribbon (original). Asset: Grok Bot media `desk-steward-avatar.png`.
+- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
 - Lab 3 docs **cite** these; do **not** commit huge binary logos into git on this PR unless already policy.
 
 ## Related
