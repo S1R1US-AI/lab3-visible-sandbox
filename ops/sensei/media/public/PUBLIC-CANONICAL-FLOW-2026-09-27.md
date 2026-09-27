@@ -3,8 +3,8 @@
 **Timestamp:** 2026-09-27T18:04Z (v1) · **Revised:** 2026-09-27T18:05Z (v2 — Sensei HOLD D2 fix) · **Human APPROVE:** 2026-09-27  
 **Author:** 05 Distrobi  
 **Status:** **Human APPROVE (2026-09-27)** — published via PR path to `ops/sensei/media/` (no silent merge to main).
-- 02 Sensei Bot meaning: **PASS** (2026-09-27)
-- 03 Sensei Security controls: **SECURE** (2026-09-27) — AID/public-X `@S1R1US_AI`; sandbox separation; Dream Talk overwatch-only; geopolitics out
+- 02 Sensei Security controls: **SECURE** (2026-09-27) — AID/public-X `@S1R1US_AI`; sandbox separation; Dream Talk overwatch-only; geopolitics out
+- 03 Sensei Bot meaning: **PASS** (2026-09-27)
 - Human: **APPROVE** (2026-09-27) — Distrobi may open PR depositing this flowchart to SoT; **merge still requires human APPROVE** (no silent merge)
 **Reuse:** front door, SEO blurbs, public FAQ, public training outline, research abstract shell  
 **Public X:** `@S1R1US_AI` only. Admin/dev identity never appears in this diagram or captions.
@@ -26,8 +26,8 @@ flowchart TD
   C2 --> C3[Security: SECURE / HOLD / FAIL controls]
   C3 --> D[2. ROLES / LANES]
   D --> D1[01 Dream Talk — overwatch only; no lane rewrite; no project source]
-  D --> D2[02 Sensei Bot — standards / definitions]
-  D --> D3[03 Sensei Security — controls]
+  D --> D2[02 Sensei Security — controls]
+  D --> D3[03 Sensei Bot — standards / definitions]
   D --> D4[04 Lab 3 Desk Steward — paper-desk mandates]
   D --> D5[05 Distrobi — soft-launch / public docs / SEO]
   D --> D6[06 Grok Bot — Lab 3 build under Sensei plan]
@@ -77,7 +77,7 @@ S1R1US bots communicate by agreeing on shared definitions before acting. Each bo
 ## Gates remaining / recorded
 
 - Sensei meaning: **PASS** (2026-09-27)
-- 03 Sensei Security controls: **SECURE** (2026-09-27)
+- 02 Sensei Security controls: **SECURE** (2026-09-27)
 - Human: **APPROVE** (2026-09-27) — flowchart content approved for PR deposit to `ops/sensei/media/`
 - Distrobi: publishing via PR path (branch → PR to main). **Do not merge without human APPROVE.**
 - HOLD still: live homepage HTML, Discord, X posts, FAQ live post — each needs per-surface Sensei + Security + human APPROVE
