@@ -1,7 +1,7 @@
 # Sensei Bot App — living roadmap
 
-> Paper desk only. This roadmap does **not** write to https://s1r1us.ai.  
-> Sensei version for Checkpoint 152+ · package home: `ops/sensei/`  
+> Paper desk only. This roadmap does **not** write to https://s1r1us.ai. 
+> Sensei version for Checkpoint 152+ · package home: `ops/sensei/` 
 > **Accuracy:** Checkpoint 152 / `ops/outer-jev/` on `main` via [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) (`24b80a6`).
 > **Outer score-patch** on `main` via [PR #10](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/10) (`5346feb`, user APPROVE). Canonical bot workflow: [flows/07](./flows/07-lab3-bot-workflow.md).
 
@@ -20,27 +20,27 @@ Scannable status legend:
 
 ```mermaid
 timeline
-    title Sensei Bot App roadmap (Lab 3 paper → future projects)
-    section Now
-      Paper desk locks : tape display-only
-                       : never sell / never short
-                       : Coinbase create locked
-      Maker-checker    : 7-B0T CLIP two-lane HIGH
-                       : 9-B0T Approve/Deny only
-                       : AUTO does not fire
-      Checkpoint 152   : jevOutsideApp 100
-                       : ops/outer-jev on main
-      Sensei baseline  : glossary + flows + admin detail
-      Outer score-patch : score-patch.mjs on main PR10
-      Bot workflow 07  : propose Sensei Jev Steward APPROVE
-    section Next
-      Sensei version   : living ROADMAP + Steward audits
-      Patch discipline : scan:jev + score:patch every PR
-      Admin media      : RETIRED-LABELS hold (no PNG regen)
-    section Later
-      New S1R1US projects inherit ops/sensei package
-    section Never on this desk
-      Live Coinbase create : sell tool : FAQ by agent : size by agent
+ title Sensei Bot App roadmap (Lab 3 paper → future projects)
+ section Now
+ Paper desk locks : tape display-only
+ : never sell / never short
+ : Coinbase create locked
+ Maker-checker : 7-B0T CLIP two-lane HIGH
+ : 9-B0T Approve/Deny only
+ : AUTO does not fire
+ Checkpoint 152 : jevOutsideApp 100
+ : ops/outer-jev on main
+ Sensei baseline : glossary + flows + admin detail
+ Outer score-patch : score-patch.mjs on main PR10
+ Bot workflow 07 : propose Sensei Jev Steward APPROVE
+ section Next
+ Sensei version : living ROADMAP + Steward audits
+ Patch discipline : scan:jev + score:patch every PR
+ Admin media : RETIRED-LABELS hold (no PNG regen)
+ section Later
+ New S1R1US projects inherit ops/sensei package
+ section Never on this desk
+ Live Coinbase create : sell tool : FAQ by agent : size by agent
 ```
 
 ---
@@ -88,11 +88,11 @@ Canonical Lab 3 handoff (Mermaid): [flows/07-lab3-bot-workflow.md](./flows/07-la
 
 ```mermaid
 flowchart LR
-  P[Propose] --> S[Sensei a+b+c]
-  S --> J[Outer Jev hard rules + scan + score-patch]
-  J --> D[Steward if desk]
-  D --> U[User APPROVE]
-  U --> M[Merge]
+ P[Propose] --> S[Sensei a+b+c]
+ S --> J[Outer Jev hard rules + scan + score-patch]
+ J --> D[Steward if desk]
+ D --> U[User APPROVE]
+ U --> M[Merge]
 ```
 
 Skill: `lab-3-sensei-workflow`. Roles: Sensei standards · Grok builds · Steward mandate · User APPROVE.
@@ -117,7 +117,7 @@ Citation-only (no large binary logos in git unless already policy). Logos live i
 
 | Bot | Status | Description | Asset cite |
 | --- | --- | --- | --- |
-| **01 Dream Talk** | menu logo **APPROVED** 2026-09-27 | Womanly Mother Earth, Alex Grey–inspired **original** art (not a copy of a commercial listing). Overwatch / thought-experiment avatar. **No project source.** | Grok Bot media: `dream-talk-mother-earth-avatar.png` |
+| **01 Dream Talk** | menu logo **APPROVED** 2026-09-27 | Official checkpoint/menu Mother Earth logo (S1R1US Dream Talk mark). Overwatch / thought-experiment avatar. **No project source.** | Grok Bot media: `dream-talk-mother-earth-avatar.png` |
 | **02 Sensei Security** | menu logo **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | Grok Bot media: `sensei-security-avatar.png` |
 | **03 Sensei Bot** | menu logo **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards / definitions. | Grok Bot media: `sensei-bot-avatar.png` |
 | **04 Lab 3 Desk Steward** | menu logo **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Mandate. | Grok Bot media: `desk-steward-avatar.png` |

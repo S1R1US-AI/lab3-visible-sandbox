@@ -2,7 +2,7 @@
 
 **Pack:** `ops/sensei/media/public/soft-launch-front-door-2026-09-27/`  
 **Date:** 2026-09-27  
-**Status:** DRAFT deposit · Theme mock v1 APPROVED · **NO LIVE ship**
+**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) + Security **SECURE** on `f5af0e3` · human APPROVE per surface still required · **NO LIVE ship**
 
 Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
@@ -64,3 +64,25 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 ---
 
 *Distrobi packaging checklist · 2026-09-27 · DRAFT only · NO LIVE*
+
+---
+
+## Security HOLD remediation (2026-09-27)
+
+| Item | Action |
+| --- | --- |
+| Canonical / `og:url` → live | **Withheld** while DRAFT — see `DEPLOY-GUARDS.md` |
+| `noindex,nofollow` | Retained |
+| Serve-live lock | Documented; `s1r1us:deploy-guard` meta present |
+| `favicon.svg` metadata | Scrubbed — no “trading bots” / “bitcoin accumulation” language |
+
+**Distrobi PACKAGING PASS** · Sensei **PASS** · Security **SECURE** (all on tip `f5af0e3` DRAFT). Live homepage still **HOLD** until human APPROVE per surface.
+
+## Mark APPROVE placement (2026-09-27)
+
+- [x] 01–04 KEEP menu official (Dream Talk / Sensei Security / Sensei Bot / Desk Steward)
+- [x] 05 Distrobi + 06 Grok REPLACE with human-APPROVED v2 charcoal/gold/teal
+- [x] Godzilla `icon-512` + favicon geometry preserved; favicon metadata Security-scrubbed
+- [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + Team Boolean)
+- [x] Security **SECURE** on tip `f5af0e3` (DRAFT pack only — not live clearance)
+- Live **HOLD**

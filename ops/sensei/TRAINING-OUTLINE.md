@@ -1,21 +1,21 @@
 # Sensei / Grok — private training outline
 
-**Status:** Private ops outline · 2026-09-27 · **not** public FAQ · **not** live s1r1us.ai  
-**SoT diagrams:** [media/INDEX.md](./media/INDEX.md) (D1–D5)  
+**Status:** Private ops outline · 2026-09-27 · **not** public FAQ · **not** live s1r1us.ai 
+**SoT diagrams:** [media/INDEX.md](./media/INDEX.md) (D1–D5) 
 **Audience:** Sensei, Grok, Security, Steward, Distrobi (lane-aware). Dream Talk: overwatch awareness only.
 
 ## Core story (locked order)
 
-1. **Standards / definitions first** — [D1](./media/D1-standards-first.md)  
-   GLOSSARY **a+b+c** + **Team Boolean**. Sensei: PASS/HOLD/FAIL. Security: SECURE/HOLD/FAIL. HOLD ≠ FAIL. Neither rewrites the other’s words.
-2. **Roles / lanes** — [D3](./media/D3-roles-lanes.md)  
-   01 Dream Talk (**overwatch only**) · 02 Sensei Security (controls) · 03 Sensei Bot (standards) · 04 Lab 3 Desk Steward (mandate) · 05 Distrobi (public/soft-launch) · 06 Grok Bot (Lab 3 builder).
-3. **Approve** — [D4](./media/D4-approve-loop.md)  
-   propose → Sensei meaning → Security → Steward (if mandate) → **human APPROVE** → merge. No silent merge.
-4. **Sandbox map** — [D2](./media/D2-sandbox-map.md)  
-   Lab 3 paper (post-login) / live homepage (pre-login) / mobile — **separate tracks**. Ship only to the matching sandbox after APPROVE.
-5. **Self-improve** — [D5](./media/D5-self-improve.md)  
-   Bot learns inside its lane. No rewrite of peer verdicts. Unclear → HOLD and ask.
+1. **Standards / definitions first** — [D1](./media/D1-standards-first.md) 
+ GLOSSARY **a+b+c** + **Team Boolean**. Sensei: PASS/HOLD/FAIL. Security: SECURE/HOLD/FAIL. HOLD ≠ FAIL. Neither rewrites the other’s words.
+2. **Roles / lanes** — [D3](./media/D3-roles-lanes.md) 
+ 01 Dream Talk (**overwatch only**) · 02 Sensei Security (controls) · 03 Sensei Bot (standards) · 04 Lab 3 Desk Steward (mandate) · 05 Distrobi (public/soft-launch) · 06 Grok Bot (Lab 3 builder).
+3. **Approve** — [D4](./media/D4-approve-loop.md) 
+ propose → Sensei meaning → Security → Steward (if mandate) → **human APPROVE** → merge. No silent merge.
+4. **Sandbox map** — [D2](./media/D2-sandbox-map.md) 
+ Lab 3 paper (post-login) / live homepage (pre-login) / mobile — **separate tracks**. Ship only to the matching sandbox after APPROVE.
+5. **Self-improve** — [D5](./media/D5-self-improve.md) 
+ Bot learns inside its lane. No rewrite of peer verdicts. Unclear → HOLD and ask.
 
 ## Dream Talk NOTE (every new roadmap / training pack)
 
@@ -42,10 +42,10 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 ## Hard outs (training must not teach)
 
-- FAQ written by an agent without human APPROVE  
-- Contested geopolitics as glossary fact  
-- Admin/dev handles in public X literature (public X = `@S1R1US_AI` only)  
-- Dream Talk as build owner or source author  
+- FAQ written by an agent without human APPROVE 
+- Contested geopolitics as glossary fact 
+- Admin/dev handles in public X literature (public X = `@S1R1US_AI` only) 
+- Dream Talk as build owner or source author 
 - Weakening never-sell / never-short / Coinbase create locked “because tests pass”
 
 
@@ -55,7 +55,7 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 **Human APPROVED all six menu logos 2026-09-27.**
 
-- **01 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- **01 Dream Talk** — menu logo **APPROVED** 2026-09-27: official checkpoint/menu Mother Earth logo (S1R1US Dream Talk mark); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
 - **02 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original); controls. Asset: Grok Bot media `sensei-security-avatar.png`.
 - **03 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic); standards. Asset: Grok Bot media `sensei-bot-avatar.png`.
 - **04 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset); mandate. Asset: Grok Bot media `desk-steward-avatar.png`.

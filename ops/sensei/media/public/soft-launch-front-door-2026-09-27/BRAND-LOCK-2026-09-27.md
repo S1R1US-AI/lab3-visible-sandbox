@@ -1,23 +1,30 @@
 # Soft-launch brand lock (human 2026-09-27)
 
-## Site chrome
-- Logo: https://s1r1us.ai/icon-512.png (`icon-512.png`) — from live brand.txt
-- Favicon: https://s1r1us.ai/favicon.svg (+ ico / 48 / apple-touch)
-- Do not invent a new site mark for the front door
+## HARD LOCK — site chrome (NEVER overwrite)
 
-## Homepage feature representation (HUMAN LOCK)
-Use the **menu logos we designed** (Lab 3 APPROVED 01–06) on the homepage to represent each bot’s features — not abstract icons, not Godzilla-as-bot-stand-in.
-
-| Menu | Bot | Feature lane on home | Asset stem |
+| Surface | Mark | Pack wiring | Rule |
 | --- | --- | --- | --- |
-| 01 | Dream Talk | Overwatch / alignment awareness | Dream-Talk-logo |
-| 02 | Sensei Security | Controls before ship | Sensei-Security-logo |
-| 03 | Sensei Bot | Standards / definitions | Sensei-Bot-logo |
-| 04 | Desk Steward | Paper-desk mandate | Desk-Steward-logo |
-| 05 | Distrobi | Public / soft-launch | Distrobi-logo |
-| 06 | Grok Bot | Lab 3 builder under Sensei plan | Grok-botlogo |
+| **Site logo** | **Godzilla dragon** (official S1R1US mark) | `images/icon-512.png` (from live `https://s1r1us.ai/icon-512.png`) | **NEVER overwrite.** Header / brand identity chrome must use this mark. |
+| **Favicon** | **Same Godzilla dragon mark** | `images/favicon.svg` (+ `favicon.ico`, `favicon-48.png`, `apple-touch-icon.png`) | **NEVER overwrite geometry.** SVG `<title>`/`<desc>` stay Security-scrubbed (no “trading bots” / “bitcoin accumulation”). Do not restore live raw metadata that fails Security. |
+
+Homepage theme **MUST** include this Godzilla site logo in chrome.
+
+## Research Studio 01–06 (human APPROVE 2026-09-27)
+
+| Menu | Bot | Verdict | Pack assets |
+| --- | --- | --- | --- |
+| 01 | Dream Talk | **KEEP** checkpoint / menu official Mother Earth logo | `Dream-Talk-logo*.png` |
+| 02 | Sensei Security | **KEEP** checkpoint / menu official | `Sensei-Security-logo*.png` |
+| 03 | Sensei Bot | **KEEP** checkpoint / menu official | `Sensei-Bot-logo*.png` |
+| 04 | Desk Steward | **KEEP** checkpoint / menu official | `Desk-Steward-logo*.png` |
+| 05 | Distrobi | **APPROVED v2** charcoal/gold/teal | `Distrobi-logo*.png` |
+| 06 | Grok Bot | **APPROVED v2** charcoal/gold/teal | `Grok-botlogo*.png` |
+
+Source record: `APPROVED-MARKS.md` (from `/workspace/soft-launch-approved-marks-2026-09-27/`). 
+Research Studio HTML uses `*-logo-medium.png` @ 160×160. Bot marks **must not** replace site logo/favicon.
 
 Alt/title = bot names without the word "logo".
-7/8/9-B0T stay separate (leet + SEO); not these six menu cards.
+7/8/9-B0T stay separate (leet + SEO).
 Hello World = human-owned.
 Public X = @S1R1US_AI only.
+Live homepage = **HOLD**.

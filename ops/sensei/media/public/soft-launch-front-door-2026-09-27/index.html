@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- DRAFT soft-launch front door — Distrobi 2026-09-27. Theme mock v1 APPROVED.
-       Brand lock: official icon-512 + favicon + APPROVED 01–06 menu logos (no geometric stand-ins).
+       HARD brand lock: Godzilla dragon = site logo + favicon (NEVER overwrite). 01–06 Research Studio marks are separate.
        Lab 3 ops media deposit only. NOT live on https://s1r1us.ai until per-surface APPROVE.
        Front-end ≠ backend desk UI. NO carbon fiber. Public X: @S1R1US_AI only.
        Dream Talk = overwatch only. Hello World hero = human-owned (D6 HOLD).
@@ -13,13 +13,16 @@
   <meta name="description" content="S1R1US.ai is a professional software studio for BTC research and paper workflows. Public surfaces include a live market-status tape and sim analyst lanes. Auto trade and Coinbase create remain LOCKED. Soft-launch front door (charcoal / gold / teal; no carbon fiber) is DRAFT only until human APPROVE. Follow @S1R1US_AI only." />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="keywords" content="S1R1US, AI Bitcoin research desk, 7-B0T, 7-bot, paper simulation, open source, Distrobi, Dream Talk, Sensei Security, Sensei Bot, Desk Steward, Grok Bot, SIM-locked" />
-  <link rel="canonical" href="https://s1r1us.ai/" />
+  <!-- DEPLOY GUARD: no live canonical while DRAFT. Production target recorded in s1r1us:production-target.
+       Do not serve this pack from https://s1r1us.ai (or any public host) without per-surface Sensei + Security + human APPROVE.
+       After APPROVE to ship, set canonical + og:url to https://s1r1us.ai/ and drop noindex. -->
+  <!-- <link rel="canonical" href="https://s1r1us.ai/" /> intentionally withheld (DRAFT) -->
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="images/favicon.ico" sizes="any" />
   <link rel="icon" href="images/favicon-48.png" type="image/png" sizes="48x48" />
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://s1r1us.ai/" />
+  <!-- og:url withheld while DRAFT (would imply live ship). Restore https://s1r1us.ai/ only after per-surface APPROVE. -->
   <meta property="og:title" content="S1R1US.ai — AI Bitcoin research desk (DRAFT)" />
   <meta property="og:description" content="S1R1US.ai is a professional software studio for BTC research and paper workflows. Auto trade and Coinbase create remain LOCKED. Soft-launch front door is DRAFT only. Follow @S1R1US_AI only." />
   <meta property="og:image" content="images/icon-512.png" />
@@ -30,15 +33,17 @@
   <meta name="twitter:description" content="Professional software studio for BTC research and paper workflows. Soft-launch front door DRAFT only. Follow @S1R1US_AI only." />
   <meta name="twitter:image" content="images/icon-512.png" />
   <meta name="s1r1us:draft" content="true" />
+  <meta name="s1r1us:deploy-guard" content="must-not-serve-live-without-per-surface-APPROVE" />
+  <meta name="s1r1us:canonical-policy" content="withheld-until-live-APPROVE" />
   <meta name="s1r1us:theme" content="studio-v1-no-carbon-fiber" />
-  <meta name="s1r1us:brand-lock" content="icon-512+favicon+menu-01-06" />
+  <meta name="s1r1us:brand-lock" content="godzilla-icon-512+favicon-NEVER-overwrite;bots-01-06-separate" />
   <meta name="s1r1us:production-target" content="https://s1r1us.ai" />
   <meta name="theme-color" content="#121619" />
   <link rel="stylesheet" href="css/theme.css" />
 </head>
 <body>
   <div class="banner" role="status">
-    DRAFT — Lab 3 ops media deposit only. Not live on https://s1r1us.ai until per-surface APPROVE. Theme mock v1 APPROVED · brand lock (icon-512 + favicon + 01–06 logos). NO MERGE / NO LIVE.
+    DRAFT — Lab 3 ops media deposit only. Not live on https://s1r1us.ai until per-surface APPROVE. Theme mock v1 APPROVED · HARD brand lock (Godzilla icon-512 + favicon NEVER overwrite; 01–06 separate). NO MERGE / NO LIVE.
   </div>
 
   <div class="wrap">
@@ -89,32 +94,32 @@
           <p class="studio-label">S1R1US.AI · Research Studio</p>
           <div class="bot-grid">
             <a class="bot-card" href="../web-draft-2026-09-27/bots/dream-talk/index.html">
-              <img src="images/bots/Dream-Talk-logo-card.png" width="72" height="72" alt="Dream Talk" title="Dream Talk" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Dream-Talk-logo-medium.png" width="160" height="160" alt="Dream Talk" title="Dream Talk" loading="lazy" /></span>
               <span class="name">Dream Talk</span>
               <span class="role">01 · Overwatch only</span>
             </a>
             <a class="bot-card" href="../web-draft-2026-09-27/bots/sensei-security/index.html">
-              <img src="images/bots/Sensei-Security-logo-card.png" width="72" height="72" alt="Sensei Security" title="Sensei Security" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Sensei-Security-logo-medium.png" width="160" height="160" alt="Sensei Security" title="Sensei Security" loading="lazy" /></span>
               <span class="name">Sensei Security</span>
               <span class="role">02 · Controls</span>
             </a>
             <a class="bot-card" href="../web-draft-2026-09-27/bots/sensei-bot/index.html">
-              <img src="images/bots/Sensei-Bot-logo-card.png" width="72" height="72" alt="Sensei Bot" title="Sensei Bot" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Sensei-Bot-logo-medium.png" width="160" height="160" alt="Sensei Bot" title="Sensei Bot" loading="lazy" /></span>
               <span class="name">Sensei Bot</span>
               <span class="role">03 · Standards</span>
             </a>
             <a class="bot-card" href="../web-draft-2026-09-27/bots/desk-steward/index.html">
-              <img src="images/bots/Desk-Steward-logo-card.png" width="72" height="72" alt="Desk Steward" title="Desk Steward" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Desk-Steward-logo-medium.png" width="160" height="160" alt="Desk Steward" title="Desk Steward" loading="lazy" /></span>
               <span class="name">Desk Steward</span>
               <span class="role">04 · Paper desk</span>
             </a>
             <a class="bot-card" href="../web-draft-2026-09-27/bots/distrobi/index.html">
-              <img src="images/bots/Distrobi-logo-card.png" width="72" height="72" alt="Distrobi" title="Distrobi" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Distrobi-logo-medium.png" width="160" height="160" alt="Distrobi" title="Distrobi" loading="lazy" /></span>
               <span class="name">Distrobi</span>
               <span class="role">05 · Soft-launch</span>
             </a>
             <a class="bot-card" href="../web-draft-2026-09-27/bots/grok/index.html">
-              <img src="images/bots/Grok-botlogo-card.png" width="72" height="72" alt="Grok Bot" title="Grok Bot" loading="lazy" />
+              <span class="logo-frame"><img src="images/bots/Grok-botlogo-medium.png" width="160" height="160" alt="Grok Bot" title="Grok Bot" loading="lazy" /></span>
               <span class="name">Grok</span>
               <span class="role">06 · Lab 3 builder</span>
             </a>

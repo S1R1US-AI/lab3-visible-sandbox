@@ -9,7 +9,7 @@
 
 ## Intent
 
-Retire **carbon fiber** from the **pre-login** homepage. Adopt a calm professional **software studio** look. Keep official **S1R1US logo + favicon** set when this DRAFT is eventually wired to live (do not replace site identity with a single bot avatar).
+Retire **carbon fiber** from the **pre-login** homepage. Adopt a calm professional **software studio** look. Keep official **Godzilla dragon** site logo + favicon (`icon-512` + favicon set) when this DRAFT is eventually wired to live — **NEVER overwrite**; do not replace site identity with bot marks or new generated art.
 
 **Canon:** front-end ≠ backend desk UI. Live build #113 / carbon baseline #68 stays a historical product skin, not the soft-launch brand.
 
@@ -49,10 +49,10 @@ Defined in `css/theme.css`:
 
 ## Keep when wiring live (future)
 
-- Official S1R1US site logo: `icon-512.png` (primary header chrome — already wired in this DRAFT)  
-- Official S1R1US favicon set (`favicon.svg`, `.ico`, 48, apple-touch)  
-- Official APPROVED 01–06 menu logos on Research Studio (already wired from brand pack)  
-- Godzilla JPGs = reference only; not bot stand-ins  
+- **HARD LOCK** Godzilla dragon site logo: `icon-512.png` (header chrome — wired; NEVER overwrite)  
+- **HARD LOCK** same mark as favicon set (`favicon.svg`, `.ico`, 48, apple-touch — NEVER overwrite)  
+- 01–06 Research Studio marks: **separate** lane (`images/bots/*`; redesign does not touch chrome)  
+- Godzilla JPGs = same site-identity reference; not bot stand-ins  
 - Official S1R1US wordmark as **site** identity (not a bot card as the sole brand)  
 - Intentional leet + plain SEO spellings (`7-B0T` + `7-bot`, etc.) elsewhere in public SEO  
 - Education / NFA / PoC disclaimers  
