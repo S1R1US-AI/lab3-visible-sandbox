@@ -57,9 +57,9 @@ Workspace practice copies may exist under agent assets; Lab 3 SoT remains citati
 - Glossary / Team Boolean: [GLOSSARY.md](../GLOSSARY.md)
 - Workspace PNG practice renders (not SoT): `/workspace/sensei-flow-exports/` (legacy flow exports 01–07)
 
-## PNG export (HOLD on this PR)
+## PNG export (binary HOLD)
 
-Mermaid `.md` / `.mmd` are **authoritative** on this branch. PNGs were rendered 2026-09-27 via `@mermaid-js/mermaid-cli` in the agent workspace (`/workspace/lab3-visible-sandbox-media/ops/sensei/media/*.png`) with SHA-256 recorded in `manifest.json`, but **binary PNG commit is HOLD** for this PR (GitHub MCP text `push_files` / `create_or_update_file` cannot land true PNG bytes; `gh` CLI not logged in for `git push`). Human can add PNGs in a follow-up with normal git auth, or regenerate:
+Mermaid `.md` / `.mmd` are **authoritative** on `main` (PR #16). PNGs were rendered 2026-09-27 via `@mermaid-js/mermaid-cli` in the agent workspace (`/workspace/lab3-visible-sandbox-media/ops/sensei/media/*.png`) with SHA-256 recorded in `manifest.json`, but **D1–D5 binary PNG commit remains HOLD**. Human can add PNGs in a follow-up with normal git auth, or regenerate:
 
 ```bash
 npx -y @mermaid-js/mermaid-cli -p /path/to/puppeteer-config.json \

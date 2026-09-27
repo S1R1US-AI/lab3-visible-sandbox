@@ -2,10 +2,10 @@
 
 **Timestamp:** 2026-09-27T18:04Z (v1) · **Revised:** 2026-09-27T18:05Z (v2 — Sensei HOLD D2 fix) · **Human APPROVE:** 2026-09-27  
 **Author:** 05 Distrobi  
-**Status:** **Human APPROVE (2026-09-27)** — published via PR path to `ops/sensei/media/` (no silent merge to main).
+**Status:** On `main` via [PR #17](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/17) (deposit APPROVE 2026-09-27). Live homepage / Discord / X reuse still **HOLD** per surface.
 - 02 Sensei Security controls: **SECURE** (2026-09-27) — AID/public-X `@S1R1US_AI`; sandbox separation; Dream Talk overwatch-only; geopolitics out
 - 03 Sensei Bot meaning: **PASS** (2026-09-27)
-- Human: **APPROVE** (2026-09-27) — Distrobi may open PR depositing this flowchart to SoT; **merge still requires human APPROVE** (no silent merge)
+- Human: **APPROVE** (2026-09-27) — deposit to SoT; landed on main via PR #17 (no silent merge)
 **Reuse:** front door, SEO blurbs, public FAQ, public training outline, research abstract shell  
 **Public X:** `@S1R1US_AI` only. Admin/dev identity never appears in this diagram or captions.
 
