@@ -52,7 +52,7 @@ Legacy desk design assets (historical layout only — 01:43 EDT stills still dra
 - `public/admin-media/S1R1US-bot-functions-flowchart.png`
 - `public/admin-media/S1R1US-full-logic-diagram.png`
 
-Prefer Mermaid in `ops/sensei/flows/` for current process.
+Prefer Mermaid in `ops/sensei/flows/` for current process. See also [`public/admin-media/RETIRED-LABELS.md`](../../public/admin-media/RETIRED-LABELS.md).
 
 ## Hard scope
 
@@ -65,7 +65,7 @@ Prefer Mermaid in `ops/sensei/flows/` for current process.
 
 ## Related ops
 
-- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `QUESTIONS.md`, `CONFIG.md` (**on `main`**, PR #6)
+- Outer Jev: [`ops/outer-jev/`](../outer-jev/) — `scan-runtime.mjs`, `score-patch.mjs`, `QUESTIONS.md`, `CONFIG.md` (**on `main`**, PR #6 / #10); npm: `scan:jev`, `score:patch`
 - Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
 - Historical checkpoint-141 note: [`checkpoints/ROADMAP-141.md`](../../checkpoints/ROADMAP-141.md)
 
