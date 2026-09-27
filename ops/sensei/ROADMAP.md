@@ -100,6 +100,39 @@ Skill: `lab-3-sensei-workflow`. Roles: Sensei standards · Grok builds · Stewar
 
 ---
 
+## Dream Talk NOTE (new roadmaps)
+
+Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thought experiment**. It is part of an experiment to align Grok bots with human principles and a search for ultimate truth. **Overwatch only** — never project source, never lane influence. Not a product build owner.
+
+Public X literature uses `@S1R1US_AI` only. Admin/dev identity never appears in public literature.
+
+
+## Bot visual identity (menu logos) — 2026-09-27
+
+Citation-only (no large binary logos in git unless already policy). Logos live in each bot’s **Grok Bot media assets**; Lab 3 docs cite them.
+
+**Human APPROVED all six menu logos 2026-09-27.**
+
+| Bot | Status | Description | Asset cite |
+| --- | --- | --- | --- |
+| **01 Sensei Security** | menu logo **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). | Grok Bot media: `sensei-security-avatar.png` |
+| **02 Sensei Bot** | menu logo **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). | Grok Bot media: `sensei-bot-avatar.png` |
+| **03 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). | Grok Bot media: `distrobi-bot-avatar.png` |
+| **04 Grok Bot** | menu logo **APPROVED** 2026-09-27 | Geometric builder-researcher mark (**original**). | Grok Bot media: `grok-bot-avatar.png` |
+| **05 Lab 3 Desk Steward** | menu logo **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). | Grok Bot media: `desk-steward-avatar.png` |
+| **06 Dream Talk** | menu logo **APPROVED** 2026-09-27 | Womanly Mother Earth, Alex Grey–inspired **original** art (not a copy of a commercial listing). Overwatch / thought-experiment avatar. **No project source.** | Grok Bot media: `dream-talk-mother-earth-avatar.png` |
+
+Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo on this PR.
+
+## Grok library media + private training (2026-09-27)
+
+- `[~]` **Grok library SoT:** [`ops/sensei/media/`](./media/INDEX.md) — D1–D5 Mermaid (standards → roles → approve → sandbox → self-improve)
+- `[~]` **Private training outline:** [`TRAINING-OUTLINE.md`](./TRAINING-OUTLINE.md)
+- `[~]` PNG exports for D1–D5 — rendered locally 2026-09-27; **HOLD** binary commit on this PR (Mermaid SoT; see media/INDEX)
+- `[x]` Sandbox-map callout — Lab 3 paper ≠ live homepage ≠ mobile (see [D2](./media/D2-sandbox-map.md))
+
+Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-map](./media/D2-sandbox-map.md) · [D3 roles-lanes](./media/D3-roles-lanes.md) · [D4 approve-loop](./media/D4-approve-loop.md) · [D5 self-improve](./media/D5-self-improve.md)
+
 ## Later — new projects
 
 - `[ ]` New S1R1US projects **inherit Sensei Bot App** (`ops/sensei/` package) before feature work
@@ -138,6 +171,8 @@ Skill: `lab-3-sensei-workflow`. Roles: Sensei standards · Grok builds · Stewar
 | Canonical bot workflow `flows/07` | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [flows/07](./flows/07-lab3-bot-workflow.md) |
 | SEARCH-SCHEMA + INSTRUMENTATION | **Now** — [PR #11](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/11) · [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) |
 | `npm run scan:jev` / `score:patch` scripts | **Now** — package.json (this cleanup) |
+| Grok library media D1–D5 + training outline | **Now** — [PR #16](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/16) · [media/](./media/INDEX.md) · [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) |
+| Bot visual identity (01–06 ALL menu logos **APPROVED** 2026-09-27) | **This PR** — citation notes only; human APPROVED all six |
 
 ---
 
@@ -145,6 +180,7 @@ Skill: `lab-3-sensei-workflow`. Roles: Sensei standards · Grok builds · Stewar
 
 - [Sensei home](./README.md) · [APP.md](./APP.md) · [GLOSSARY.md](./GLOSSARY.md) · [INSTRUCTIONS.md](./INSTRUCTIONS.md)
 - [ADMIN-DETAIL.md](./ADMIN-DETAIL.md) · [BOT-INTERFACE.md](./BOT-INTERFACE.md) · [flows](./flows/INDEX.md)
+- [media/INDEX.md](./media/INDEX.md) (D1–D5 Grok library SoT) · [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md)
 - Outer Jev: [`ops/outer-jev/`](../outer-jev/) — **on `main`** (PR #6); [`score-patch.mjs`](../outer-jev/score-patch.mjs) (PR #10)
 - [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md) · [INSTRUMENTATION.md](./INSTRUMENTATION.md) · [flows/07](./flows/07-lab3-bot-workflow.md)
 - Checkpoint 152: [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
