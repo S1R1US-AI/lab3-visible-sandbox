@@ -109,7 +109,7 @@ Public X literature uses `@S1R1US_AI` only. Admin/dev identity never appears in 
 
 ## Bot visual identity (menu logos) — 2026-09-27
 
-**Menu order (oversight-first, human reordered 2026-09-27):** 01 Dream Talk · 02 Sensei Bot · 03 Sensei Security · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Bot ids unchanged; APPROVED logo status + filenames unchanged.
+**Menu order (oversight-first, human reordered 2026-09-27):** 01 Dream Talk · 02 Sensei Security · 03 Sensei Bot · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Bot ids unchanged; APPROVED logo status + filenames unchanged.
 
 Citation-only (no large binary logos in git unless already policy). Logos live in each bot’s **Grok Bot media assets**; Lab 3 docs cite them.
 
@@ -118,10 +118,10 @@ Citation-only (no large binary logos in git unless already policy). Logos live i
 | Bot | Status | Description | Asset cite |
 | --- | --- | --- | --- |
 | **01 Dream Talk** | menu logo **APPROVED** 2026-09-27 | Womanly Mother Earth, Alex Grey–inspired **original** art (not a copy of a commercial listing). Overwatch / thought-experiment avatar. **No project source.** | Grok Bot media: `dream-talk-mother-earth-avatar.png` |
-| **02 Sensei Bot** | menu logo **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards / definitions. | Grok Bot media: `sensei-bot-avatar.png` |
-| **03 Sensei Security** | menu logo **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | Grok Bot media: `sensei-security-avatar.png` |
+| **02 Sensei Security** | menu logo **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | Grok Bot media: `sensei-security-avatar.png` |
+| **03 Sensei Bot** | menu logo **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards / definitions. | Grok Bot media: `sensei-bot-avatar.png` |
 | **04 Lab 3 Desk Steward** | menu logo **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Mandate. | Grok Bot media: `desk-steward-avatar.png` |
-| **05 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | Grok Bot media: `distrobi-bot-avatar.png` |
+| **05 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | Grok Bot media: `grok-bot-avatar.png` |
 | **06 Grok Bot** | menu logo **APPROVED** 2026-09-27 | Geometric builder-researcher mark (**original**). Lab 3 builder. | Grok Bot media: `grok-bot-avatar.png` |
 
 Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo on this PR.
