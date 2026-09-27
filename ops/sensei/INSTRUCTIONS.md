@@ -6,7 +6,7 @@ Public instruction remains [`public/sandbox-original/INSTRUCTIONS.md`](../../pub
 
 ## Stamp
 
-- **In force on `main`:** [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) merged as `24b80a6` (2026-09-26).
+- **In force on `main`:** [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) `24b80a6`; [PR #10](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/10) `score-patch.mjs` `5346feb`.
 - **Checkpoint:** [`checkpoints/CHECKPOINT-152.md`](../../checkpoints/CHECKPOINT-152.md)
 - **Desk:** Lab 3 paper sandbox only. Do not write https://s1r1us.ai.
 
@@ -47,4 +47,5 @@ neverSell · neverShort · paperOnly · createLocked · sleeveCap · twoLane · 
 
 - [Sensei home](./README.md) · [BOT-INTERFACE.md](./BOT-INTERFACE.md) · [ADMIN-DETAIL.md](./ADMIN-DETAIL.md)
 - Outer Jev: [`ops/outer-jev/`](../outer-jev/)
-- Flows: [04-outer-jev-patch-gate](./flows/04-outer-jev-patch-gate.md) · [03-lab3-maker-checker](./flows/03-lab3-maker-checker.md)
+- Flows: [07-lab3-bot-workflow](./flows/07-lab3-bot-workflow.md) (canonical) · [04-outer-jev-patch-gate](./flows/04-outer-jev-patch-gate.md) · [03-lab3-maker-checker](./flows/03-lab3-maker-checker.md)
+- [INSTRUMENTATION.md](./INSTRUMENTATION.md) · [SEARCH-SCHEMA.md](./SEARCH-SCHEMA.md)

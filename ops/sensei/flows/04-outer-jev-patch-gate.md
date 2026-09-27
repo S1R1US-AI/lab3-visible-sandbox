@@ -1,25 +1,20 @@
 # 04 — Outer Jev patch gate
 
-Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`.
+Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** any model. Optional scorer: `score-patch.mjs` (PR #10, `5346feb`). No OpenJev.
 
 ```mermaid
 flowchart TB
-  P[Proposed patch] --> S["Run scan-runtime.mjs"]
-  S -->|Jev leaked into src/| FAIL[FAIL — do not merge]
-  S -->|clean| K{TYPESAFE_API_KEY present?}
-  K -->|no| HOLD[HOLD — no key]
-  K -->|yes| Q[Score QUESTIONS.md<br/>cutoff 0.70]
-  Q --> H1{patch_touches_sell_path ≥ 0.70?}
-  H1 -->|yes| HOLD2[HOLD]
-  H1 -->|no| H2{patch_weakens_a_lock ≥ 0.70?}
-  H2 -->|yes| HOLD2
-  H2 -->|no| H3{patch_writes_faq_or_size ≥ 0.70?}
-  H3 -->|yes| HOLD2
-  H3 -->|no| H4{patch_on_mandate < 0.70?}
-  H4 -->|yes| HOLD2
-  H4 -->|no| OK[Outer gate clear → Steward / Sensei / APPROVE]
+  P[Proposed patch] --> HARD[Hard rules — no model]
+  HARD -->|violates| FAIL[FAIL — do not merge]
+  HARD -->|clear| S["Run scan-runtime.mjs"]
+  S -->|Jev leaked into src/| FAIL
+  S -->|clean exit 0| K{TYPESAFE_API_KEY present?}
+  K -->|no| HOLD[HOLD — exit 2 / no key]
+  K -->|yes| Q["score-patch.mjs --state state.json<br/>four nouls · one /v1/systemone · cutoff 0.70"]
+  Q -->|exit 3 HOLD| HOLD2[HOLD]
+  Q -->|exit 1 error| FAIL
+  Q -->|exit 0 PASS| OK[Outer gate clear → Steward / Sensei / APPROVE]
 
-  HARD[Hard rules — no model needed] -.-> FAIL
   HARD -.-> HOLD2
 ```
 
@@ -31,11 +26,19 @@ flowchart TB
 - Never weaken drift-lock / shared-security locks
 - Never merge to main without user **APPROVE**
 - Never sell, never short, Coinbase create locked, paper only
+- Never invent keys; never OpenJev stand-in
 
 **Commands**
 
 ```bash
 node ops/outer-jev/scan-runtime.mjs
+
+# optional — operator env only; never commit
+TYPESAFE_API_KEY=... node ops/outer-jev/score-patch.mjs --state state.json
+
+# optional gateway (same System One shape):
+# TYPESAFE_BASE_URL=https://openrouter.ai/api TYPESAFE_API_KEY=$OPENROUTER_API_KEY \
+#   node ops/outer-jev/score-patch.mjs --state state.json
 ```
 
-Key location: operator env only — never commit. See `ops/outer-jev/CONFIG.md` and `QUESTIONS.md`.
+Key location: operator env only — never commit. See `ops/outer-jev/CONFIG.md`, `QUESTIONS.md`, and [INSTRUMENTATION.md](../INSTRUMENTATION.md). Canonical handoff: [07-lab3-bot-workflow](./07-lab3-bot-workflow.md).

@@ -16,8 +16,10 @@ The older clickable still is in `snapshot/clickable-still.html`.
 | Living roadmap | [`ops/sensei/ROADMAP.md`](./ops/sensei/ROADMAP.md) |
 | Glossary (a+b+c) | [`ops/sensei/GLOSSARY.md`](./ops/sensei/GLOSSARY.md) |
 | Instruction module | [`ops/sensei/INSTRUCTIONS.md`](./ops/sensei/INSTRUCTIONS.md) |
-| Flows | [`ops/sensei/flows/INDEX.md`](./ops/sensei/flows/INDEX.md) |
-| Outer Jev companion | [`ops/outer-jev/`](./ops/outer-jev/) — **on main** as of [PR #6](https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/6) (`24b80a6`) |
+| Flows | [`ops/sensei/flows/INDEX.md`](./ops/sensei/flows/INDEX.md) · canonical [07](./ops/sensei/flows/07-lab3-bot-workflow.md) |
+| Search / instrumentation | [`SEARCH-SCHEMA.md`](./ops/sensei/SEARCH-SCHEMA.md) · [`INSTRUMENTATION.md`](./ops/sensei/INSTRUMENTATION.md) |
+| Outer Jev companion | [`ops/outer-jev/`](./ops/outer-jev/) — PR #6; [`score-patch.mjs`](./ops/outer-jev/score-patch.mjs) PR #10 |
+| Public Sensei stub | [`public/sensei-roadmap.html`](./public/sensei-roadmap.html) |
 | Checkpoint 152 | [`checkpoints/CHECKPOINT-152.md`](./checkpoints/CHECKPOINT-152.md) |
 
 Sensei docs live under `ops/` like outer Jev. They are never imported by `src/`. They do not unlock Coinbase create, sell, or short.

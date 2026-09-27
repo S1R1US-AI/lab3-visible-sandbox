@@ -51,7 +51,7 @@ sequenceDiagram
 
 1. **Propose** — bot/agent states intent, file list, and whether desk gates are touched.
 2. **Sensei review** — against [GLOSSARY.md](./GLOSSARY.md), [ROADMAP.md](./ROADMAP.md), hard locks; emit [ADMIN-DETAIL](./ADMIN-DETAIL.md) fields.
-3. **Outer Jev gate** — `node ops/outer-jev/scan-runtime.mjs`; QUESTIONS if key present; **no key = HOLD**.
+3. **Outer Jev gate** — hard rules (no model) → `node ops/outer-jev/scan-runtime.mjs` → if key: `node ops/outer-jev/score-patch.mjs --state state.json`; **no key = HOLD**.
 4. **Steward mandate audit** — if desk/mandate surface is involved.
 5. **User APPROVE** — required for merge to main. Sensei never substitutes for APPROVE.
 
@@ -71,6 +71,10 @@ sequenceDiagram
 | Patch leak scan | Outer Jev | Require before merge |
 | Standards language | Sensei | Source of truth in `ops/sensei/` |
 | Live site | Out of scope | Refuse writes to s1r1us.ai from Lab 3 work |
+
+## Canonical diagram
+
+See [flows/07-lab3-bot-workflow.md](./flows/07-lab3-bot-workflow.md). Skill: `lab-3-sensei-workflow`.
 
 ## Anti-patterns
 
