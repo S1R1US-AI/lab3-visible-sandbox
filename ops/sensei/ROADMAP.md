@@ -121,7 +121,7 @@ Citation-only (no large binary logos in git unless already policy). Logos live i
 | **02 Sensei Security** | menu logo **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | Grok Bot media: `sensei-security-avatar.png` |
 | **03 Sensei Bot** | menu logo **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards / definitions. | Grok Bot media: `sensei-bot-avatar.png` |
 | **04 Lab 3 Desk Steward** | menu logo **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Mandate. | Grok Bot media: `desk-steward-avatar.png` |
-| **05 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | Grok Bot media: `grok-bot-avatar.png` |
+| **05 Distrobi** | menu logo **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | Grok Bot media: `distrobi-bot-avatar.png` |
 | **06 Grok Bot** | menu logo **APPROVED** 2026-09-27 | Geometric builder-researcher mark (**original**). Lab 3 builder. | Grok Bot media: `grok-bot-avatar.png` |
 
 Public X literature: `@S1R1US_AI` only. Do not commit huge binary logos into this repo on this PR.
