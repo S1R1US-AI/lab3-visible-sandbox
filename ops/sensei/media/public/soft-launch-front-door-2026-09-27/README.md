@@ -14,22 +14,37 @@ Pre-login homepage shell matching the approved studio theme mock (`theme-mock-v1
 
 Covers soft-launch brief slices **D1–D10** (front-end): homepage shell, theme swap, 01–06 bot logo grid, SEO meta shell, honesty strip, packaging gates. **D6 Hello World** remains human-owned — muted HOLD note only (no hello-world hero).
 
+## Brand lock (human 2026-09-27)
+
+Official site chrome + APPROVED menu logos — **no abstract / geometric placeholders**, no Godzilla-as-bot-stand-in.
+
+| Asset | Path in pack |
+| --- | --- |
+| Site logo | `images/icon-512.png` |
+| Favicon | `images/favicon.svg` (+ `favicon.ico`, `favicon-48.png`, `apple-touch-icon.png`) |
+| 01–06 menu logos | `images/bots/*-logo-card.png` (+ medium) |
+| Brand lock note | `BRAND-LOCK-2026-09-27.md` |
+
+Godzilla JPGs in the source brand pack are **reference only**. Primary chrome = icon-512 + favicon.
+
+Companion public timeline DRAFT (SEO / D8 paste stock): Lab 3 **PR #24** — https://github.com/S1R1US-AI/lab3-visible-sandbox/pull/24
+
 ## Contents
 
 | File | Role |
 | --- | --- |
 | `index.html` | Pre-login homepage shell (DRAFT banner + `noindex,nofollow`) |
 | `css/theme.css` | Studio tokens (`#121619`, gold, teal) — no carbon fiber |
+| `images/icon-512.png` | Official site logo (header chrome) |
+| `images/favicon.svg` (+ ico / 48 / apple-touch) | Official favicon set |
+| `images/bots/*` | Official APPROVED 01–06 menu logo cards + medium |
 | `theme-mock-v1.png` | Human-APPROVED theme mock v1 |
-| `THEME-SPEC.md` | D2 theme swap: retire carbon fiber; keep S1R1US logo/favicon when wiring live |
+| `BRAND-LOCK-2026-09-27.md` | Human brand lock note |
+| `THEME-SPEC.md` | D2 theme swap: retire carbon fiber; keep S1R1US logo/favicon |
 | `PACKAGING.md` | Distrobi checklist before any live surface |
 | `README.md` | This file |
 
-Bot logo cards are **reused** from sibling draft (relative links, not copied):
-
-`../web-draft-2026-09-27/images/{Dream-Talk,Sensei-Security,Sensei-Bot,Desk-Steward,Distrobi,Grok-bot}-logo-card.png`
-
-Bot SEO pages: `../web-draft-2026-09-27/bots/{dream-talk,sensei-security,sensei-bot,desk-steward,distrobi,grok}/index.html`
+Bot SEO page links (sibling draft): `../web-draft-2026-09-27/bots/{dream-talk,sensei-security,sensei-bot,desk-steward,distrobi,grok}/index.html`
 
 ## Sandbox map (explicit)
 

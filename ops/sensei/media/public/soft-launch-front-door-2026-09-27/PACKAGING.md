@@ -13,16 +13,20 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 - [x] `index.html` — pre-login shell matching theme mock v1  
 - [x] `css/theme.css` — studio tokens; **no carbon fiber**  
 - [x] `theme-mock-v1.png` — approved mock copied into pack  
+- [x] Official site chrome: `images/icon-512.png` + `favicon.svg` (+ ico / 48 / apple-touch)  
+- [x] Research Studio uses official APPROVED 01–06 PNGs from `images/bots/` (no geometric placeholders)  
+- [x] `BRAND-LOCK-2026-09-27.md` deposited  
+- [x] SEO meta honesty + D8 strip use timeline §7 paste stock (companion PR #24)  
 - [x] `README.md` — DRAFT status, gates, sandbox map, Public X=@S1R1US_AI  
 - [x] `THEME-SPEC.md` — D2 theme swap  
 - [x] `PACKAGING.md` — this checklist  
-- [x] Bot cards linked via relative `../web-draft-2026-09-27/` (reuse APPROVED assets)  
+- [x] Bot SEO page hrefs point at sibling `../web-draft-2026-09-27/bots/*`  
 - [x] Meta `robots` = `noindex,nofollow`  
 - [x] `twitter:site` = `@S1R1US_AI`  
 - [x] Footer handle `@S1R1US_AI` only (no admin/dev X)  
 - [x] Dream Talk labeled overwatch only  
 - [x] No hello-world hero (D6 HOLD note only)  
-- [x] Honesty strip: LIVE tape · SIM-locked 7-B0T/7-bot · auto trade LOCKED · Coinbase create LOCKED · HARD DEADLINE 2026-12-01 09:00 ET + TBD counsel  
+- [x] Honesty strip: LIVE · SIM-locked 7-B0T/7-bot · auto trade LOCKED · Coinbase create LOCKED · HARD DEADLINE 2026-12-01 09:00 ET + TBD counsel  
 - [x] Discord link: https://discord.gg/UrPerk3j5  
 - [x] GitHub secondary CTA → https://github.com/S1R1US-AI/S1R1US-LABs  
 - [x] PR target: `lab3-visible-sandbox` only — **not** `S1R1US-LABs`

@@ -49,8 +49,11 @@ Defined in `css/theme.css`:
 
 ## Keep when wiring live (future)
 
-- Official S1R1US favicon set (`/favicon.ico`, SVG, 48/192/512, apple-touch)  
-- Official S1R1US wordmark / Godzilla mark as **site** identity (not a bot card as the sole brand)  
+- Official S1R1US site logo: `icon-512.png` (primary header chrome — already wired in this DRAFT)  
+- Official S1R1US favicon set (`favicon.svg`, `.ico`, 48, apple-touch)  
+- Official APPROVED 01–06 menu logos on Research Studio (already wired from brand pack)  
+- Godzilla JPGs = reference only; not bot stand-ins  
+- Official S1R1US wordmark as **site** identity (not a bot card as the sole brand)  
 - Intentional leet + plain SEO spellings (`7-B0T` + `7-bot`, etc.) elsewhere in public SEO  
 - Education / NFA / PoC disclaimers  
 
