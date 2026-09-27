@@ -63,3 +63,11 @@ Mermaid `.md` / `.mmd` are **authoritative** on this branch. PNGs were rendered 
 npx -y @mermaid-js/mermaid-cli -p /path/to/puppeteer-config.json \
   -i ops/sensei/media/D1-standards-first.mmd -o ops/sensei/media/D1-standards-first.png
 ```
+
+## Public Distrobi pack (2026-09-27)
+
+Public soft-launch shells live under [`public/`](./public/) after human APPROVE of the public canonical flowchart (Sensei PASS + Security SECURE already recorded). See [public/INDEX.md](./public/INDEX.md).
+
+- Flowchart: approved for PR deposit; **merge still needs human APPROVE**
+- SEO / FAQ shells: **DRAFT** — not live; per-surface Sensei + Security + human required before homepage/FAQ ship
+- Public X: `@S1R1US_AI` only · Dream Talk overwatch only · no contested geopolitics
