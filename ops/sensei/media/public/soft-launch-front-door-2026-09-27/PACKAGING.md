@@ -2,7 +2,7 @@
 
 **Pack:** `ops/sensei/media/public/soft-launch-front-door-2026-09-27/`  
 **Date:** 2026-09-27  
-**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) + Security **SECURE** on `f5af0e3` · human APPROVE per surface still required · **NO LIVE ship**
+**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) on tip `e75a7d6` · Desk Steward **PASS** (PACKAGING) · Security SECURE **pending** (incl. live `@_Mr_R0b0t0_` scrub) · human APPROVE per surface still required · **NO LIVE ship**
 
 Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
@@ -33,9 +33,9 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
 ## B) Per-surface gates (before live)
 
-- [ ] Sensei Bot — meaning PASS  
-- [ ] Sensei Security — controls SECURE  
-- [ ] Desk Steward — if desk UI/docs touched  
+- [x] Sensei Bot — meaning PASS on tip `e75a7d6` (2026-09-27)  
+- [ ] Sensei Security — controls SECURE (**pending**; live/LABs admin-handle exposure flagged)  
+- [x] Desk Steward — PASS (PACKAGING / paper-desk predicates) on PR #28 tip `e75a7d6`  
 - [ ] Human APPROVE — explicit surface named  
 - [ ] D6 Hello World — human-authored copy ready (or remain HOLD)  
 - [ ] Favicon / official S1R1US mark wired (THEME-SPEC keep list)  
@@ -86,3 +86,12 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 - [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + Team Boolean)
 - [x] Security **SECURE** on tip `f5af0e3` (DRAFT pack only — not live clearance)
 - Live **HOLD**
+
+
+## Gate log (PR #28)
+
+| When | Agent | Result | Tip |
+| --- | --- | --- | --- |
+| 2026-09-27 | 03 Sensei Bot | meaning **PASS** | `e75a7d6` |
+| 2026-09-27 | 04 Desk Steward | PACKAGING **PASS** (≠ live clearance) | `e75a7d6` |
+| 2026-09-27 | 02 Sensei Security | SECURE **pending** | live JS + public LABs still expose `@_Mr_R0b0t0_` |
