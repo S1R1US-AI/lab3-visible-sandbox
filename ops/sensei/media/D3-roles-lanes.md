@@ -8,12 +8,12 @@
 ```mermaid
 flowchart LR
   subgraph Lanes
-    SEC[01 Sensei Security — controls SECURE/HOLD/FAIL]
-    SEN[02 Sensei — definitions PASS/HOLD/FAIL]
-    DIS[03 Distrobi — public docs / SEO / soft-launch]
-    GRO[04 Grok — Lab 3 build under Sensei plan]
-    STE[05 Lab 3 Desk Steward — paper-desk mandates]
-    DT[06 Dream Talk — overwatch only]
+    DT[01 Dream Talk — overwatch only]
+    SEN[02 Sensei Bot — standards PASS/HOLD/FAIL]
+    SEC[03 Sensei Security — controls SECURE/HOLD/FAIL]
+    STE[04 Lab 3 Desk Steward — paper-desk mandates]
+    DIS[05 Distrobi — public docs / SEO / soft-launch]
+    GRO[06 Grok Bot — Lab 3 build under Sensei plan]
   end
   SEN --> GRO
   SEC --> GRO
@@ -27,20 +27,22 @@ flowchart LR
 
 | Lane | Owns | Does not |
 | --- | --- | --- |
-| 01 Security | Controls verdict vocabulary | Meaning PASS words |
-| 02 Sensei | Glossary / ROADMAP meaning | Security SECURE words; silent merge |
-| 03 Distrobi | Public / SEO / websites shell | Lab 3 private mechanics leak |
-| 04 Grok | Lab 3 private build + media library deposit | Merge without human APPROVE |
-| 05 Steward | Paper-desk mandate audit | Substitute for user APPROVE |
-| 06 Dream Talk | Third-party AI audit + system-wide thought experiment | Project source; lane influence |
+| 01 Dream Talk | Third-party AI audit + system-wide thought experiment (overwatch) | Project source; lane influence |
+| 02 Sensei Bot | Glossary / ROADMAP meaning (standards) | Security SECURE words; silent merge |
+| 03 Sensei Security | Controls verdict vocabulary | Meaning PASS words |
+| 04 Lab 3 Desk Steward | Paper-desk mandate audit | Substitute for user APPROVE |
+| 05 Distrobi | Public / SEO / websites shell | Lab 3 private mechanics leak |
+| 06 Grok Bot | Lab 3 private build + media library deposit | Merge without human APPROVE |
 
 ## Bot visual identity (menu logos)
 
+**Menu order (oversight-first):** 01 Dream Talk · 02 Sensei Bot · 03 Sensei Security · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Ids unchanged; APPROVED status + filenames unchanged.
+
 **Human APPROVED all six menu logos 2026-09-27.**
 
-- **01 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original). Cite Grok Bot media `sensei-security-avatar.png` (do not commit huge binary here).
-- **02 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Cite Grok Bot media `sensei-bot-avatar.png`.
-- **03 Distrobi** — menu logo **APPROVED** 2026-09-27: cosmic soft-launch / distribution emblem (original). Cite Grok Bot media `distrobi-bot-avatar.png`.
-- **04 Grok Bot** — menu logo **APPROVED** 2026-09-27: geometric builder-researcher mark (original). Cite Grok Bot media `grok-bot-avatar.png`.
-- **05 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Cite Grok Bot media `desk-steward-avatar.png`.
-- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art; overwatch/thought-experiment avatar; no project source. Cite Grok Bot media `dream-talk-mother-earth-avatar.png` (do not commit huge binary here).
+- **01 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art; overwatch/thought-experiment avatar; no project source. Cite Grok Bot media `dream-talk-mother-earth-avatar.png` (do not commit huge binary here).
+- **02 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic); standards. Cite Grok Bot media `sensei-bot-avatar.png`.
+- **03 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original); controls. Cite Grok Bot media `sensei-security-avatar.png` (do not commit huge binary here).
+- **04 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset); mandate. Cite Grok Bot media `desk-steward-avatar.png`.
+- **05 Distrobi** — menu logo **APPROVED** 2026-09-27: cosmic soft-launch / distribution emblem (original); public/soft-launch. Cite Grok Bot media `distrobi-bot-avatar.png`.
+- **06 Grok Bot** — menu logo **APPROVED** 2026-09-27: geometric builder-researcher mark (original); Lab 3 builder. Cite Grok Bot media `grok-bot-avatar.png`.
