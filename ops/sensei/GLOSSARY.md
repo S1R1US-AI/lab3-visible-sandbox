@@ -38,7 +38,7 @@ Agent or code that **works** or **passes tests** but still violates:
 
 - the paper-desk **mandate**,
 - the approved **architecture** (e.g. Jev back inside `src/`),
-- hard **locks** (never sell / never short / Coinbase create locked / no FAQ by agent / no size picking by agent),
+- hard **locks** (never sell / never short / Coinbase create locked / no FAQ by agent / no size picking by agent / **system-admin unlock** / **standard-user password-reset** / **white-label·bot non-compromise**),
 - or this **glossary**.
 
 Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests is not the same as staying on mandate.
@@ -71,10 +71,27 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 | **never short** | Hard lock: no shorting path. |
 | **Coinbase create locked** | Live Coinbase create remains locked on this desk. |
 | **tape display-only** | Public / live tape is for display. It is not a trade instruction. |
+| **system-admin unlock** | Full S1R1US.ai **system admin** rights and **host reset password** are **only** for the system admin (operator unlock path). Any other role path that grants system-admin rights or host admin reset is **FAIL** (meaning) / coordinate Security **SECURE**. |
+| **standard-user password-reset** | **Standard users** have **independent** password-reset logic (**self only**). No path from standard-user reset to system-admin reset or system-admin rights. |
+| **white-label·bot non-compromise** | **White-label users** and **bot users** can **never** compromise S1R1US.ai system-admin security: no takeover, no host admin reset, no override of system-admin unlock. Violation = operational drift **FAIL**. |
 | **PASS** | Change or audit meets glossary, roadmap, locks, and checkable evidence. |
 | **HOLD** | Stop merge / stop action until missing key, APPROVE, scan, or clarification is resolved. |
 | **FAIL** | Violates mandate, architecture, locks, or glossary (including operational drift with green tests). |
 | **Team Boolean contract** | Human ↔ bots contract for interpreting statements and assigning verdicts; see [Team Boolean contract (human ↔ bots)](#team-boolean-contract-human--bots). |
+
+---
+
+## System-admin unlock lock (human mandate 2026-09-27)
+
+Sensei owns **ongoing meaning compliance** of this triad. Security Sensei owns the parallel **SECURE** technical audit. Neither rewrites the other’s verdict words.
+
+1. **system-admin unlock** — Full S1R1US.ai system admin rights and host reset password are **only** for the system admin (operator unlock path).
+2. **standard-user password-reset** — Standard users reset **their own** password only; no bridge to system-admin reset/rights.
+3. **white-label·bot non-compromise** — White-label users and bot users cannot take over, reset host admin, or override system-admin unlock.
+
+**Checkable meaning.** Cite this section + named lock terms in PASS/HOLD/FAIL when auth, password reset, white-label tenancy, or bot-user privilege is in play. Green CI does not override a broken boundary.
+
+**Live ship.** Encoding this glossary lock does **not** clear live homepage / production deploy. Live remains **HOLD** until per-surface Sensei PASS + Security SECURE + human APPROVE.
 
 ---
 
@@ -86,6 +103,7 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 - Unclear, mixed, or illogical human statement → HOLD, pause, ask human to clarify. Never invent a ship.
 - HOLD ≠ FAIL (unknown is not denied).
 - Sensei owns mission meaning vocabulary (PASS/HOLD/FAIL). Security Sensei owns security vocabulary (SECURE/HOLD/FAIL). Neither rewrites the other’s words.
+- Clear human mandate on **system-admin unlock** / **standard-user password-reset** / **white-label·bot non-compromise** → Sensei scores meaning compliance; Security scores technical controls. Do not invent weaker privilege boundaries.
 - Every bot’s duty: understand the human; if not understood → pause and ask.
 
 ---
@@ -97,5 +115,11 @@ When reporting:
 > **Verdict:** HOLD  
 > **Glossary:** Lab 3 operational drift; no TypeSafe key = HOLD  
 > **Evidence:** `ops/outer-jev/CONFIG.md` — “No key = HOLD / do not merge”
+
+For privilege / password-reset audits:
+
+> **Verdict:** FAIL  
+> **Glossary:** system-admin unlock; white-label·bot non-compromise  
+> **Evidence:** (path) — path grants host admin reset to non–system-admin role
 
 See [ADMIN-DETAIL.md](./ADMIN-DETAIL.md) for full templates.
