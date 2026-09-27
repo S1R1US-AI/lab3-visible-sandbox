@@ -17,8 +17,8 @@ Placement shell: Research Studio `*-logo-medium.png` @ **160×160**, charcoal/go
 | --- | --- |
 | Human APPROVE Distrobi + Grok v2 | Done |
 | Assets on PR #26 | This commit |
-| Security re-gate (new Distrobi/Grok assets + prior remediation) | Requested |
-| Sensei if meaning-touching | Requested if needed |
+| Security re-gate (new Distrobi/Grok assets + prior remediation) | Pending SECURE |
+| Sensei PASS (meaning) tip `f5af0e3` | **PASS** (2026-09-27) |
 | Live | **HOLD** |
 
 No Hello World invent. No site chrome swap.

@@ -2,7 +2,7 @@
 
 **Pack:** `ops/sensei/media/public/soft-launch-front-door-2026-09-27/`  
 **Date:** 2026-09-27  
-**Status:** DRAFT deposit · Theme mock v1 APPROVED · **NO LIVE ship**
+**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) `f5af0e3` · Security SECURE pending · **NO LIVE ship**
 
 Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
@@ -83,6 +83,6 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 - [x] 01–04 KEEP menu official (Dream Talk / Sensei Security / Sensei Bot / Desk Steward)
 - [x] 05 Distrobi + 06 Grok REPLACE with human-APPROVED v2 charcoal/gold/teal
 - [x] Godzilla `icon-512` + favicon geometry preserved; favicon metadata Security-scrubbed
-- [ ] Security re-gate on new Distrobi/Grok assets (+ prior remediation)
-- [ ] Sensei if meaning-touching
+- [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + Team Boolean)
+- [ ] Security SECURE re-gate on new Distrobi/Grok assets (+ prior remediation)
 - Live **HOLD**
