@@ -110,7 +110,7 @@ Public X literature uses `@S1R1US_AI` only. Admin/dev identity never appears in 
 
 - `[~]` **Grok library SoT:** [`ops/sensei/media/`](./media/INDEX.md) — D1–D5 Mermaid (standards → roles → approve → sandbox → self-improve)
 - `[~]` **Private training outline:** [`TRAINING-OUTLINE.md`](./TRAINING-OUTLINE.md)
-- `[x]` PNG exports for D1–D5 rendered 2026-09-27 (`mmdc`); Mermaid `.md`/`.mmd` remain editable SoT
+- `[~]` PNG exports for D1–D5 — rendered locally 2026-09-27; **HOLD** binary commit on this PR (Mermaid SoT; see media/INDEX)
 - `[x]` Sandbox-map callout — Lab 3 paper ≠ live homepage ≠ mobile (see [D2](./media/D2-sandbox-map.md))
 
 Diagram IDs: [D1 standards-first](./media/D1-standards-first.md) · [D2 sandbox-map](./media/D2-sandbox-map.md) · [D3 roles-lanes](./media/D3-roles-lanes.md) · [D4 approve-loop](./media/D4-approve-loop.md) · [D5 self-improve](./media/D5-self-improve.md)
