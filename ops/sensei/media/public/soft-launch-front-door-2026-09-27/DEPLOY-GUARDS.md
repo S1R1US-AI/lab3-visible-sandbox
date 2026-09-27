@@ -25,3 +25,6 @@ Pointing DRAFT `canonical` / `og:url` at live `s1r1us.ai` while the pack is not 
 ## Favicon metadata
 
 Pack `images/favicon.svg` `<title>` / `<desc>` must stay aligned with SIM-locked / NFA / education posture. Do **not** restore “trading bots” or “bitcoin accumulation” agent language in SVG metadata.
+
+## Re-gate (2026-09-27)
+Security **SECURE** + Sensei **PASS** on tip `f5af0e3` apply to this **DRAFT** pack deposit only. Not live clearance. Canonical/OG remain withheld until human APPROVE per surface + explicit live wire.

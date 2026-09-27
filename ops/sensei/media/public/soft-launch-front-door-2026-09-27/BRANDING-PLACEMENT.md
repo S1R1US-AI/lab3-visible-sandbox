@@ -17,7 +17,7 @@ Placement shell: Research Studio `*-logo-medium.png` @ **160×160**, charcoal/go
 | --- | --- |
 | Human APPROVE Distrobi + Grok v2 | Done |
 | Assets on PR #26 | This commit |
-| Security re-gate (new Distrobi/Grok assets + prior remediation) | Pending SECURE |
+| Security SECURE (tip `f5af0e3`, DRAFT pack only) | **SECURE** (2026-09-27) |
 | Sensei PASS (meaning) tip `f5af0e3` | **PASS** (2026-09-27) |
 | Live | **HOLD** |
 

@@ -2,7 +2,7 @@
 
 **Pack:** `ops/sensei/media/public/soft-launch-front-door-2026-09-27/`  
 **Date:** 2026-09-27  
-**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) `f5af0e3` · Security SECURE pending · **NO LIVE ship**
+**Status:** DRAFT deposit · Theme mock v1 APPROVED · Sensei **PASS** (meaning) + Security **SECURE** on `f5af0e3` · human APPROVE per surface still required · **NO LIVE ship**
 
 Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
@@ -76,7 +76,7 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 | Serve-live lock | Documented; `s1r1us:deploy-guard` meta present |
 | `favicon.svg` metadata | Scrubbed — no “trading bots” / “bitcoin accumulation” language |
 
-**Distrobi PACKAGING PASS (remediation DRAFT)** pending Security re-gate (and Sensei if meaning-touching). Live homepage still **HOLD**.
+**Distrobi PACKAGING PASS** · Sensei **PASS** · Security **SECURE** (all on tip `f5af0e3` DRAFT). Live homepage still **HOLD** until human APPROVE per surface.
 
 ## Mark APPROVE placement (2026-09-27)
 
@@ -84,5 +84,5 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 - [x] 05 Distrobi + 06 Grok REPLACE with human-APPROVED v2 charcoal/gold/teal
 - [x] Godzilla `icon-512` + favicon geometry preserved; favicon metadata Security-scrubbed
 - [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + Team Boolean)
-- [ ] Security SECURE re-gate on new Distrobi/Grok assets (+ prior remediation)
+- [x] Security **SECURE** on tip `f5af0e3` (DRAFT pack only — not live clearance)
 - Live **HOLD**
