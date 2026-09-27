@@ -1,6 +1,6 @@
 # Soft-launch front-door DRAFT — 2026-09-27
 
-**Status:** DRAFT only · Theme mock v1 **APPROVED** · **NO LIVE** · **NO MERGE** without per-surface Sensei + Security + human APPROVE  
+**Status:** DRAFT only · Theme mock v1 **APPROVED** · deposited via PR #25 · **Security HOLD remediation** (canonical/OG + favicon metadata) · **NO LIVE** · see `DEPLOY-GUARDS.md`  
 **Author lane:** Distrobi (public / soft-launch) · Grok Bot implements under Sensei plan  
 **Repo:** `S1R1US-AI/lab3-visible-sandbox` only (never push front-door HTML to `S1R1US-LABs` — that autodeploys live)  
 **Public X:** [@S1R1US_AI](https://x.com/S1R1US_AI) **ONLY** — never admin/dev handles  

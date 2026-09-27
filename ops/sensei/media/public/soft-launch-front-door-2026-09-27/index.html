@@ -13,13 +13,16 @@
   <meta name="description" content="S1R1US.ai is a professional software studio for BTC research and paper workflows. Public surfaces include a live market-status tape and sim analyst lanes. Auto trade and Coinbase create remain LOCKED. Soft-launch front door (charcoal / gold / teal; no carbon fiber) is DRAFT only until human APPROVE. Follow @S1R1US_AI only." />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="keywords" content="S1R1US, AI Bitcoin research desk, 7-B0T, 7-bot, paper simulation, open source, Distrobi, Dream Talk, Sensei Security, Sensei Bot, Desk Steward, Grok Bot, SIM-locked" />
-  <link rel="canonical" href="https://s1r1us.ai/" />
+  <!-- DEPLOY GUARD: no live canonical while DRAFT. Production target recorded in s1r1us:production-target.
+       Do not serve this pack from https://s1r1us.ai (or any public host) without per-surface Sensei + Security + human APPROVE.
+       After APPROVE to ship, set canonical + og:url to https://s1r1us.ai/ and drop noindex. -->
+  <!-- <link rel="canonical" href="https://s1r1us.ai/" /> intentionally withheld (DRAFT) -->
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="images/favicon.ico" sizes="any" />
   <link rel="icon" href="images/favicon-48.png" type="image/png" sizes="48x48" />
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://s1r1us.ai/" />
+  <!-- og:url withheld while DRAFT (would imply live ship). Restore https://s1r1us.ai/ only after per-surface APPROVE. -->
   <meta property="og:title" content="S1R1US.ai — AI Bitcoin research desk (DRAFT)" />
   <meta property="og:description" content="S1R1US.ai is a professional software studio for BTC research and paper workflows. Auto trade and Coinbase create remain LOCKED. Soft-launch front door is DRAFT only. Follow @S1R1US_AI only." />
   <meta property="og:image" content="images/icon-512.png" />
@@ -30,6 +33,8 @@
   <meta name="twitter:description" content="Professional software studio for BTC research and paper workflows. Soft-launch front door DRAFT only. Follow @S1R1US_AI only." />
   <meta name="twitter:image" content="images/icon-512.png" />
   <meta name="s1r1us:draft" content="true" />
+  <meta name="s1r1us:deploy-guard" content="must-not-serve-live-without-per-surface-APPROVE" />
+  <meta name="s1r1us:canonical-policy" content="withheld-until-live-APPROVE" />
   <meta name="s1r1us:theme" content="studio-v1-no-carbon-fiber" />
   <meta name="s1r1us:brand-lock" content="icon-512+favicon+menu-01-06" />
   <meta name="s1r1us:production-target" content="https://s1r1us.ai" />

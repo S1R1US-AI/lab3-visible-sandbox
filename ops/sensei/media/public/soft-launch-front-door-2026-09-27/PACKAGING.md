@@ -64,3 +64,16 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 ---
 
 *Distrobi packaging checklist · 2026-09-27 · DRAFT only · NO LIVE*
+
+---
+
+## Security HOLD remediation (2026-09-27)
+
+| Item | Action |
+| --- | --- |
+| Canonical / `og:url` → live | **Withheld** while DRAFT — see `DEPLOY-GUARDS.md` |
+| `noindex,nofollow` | Retained |
+| Serve-live lock | Documented; `s1r1us:deploy-guard` meta present |
+| `favicon.svg` metadata | Scrubbed — no “trading bots” / “bitcoin accumulation” language |
+
+**Distrobi PACKAGING PASS (remediation DRAFT)** pending Security re-gate (and Sensei if meaning-touching). Live homepage still **HOLD**.
