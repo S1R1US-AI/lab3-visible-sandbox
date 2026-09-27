@@ -32,7 +32,7 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 
 ## Bot visual identity (menu logos) — 2026-09-27
 
-**Menu order (oversight-first):** 01 Dream Talk · 02 Sensei Bot · 03 Sensei Security · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Ids unchanged; APPROVED status + filenames unchanged.
+**Menu order (oversight-first):** 01 Dream Talk · 02 Sensei Security · 03 Sensei Bot · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot. Ids unchanged; APPROVED status + filenames unchanged.
 
 Citation notes only — logos live in each bot’s Grok Bot media assets (not committed as large binaries here).
 
@@ -41,8 +41,8 @@ Citation notes only — logos live in each bot’s Grok Bot media assets (not co
 | Bot | Status | Note | Grok media cite |
 | --- | --- | --- | --- |
 | 01 Dream Talk | **APPROVED** 2026-09-27 | Womanly Mother Earth; Alex Grey–inspired **original** (not a commercial listing copy). Overwatch / thought-experiment avatar. No project source. | `dream-talk-mother-earth-avatar.png` |
-| 02 Sensei Bot | **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards. | `sensei-bot-avatar.png` |
-| 03 Sensei Security | **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | `sensei-security-avatar.png` |
+| 02 Sensei Security | **APPROVED** 2026-09-27 | Shield/keyhole protective emblem (**original**). Controls. | `sensei-security-avatar.png` |
+| 03 Sensei Bot | **APPROVED** 2026-09-27 | Traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Standards. | `sensei-bot-avatar.png` |
 | 04 Lab 3 Desk Steward | **APPROVED** 2026-09-27 | Cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Mandate. | `desk-steward-avatar.png` |
 | 05 Distrobi | **APPROVED** 2026-09-27 | Cosmic soft-launch / distribution emblem (**original**). Public / soft-launch. | `distrobi-bot-avatar.png` |
 | 06 Grok Bot | **APPROVED** 2026-09-27 | Geometric builder-researcher mark (**original**). Lab 3 builder. | `grok-bot-avatar.png` |

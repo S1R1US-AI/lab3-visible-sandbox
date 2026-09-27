@@ -44,7 +44,7 @@
 ### Phase 1 — Logo SoT citations (all APPROVED)
 
 - Land PR #18 citations (01–06 **APPROVED** 2026-09-27) into ROADMAP, TRAINING-OUTLINE, media/INDEX, D3-roles-lanes.
-- **Menu order (oversight-first, 2026-09-27):** 01 Dream Talk · 02 Sensei Bot · 03 Sensei Security · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot (ids unchanged; APPROVED logos + filenames unchanged).
+- **Menu order (oversight-first, 2026-09-27):** 01 Dream Talk · 02 Sensei Security · 03 Sensei Bot · 04 Lab 3 Desk Steward · 05 Distrobi · 06 Grok Bot (ids unchanged; APPROVED logos + filenames unchanged).
 - Cite assets only: `sensei-security-avatar.png`, `sensei-bot-avatar.png`, `distrobi-bot-avatar.png`, `grok-bot-avatar.png`, `desk-steward-avatar.png`, `dream-talk-mother-earth-avatar.png`.
 - **No binaries** on this phase unless human policy says otherwise.
 
