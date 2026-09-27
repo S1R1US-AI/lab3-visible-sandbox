@@ -48,6 +48,19 @@ Dream Talk is a **third-party AI audit** and simultaneously a **system-wide thou
 - Dream Talk as build owner or source author  
 - Weakening never-sell / never-short / Coinbase create locked “because tests pass”
 
+
+## Bot visual identity (menu logos) — 2026-09-27
+
+**Human APPROVED all six menu logos 2026-09-27.**
+
+- **01 Sensei Security** — menu logo **APPROVED** 2026-09-27: shield/keyhole protective emblem (original). Asset: Grok Bot media `sensei-security-avatar.png`.
+- **02 Sensei Bot** — menu logo **APPROVED** 2026-09-27: traditional Japanese calligraphy **先生** (kung-fu master / scroll aesthetic). Asset: Grok Bot media `sensei-bot-avatar.png`.
+- **03 Distrobi** — menu logo **APPROVED** 2026-09-27: cosmic soft-launch / distribution emblem (original). Asset: Grok Bot media `distrobi-bot-avatar.png`.
+- **04 Grok Bot** — menu logo **APPROVED** 2026-09-27: geometric builder-researcher mark (original). Asset: Grok Bot media `grok-bot-avatar.png`.
+- **05 Lab 3 Desk Steward** — menu logo **APPROVED** 2026-09-27: cyberpunk dog steward mark with Steward wordmark (adult funny / jokes-win energy; original remake from user asset). Asset: Grok Bot media `desk-steward-avatar.png`.
+- **06 Dream Talk** — menu logo **APPROVED** 2026-09-27: womanly Mother Earth, Alex Grey–inspired original art (not a commercial-listing copy); overwatch/thought-experiment avatar; **no project source**. Asset: Grok Bot media `dream-talk-mother-earth-avatar.png`.
+- Lab 3 docs **cite** these; do **not** commit huge binary logos into git on this PR unless already policy.
+
 ## Related
 
 - [media/INDEX.md](./media/INDEX.md) · [ROADMAP.md](./ROADMAP.md) · [flows/INDEX.md](./flows/INDEX.md)
