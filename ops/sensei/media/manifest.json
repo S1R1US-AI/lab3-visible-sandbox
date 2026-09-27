@@ -1,0 +1,79 @@
+{
+  "package": "ops/sensei/media",
+  "role": "Grok library SoT — Sensei private D1–D5",
+  "stamp": "2026-09-27",
+  "branch": "docs/sensei-media-d1-d5-20260927",
+  "story_order": [
+    "D1",
+    "D3",
+    "D4",
+    "D2",
+    "D5"
+  ],
+  "diagrams": [
+    {
+      "id": "D1",
+      "title": "Standards-first",
+      "md": "D1-standards-first.md",
+      "png": "D1-standards-first.png",
+      "type": "flowchart TB",
+      "png_sha256": "7681ac352aa943b756d6b859f5675510cf5e2c4347f21746213752baf59aa0f3",
+      "png_bytes": 50556,
+      "png_present": true,
+      "mmd": "D1-standards-first.mmd"
+    },
+    {
+      "id": "D2",
+      "title": "Sandbox map",
+      "md": "D2-sandbox-map.md",
+      "png": "D2-sandbox-map.png",
+      "type": "flowchart TB",
+      "png_sha256": "63446ec260eb10259f47595ecdafc556ee6059798149a0abfef210df63bd5e27",
+      "png_bytes": 35448,
+      "png_present": true,
+      "mmd": "D2-sandbox-map.mmd"
+    },
+    {
+      "id": "D3",
+      "title": "Roles / lanes",
+      "md": "D3-roles-lanes.md",
+      "png": "D3-roles-lanes.png",
+      "type": "flowchart LR",
+      "png_sha256": "cdc447c5fa216516f43ac1001b5ec6368fb9a369ecebe7af315d7e4ee99b3b96",
+      "png_bytes": 42300,
+      "png_present": true,
+      "mmd": "D3-roles-lanes.mmd"
+    },
+    {
+      "id": "D4",
+      "title": "Approve loop",
+      "md": "D4-approve-loop.md",
+      "png": "D4-approve-loop.png",
+      "type": "flowchart TB",
+      "png_sha256": "be0ba86f657f9f3dff7ca889e00122c05258dbba9a3d6163ae1cf43a02e1b174",
+      "png_bytes": 47994,
+      "png_present": true,
+      "mmd": "D4-approve-loop.mmd"
+    },
+    {
+      "id": "D5",
+      "title": "Self-improve",
+      "md": "D5-self-improve.md",
+      "png": "D5-self-improve.png",
+      "type": "flowchart TB",
+      "png_sha256": "cbb17a8057148dab64dfe445e4cf8c0e18a9b85d4535d77c704c1c89cf89ca08",
+      "png_bytes": 44033,
+      "png_present": true,
+      "mmd": "D5-self-improve.mmd"
+    }
+  ],
+  "png_status": "rendered_2026-09-27",
+  "dream_talk": "Third-party AI audit + system-wide thought experiment; overwatch only; never project source.",
+  "public_x": "@S1R1US_AI only",
+  "out_of_scope": [
+    "src/",
+    "public FAQ rewrite",
+    "live s1r1us.ai SEO/homepage",
+    "contested geopolitics in glossary"
+  ]
+}
