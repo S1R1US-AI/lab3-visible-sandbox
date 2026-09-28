@@ -92,3 +92,7 @@ See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) · [D6](./media/D6-tw
 - Putting Sensei or TypeSafe into `src/`.
 - Treating Steward or Copilot APPROVE as user APPROVE.
 - Weakening never-sell / Coinbase create / FAQ / size locks for convenience.
+
+## Private bot vocabulary — NOT PUBLIC
+
+Chat practice only (see [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md)): **human** / **human user** / **system admin** = **j**. Never ship this mapping to roadmap, SEO, sitemaps, or public docs.
