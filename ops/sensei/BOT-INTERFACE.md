@@ -76,6 +76,16 @@ sequenceDiagram
 
 See [flows/07-lab3-bot-workflow.md](./flows/07-lab3-bot-workflow.md). Skill: `lab-3-sensei-workflow`.
 
+## Two-way communication (main theme)
+
+Human ↔ bot pauses are mandatory when meaning is unclear or before updates:
+
+1. Short clarifying question (Pause 1).
+2. Improve or human APPROVE/go before ship (Pause 2).
+3. Both sides treat consistent two-way communication as priority.
+
+See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) · [D6](./media/D6-two-way-communication.md).
+
 ## Anti-patterns
 
 - Skipping Sensei because “tests pass.”

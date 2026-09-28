@@ -27,3 +27,5 @@
 ## Related private SoT
 
 - Private D1–D5: [../INDEX.md](../INDEX.md)
+
+- **matrix-mistake** (2026-09-28) — cataloged roadmap rain-dominant UX before full remove → `screensavers/matrix-mistake-2026-09-28/`

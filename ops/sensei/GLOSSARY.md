@@ -87,6 +87,7 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 - HOLD ≠ FAIL (unknown is not denied).
 - Sensei owns mission meaning vocabulary (PASS/HOLD/FAIL). Security Sensei owns security vocabulary (SECURE/HOLD/FAIL). Neither rewrites the other’s words.
 - Every bot’s duty: understand the human; if not understood → pause and ask.
+- **Two-way communication (main theme):** (1) pause with a short question to clarify meaning; (2) pause prior to updates for improve or human APPROVE/go; (3) human and bot both recognize consistent two-way communication as priority. See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) · [D6](./media/D6-two-way-communication.md).
 
 ---
 
