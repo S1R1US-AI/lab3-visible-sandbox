@@ -21,6 +21,10 @@ Public instruction remains [`public/sandbox-original/INSTRUCTIONS.md`](../../pub
 
 
 
+## Private bot vocabulary — NOT PUBLIC (2026-09-28)
+
+See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md). In Grok Bot chat, human / human user / system admin = **j**. Never put this mapping in public roadmap/SEO/sitemaps/instructions.
+
 ## Two-way communication (main theme · 2026-09-28)
 
 See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) and [media/D6-two-way-communication.md](./media/D6-two-way-communication.md). Training video storyboard: [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) slots (outline only · no fake video).

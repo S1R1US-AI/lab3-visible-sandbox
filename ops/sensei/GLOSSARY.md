@@ -100,3 +100,10 @@ When reporting:
 > **Evidence:** `ops/outer-jev/CONFIG.md` — “No key = HOLD / do not merge”
 
 See [ADMIN-DETAIL.md](./ADMIN-DETAIL.md) for full templates.
+
+## Private bot vocabulary — NOT PUBLIC (2026-09-28)
+
+**FORBID public use:** not for roadmap, SEO, sitemaps, public FAQ/instructions, or any public system document. Bot-learning / Grok Bot chat only. See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md).
+
+- In team chat, **human** / **human user** / **system admin** → **j** (one letter).
+- Public surfaces keep neutral wording (“human APPROVE”) and never spell this mapping.
