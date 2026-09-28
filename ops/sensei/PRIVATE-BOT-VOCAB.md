@@ -26,3 +26,18 @@ One letter: **j**. This is how bots and j communicate the system-admin + human-u
 
 - Team Boolean / pause+clarify still apply (see GLOSSARY · COMMUNICATION-TWO-WAY).
 - Public X remains `@S1R1US_AI` only (unchanged).
+
+---
+
+## Public actor classes (not secret — use these in public copy)
+
+See [SECURITY-ACTOR-DEFINITIONS.md](./SECURITY-ACTOR-DEFINITIONS.md) and Sensei Security DEFINITIONS §10.
+
+| ID | Public wording |
+|----|----------------|
+| ACTOR-01 | System Admin |
+| ACTOR-02 | Visitors / online users / phone-app users |
+| ACTOR-03 | White-label desk operator (copy-admin) |
+
+**Never** put the private admin alias (this file’s **j** mapping) in README, Terms, Privacy, FAQ, SEO, or other public docs.
+
