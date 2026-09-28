@@ -2,7 +2,7 @@
 
 One-page shared vocabulary for Sensei Bot App, Lab 3 Desk Steward, Grok Bot, and patch agents. Use these terms in admin reports, PR notes, and HOLD/PASS/FAIL verdicts.
 
-**Merge stamp (2026-09-28):** Merged from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). Security **SECURE** on desk locks **#16** + **#31** and cite residuals **#30** + **#20**. **j APPROVE** glossary merge via Dream Talk. Soft-launch/Lab3 **HOLD** for soft-launch/theme work **UNCHANGED**. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition.
+**Merge stamp (2026-09-28):** Merged from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). Security **SECURE** on desk locks **#16** + **#31** and cite residuals **#30** + **#20**. **j APPROVE** glossary merge via Dream Talk. Soft-launch/Lab3 **HOLD** for soft-launch/theme work **UNCHANGED**. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. **j APPROVE** Web3 NIST locks (**#43** + **#44**) via Dream Talk 2026-09-28 — Web3 (NIST) ≠ W3C Web 3.0 / semantic web.
 
 **Standards frame**
 
@@ -105,7 +105,7 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 
 ## DEFINITIONS pack (2026-09-28)
 
-Formal locks from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). belief ≠ definition. Soft-launch/Lab3 HOLD. Does **not** authorize live AI trading.
+Formal locks from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks) + Web3 NIST locks (**#43** + **#44**, j APPROVE 2026-09-28). belief ≠ definition. Soft-launch/Lab3 HOLD. Does **not** authorize live AI trading. **Fence:** Web3 (NIST CSRC / IR 8475) ≠ W3C “Web 3.0” / semantic web — do not collapse.
 
 | Lock status | Meaning |
 | --- | --- |
@@ -229,13 +229,23 @@ See [Mechanistic interpretability](#mechanistic-interpretability) above (canonic
 #### 42. drift (Anthropic / persona drift) — LOCKED (Anthropic sense)
 See [Drift (Anthropic / persona drift)](#2-drift-anthropic--persona-drift--locked-j-2026-09-28) above (canonical entry). Lab 3 operational drift remains a **SEPARATE** desk term under standard **b**.
 
+#### 43. Web3 — LOCKED (NIST CSRC glossary)
+Web3 is a restructuring of the internet that places ownership and operation into the hands of users themselves, thus changing the structure from organization-centric to user-centric.  
+**Fence:** Web3 (NIST) ≠ W3C “Web 3.0” / semantic web. Do not collapse. Grok earlier #43 HOLD-NO-SINGLE-DEF / Merriam-Webster miss is **not** this lock — **j APPROVED** NIST as SoT.  
+**Source:** https://csrc.nist.gov/glossary/term/web3 (NIST IR 8475)
+
+#### 44. Web3 framing — LOCKED (NIST IR 8475 context; not a second competing definition)
+Framing/context for entry **#43**: a proposed vision of a more user-centric, decentralized internet with user-owned data, distributed systems, tokens, and crypto payments. Not a statute title. Not W3C “Web 3.0” / semantic web.  
+**Source:** https://csrc.nist.gov/pubs/ir/8475/ipd
+
 ### Counts (this merge)
 
 | Scope | LOCKED | HOLD (not formally locked) |
 | --- | --- | --- |
 | 40-pack terms | **26** (incl. desk #16 + #31) | **14** |
 | Anthropic locks | **2** | 0 |
-| **Total** | **28** | **14** |
+| Web3 NIST locks (#43 + #44) | **2** | 0 |
+| **Total** | **30** | **14** |
 
 ### HOLD — not formally locked (appendix)
 
