@@ -1,7 +1,7 @@
-# Sensei media — Grok library SoT (D1–D5)
+# Sensei media — Grok library SoT (D1–D6)
 
 **Package:** `ops/sensei/media/` 
-**Role:** Source of truth for private Sensei/Grok training diagrams (standards → roles → approve → sandbox → self-improve). 
+**Role:** Source of truth for private Sensei/Grok training diagrams (standards → **two-way communication** → roles → approve → sandbox → self-improve). 
 **Stamp:** 2026-09-27 · branch `docs/sensei-media-d1-d5-20260927` 
 **Scope:** Ops-only. Not imported by `src/`. Not live s1r1us.ai. No public FAQ rewrite. No contested geopolitics.
 
@@ -14,16 +14,18 @@
 | D3 | Roles / lanes (incl. Dream Talk overwatch) | [D3-roles-lanes.md](./D3-roles-lanes.md) · [D3-roles-lanes.mmd](./D3-roles-lanes.mmd) | `D3-roles-lanes.png` — **HOLD** binary push |
 | D4 | Approve loop | [D4-approve-loop.md](./D4-approve-loop.md) · [D4-approve-loop.mmd](./D4-approve-loop.mmd) | `D4-approve-loop.png` — **HOLD** binary push |
 | D5 | Self-improve inside lane | [D5-self-improve.md](./D5-self-improve.md) · [D5-self-improve.mmd](./D5-self-improve.mmd) | `D5-self-improve.png` — **HOLD** binary push |
+| D6 | Two-way communication (main theme) | [D6-two-way-communication.md](./D6-two-way-communication.md) · [D6-two-way-communication.mmd](./D6-two-way-communication.mmd) | `D6-two-way-communication.png` — **HOLD** binary push |
 
 See [manifest.json](./manifest.json) for checksums of locally rendered PNGs.
 
 ## Story lock (order)
 
 1. **D1** — STANDARDS / DEFINITIONS first (a+b+c + Team Boolean dual vocabularies)
-2. **D3** — ROLES / LANES (01–06; Dream Talk overwatch only)
-3. **D4** — APPROVE loop (propose → Sensei → Security → Steward if mandate → human APPROVE → merge)
-4. **D2** — SANDBOX map (ship only to matching track after APPROVE)
-5. **D5** — SELF-IMPROVE inside lane (no peer-verdict rewrite; HOLD when unclear)
+2. **D6** — TWO-WAY COMMUNICATION (main theme: clarify pause · pre-update pause · mutual priority)
+3. **D3** — ROLES / LANES (01–06; Dream Talk overwatch only)
+4. **D4** — APPROVE loop (propose → Sensei → Security → Steward if mandate → human APPROVE → merge)
+5. **D2** — SANDBOX map (ship only to matching track after APPROVE)
+6. **D5** — SELF-IMPROVE inside lane (no peer-verdict rewrite; HOLD when unclear)
 
 ## Dream Talk NOTE
 
@@ -59,7 +61,7 @@ Workspace practice copies may exist under agent assets; Lab 3 SoT remains citati
 
 ## PNG export (binary HOLD)
 
-Mermaid `.md` / `.mmd` are **authoritative** on `main` (PR #16). PNGs were rendered 2026-09-27 via `@mermaid-js/mermaid-cli` in the agent workspace (`/workspace/lab3-visible-sandbox-media/ops/sensei/media/*.png`) with SHA-256 recorded in `manifest.json`, but **D1–D5 binary PNG commit remains HOLD**. Human can add PNGs in a follow-up with normal git auth, or regenerate:
+Mermaid `.md` / `.mmd` are **authoritative** on `main` (PR #16). PNGs were rendered 2026-09-27 via `@mermaid-js/mermaid-cli` in the agent workspace (`/workspace/lab3-visible-sandbox-media/ops/sensei/media/*.png`) with SHA-256 recorded in `manifest.json`, but **D1–D6 binary PNG commit remains HOLD**. Human can add PNGs in a follow-up with normal git auth, or regenerate:
 
 ```bash
 npx -y @mermaid-js/mermaid-cli -p /path/to/puppeteer-config.json \

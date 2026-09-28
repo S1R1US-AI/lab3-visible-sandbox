@@ -19,8 +19,19 @@ Public instruction remains [`public/sandbox-original/INSTRUCTIONS.md`](../../pub
 5. Run Research security function on this tab. PASS only may feed Agent 9. REJECT is dropped.
 6. Confirm figures and captions do **not** treat Jev as an in-desk scorer. Retired labels: `sleeve_add_allowed`, `jevScope`, `scoreSleeveAdd`, in-app Jev panel. Current contract: `jevOutsideApp: 100`.
 
+
+
+## Two-way communication (main theme · 2026-09-28)
+
+See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) and [media/D6-two-way-communication.md](./media/D6-two-way-communication.md). Training video storyboard: [TRAINING-OUTLINE.md](./TRAINING-OUTLINE.md) slots (outline only · no fake video).
+
+1. **Pause to clarify meaning** — short question if unsure; human clarifies if bot may have misunderstood.
+2. **Pause prior to updates** — improve or human APPROVE/go before live/theme/material ship.
+3. **Priority** — consistent two-way communication is recognized by human and bot as priority (with standards + APPROVE).
+
 ## Agent / bot standing orders
 
+0. **Communicate both ways** — pause+clarify; pause before updates; never silent multi-surface ship on a guess.
 1. Propose on a branch. Never silent-merge to `main`.
 2. Sensei reviews against [GLOSSARY.md](./GLOSSARY.md), [ROADMAP.md](./ROADMAP.md), and hard locks.
 3. Run `node ops/outer-jev/scan-runtime.mjs`. Leak of Jev into `src/` is FAIL.
