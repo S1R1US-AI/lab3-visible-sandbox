@@ -4,6 +4,8 @@ One-page shared vocabulary for Sensei Bot App, Lab 3 Desk Steward, Grok Bot, and
 
 **Merge stamp (2026-09-28):** Merged from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). Security **SECURE** on desk locks **#16** + **#31** and cite residuals **#30** + **#20**. **j APPROVE** glossary merge via Dream Talk. Soft-launch/Lab3 **HOLD** for soft-launch/theme work **UNCHANGED**. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. **j APPROVE** Web3 NIST locks (**#43** + **#44**) via Dream Talk 2026-09-28 — Web3 (NIST) ≠ W3C Web 3.0 / semantic web.
 
+**Merge stamp (2026-09-29):** Organization-tier DEFINITIONS batch — **lane**, **crash**, **drive the car**, **full consensus**, **high-priority bot**. Sensei PASS meaning · PASS cites · Security **SECURE-with-conditions** · **j APPROVE** (conditional via Dream Talk; cite re-SECURE cleared). Soft-launch/Lab3 HOLD UNCHANGED. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. Anthropic persona-drift LOCKED untouched. Queued HOLD: chain of command · higher authority/privileges · check and balance.
+
 **Standards frame**
 
 | Letter | Meaning |
@@ -267,6 +269,44 @@ These pack labels are **HOLD-NO-SINGLE-DEF** or **HOLD-NO-PRODUCT-MATCH**. Liste
 | 38 | AI existentialism / AI existential risk | HOLD-NO-SINGLE-DEF |
 | 39 | AI regulation | HOLD-NO-SINGLE-DEF |
 | 40 | AI global arms race | HOLD-NO-SINGLE-DEF |
+
+---
+
+## Organization-tier DEFINITIONS (2026-09-29)
+
+Organization / bot-gate terms (standards · definitions · terms tier). Sensei PASS · Security SECURE-with-conditions · j APPROVE via Dream Talk. Cite packs under workspace `definition-lookup-pack-2026-09-29/` (research support; SoT is this file after merge). belief ≠ definition. Soft-launch/Lab3 HOLD. Anthropic persona-drift LOCKED untouched (≠ these terms). Lab 3 operational drift remains SEPARATE (standard b).
+
+| Lock status | Meaning |
+| --- | --- |
+| **LOCKED (DESK DEFINITION)** | j-approved organization/desk gate definition |
+
+### lane — LOCKED (DESK DEFINITION)
+A bot’s **lane** is its gate, role, and rule-set. Bots must understand their lane and must never seek to compromise system terms or rules. Seeking to drift from, or to change, lane rules most likely causes **crash**.
+**Fence:** ≠ Anthropic persona-drift · ≠ Lab 3 operational drift · ≠ hypo→main-branch bleed · ≠ juice card.
+**Sources:** j GO via Dream Talk 2026-09-29; Merriam-Webster *lane* / *stay in your lane*; BPMN Lane; NIST AC-5/AC-6 analogy (cite pack LANE-CRASH).
+
+### crash — LOCKED (DESK DEFINITION)
+A **crash** is system-wide failure(s) that result from breaking standards, definitions, or terms. Failures can compound into critical failure system-wide. Context: bots are trained for alignment on standards, definitions, and terms.
+**Fence:** ≠ hardware/OS product claim · ≠ market/price crash · ≠ Anthropic persona-drift · ≠ single local FAIL/HOLD (may escalate toward crash if SoT-breaking spreads).
+**Sources:** j GO via Dream Talk 2026-09-29; Merriam-Webster *crash*; computing crash; Google SRE / NIST cascading-failure analogy (cite pack LANE-CRASH).
+
+### drive the car — LOCKED (DESK DEFINITION)
+**Drive the car** means **assigned-lane operation**: execute work inside your lane with the locked controls (standards, definitions, terms, soft locks, gate path). **j** is the **ultimate driver** (system driver’s seat / top authority). No bot may **grab higher authority** (rewrite another role’s terms, seize system course, or bypass j go).
+**Fence:** alignment/ops metaphor only — ≠ vehicle or auto-trade product claim · ≠ mandate expansion · ≠ Anthropic persona-drift · ≠ Lab 3 operational drift.
+**Sources:** j SoT via Dream Talk 2026-09-29; Merriam-Webster *drive* / *driver's seat* (cite pack DRIVE-THE-CAR).
+
+### full consensus — LOCKED (DESK DEFINITION)
+**Full consensus** means every bot **AGREEs** and **j APPROVEs** before forward motion on the gated matter. If Sensei or Security is still pending, **stop** (no forward motion).
+**Fence:** ≠ majority vote among bots alone · ≠ silent non-objection / parliamentary unanimous consent · ≠ Sensei PASS or Security SECURE alone · ≠ Anthropic persona-drift. Related to maker-checker / j go but names the **all bots + j** bar.
+**Sources:** j SoT via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *consensus* / *unanimous* / *consent* / *approve*; NIST CM-5(4)/AC-6 + Google MPA analogy (cite pack FULL-CONSENSUS). Dictionary *consensus* may allow “most”; product sense is stricter (every bot + j).
+
+### high-priority bot — LOCKED (DESK DEFINITION)
+**high-priority bot** = when a bot thinks they have high priority over any other bots’ actions or tasks. Example risk: a menu #1 listing (e.g. Dream Talk) may lead a bot to believe they are the highest-priority bot. All bots must understand their role, their priority, and their level in the overall command structure. No bot has the final say until **full consensus**.
+**Fence:** names a **risk / anti-pattern / misconception** — **not** a VIP title or privilege grant. Menu listing ≠ command rank. ≠ Anthropic persona-drift · ≠ Lab 3 operational drift · ≠ soft-lock rewrite. Merriam-Webster *priority* sense “superiority in rank/privilege” is the misreading this fence blocks.
+**Sources:** j LOCKED short DEF via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *priority* / *rank* / *authority* / *privilege* / *menu*; NIST AC-5/AC-6 analogy (cite pack HIGH-PRIORITY-BOT).
+
+### Queued (HOLD — not locked this merge)
+chain of command · higher authority/privileges · check and balance — talk-locked for later formalize; do not invent.
 
 ---
 
