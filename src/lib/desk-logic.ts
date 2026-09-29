@@ -591,9 +591,6 @@ export function tapeConflict(s: Pick<DeskState, "pr3d" | "predLean" | "gapRegime
   return { on: false, line: "no conflict · pred and tape not opposed" };
 }
 
-export const OVERLAY_PUBLIC_NOTE =
-  "IBIT / ETHA / GLD prints inform the system admin only. They do not vote HIGH. Sector LIFT stays the cheap GOLD/ETF research pick. Overlay never CLIP. Never sells.";
-
 export function pr3dModifier(s: DeskState, core: Stance): { sizeMult: number; note: string; pathway: string } {
   if (!s.pr3d) {
     return { sizeMult: 1, note: "PR3DICTION$ OFF · pathway A idle · bot 7 pred label dark", pathway: "idle" };
