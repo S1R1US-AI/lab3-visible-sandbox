@@ -95,4 +95,4 @@ See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) · [D6](./media/D6-tw
 
 ## Private bot vocabulary — NOT PUBLIC
 
-Chat practice only (see [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md)): **human** / **human user** / **system admin** = **j**. Never ship this mapping to roadmap, SEO, sitemaps, or public docs.
+See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md). Private chat aliases are **not** published on this public repository. Public wording = **human APPROVE** / **system admin** only. Public X = `@S1R1US_AI` only. Never ship private-alias mappings to roadmap, SEO, sitemaps, or public docs.
