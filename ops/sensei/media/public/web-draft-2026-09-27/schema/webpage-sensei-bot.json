@@ -36,7 +36,7 @@
       },
       {
         "@type": "Question",
-        "name": "What is Boolean HOLD?",
+        "name": "What is HOLD when unclear?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "When a claim is unclear, mixed, or unverified, bots HOLD: pause, do not invent meaning, and ask the human."
