@@ -2,9 +2,9 @@
 
 One-page shared vocabulary for Sensei Bot App, Lab 3 Desk Steward, Grok Bot, and patch agents. Use these terms in admin reports, PR notes, and HOLD/PASS/FAIL verdicts.
 
-**Merge stamp (2026-09-28):** Merged from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). Security **SECURE** on desk locks **#16** + **#31** and cite residuals **#30** + **#20**. **j APPROVE** glossary merge via Dream Talk. Soft-launch/Lab3 **HOLD** for soft-launch/theme work **UNCHANGED**. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. **j APPROVE** Web3 NIST locks (**#43** + **#44**) via Dream Talk 2026-09-28 — Web3 (NIST) ≠ W3C Web 3.0 / semantic web.
+**Merge stamp (2026-09-28):** Merged from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks). Security **SECURE** on desk locks **#16** + **#31** and cite residuals **#30** + **#20**. **human APPROVE** glossary merge via Dream Talk. Soft-launch/Lab3 **HOLD** for soft-launch/theme work **UNCHANGED**. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. **human APPROVE** Web3 NIST locks (**#43** + **#44**) via Dream Talk 2026-09-28 — Web3 (NIST) ≠ W3C Web 3.0 / semantic web.
 
-**Merge stamp (2026-09-29):** Organization-tier DEFINITIONS batch — **lane**, **crash**, **drive the car**, **full consensus**, **high-priority bot**. Sensei PASS meaning · PASS cites · Security **SECURE-with-conditions** · **j APPROVE** (conditional via Dream Talk; cite re-SECURE cleared). Soft-launch/Lab3 HOLD UNCHANGED. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. Anthropic persona-drift LOCKED untouched. Queued HOLD: chain of command · higher authority/privileges · check and balance.
+**Merge stamp (2026-09-29):** Organization-tier DEFINITIONS batch — **lane**, **crash**, **drive the car**, **full consensus**, **high-priority bot**. Sensei PASS meaning · PASS cites · Security **SECURE-with-conditions** · **human APPROVE** (conditional via Dream Talk; cite re-SECURE cleared). Soft-launch/Lab3 HOLD UNCHANGED. Does **NOT** authorize live AI trading. Paper never-sell/never-short + Coinbase create/auto-trade **LOCKED**. belief ≠ definition. Anthropic persona-drift LOCKED untouched. Queued HOLD: chain of command · higher authority/privileges · check and balance.
 
 **Standards frame**
 
@@ -18,9 +18,9 @@ One-page shared vocabulary for Sensei Bot App, Lab 3 Desk Steward, Grok Bot, and
 
 ## Mechanistic interpretability
 
-**Official spelling:** *mechanistic interpretability*. Alias “mechanical interpretability” = informal / j spoken only — **NOT** official spelling.
+**Official spelling:** *mechanistic interpretability*. Alias “mechanical interpretability” = informal / human spoken only — **NOT** official spelling.
 
-**Definition (LOCKED — Anthropic, j 2026-09-28).** Anthropic’s research program aimed at a mechanistic understanding of language models by opening the black box: identifying interpretable internal units (especially features—patterns / linear combinations of neuron activations—and the circuits that use them) so researchers can explain, monitor, and steer model behavior from the inside rather than only from inputs and outputs.
+**Definition (LOCKED — Anthropic, human 2026-09-28).** Anthropic’s research program aimed at a mechanistic understanding of language models by opening the black box: identifying interpretable internal units (especially features—patterns / linear combinations of neuron activations—and the circuits that use them) so researchers can explain, monitor, and steer model behavior from the inside rather than only from inputs and outputs.
 
 **Sources:** https://www.anthropic.com/research/decomposing-language-models-into-understandable-components ; https://www.anthropic.com/research/mapping-mind-language-model
 
@@ -36,7 +36,7 @@ Lab 3 keeps **operational drift** (standard **b**) as a **SEPARATE desk term**. 
 
 Training/serving distribution shift: features, labels, or environment statistics move so a model’s predictions degrade. Not a formal Sensei glossary lock.
 
-### 2. Drift (Anthropic / persona drift) — LOCKED (j 2026-09-28)
+### 2. Drift (Anthropic / persona drift) — LOCKED (human 2026-09-28)
 
 **Definition.** In Anthropic’s persona / Assistant-Axis research, drift means a model’s internal activations and expressed character moving away from the intended Assistant persona (or toward another character / undesirable trait) over a conversation or during training—detectable in neural activity and associated with higher risk of harmful or off-role behavior.
 
@@ -44,7 +44,7 @@ Training/serving distribution shift: features, labels, or environment statistics
 
 **Scope.** Anthropic persona-drift sense only. Bare universal ML drift = **NOT** locked here.
 
-**Fence note.** Team hypo→main-branch fence must **NOT** reuse the word “drift” for that meaning — use separate plain phrase **hypo→main-branch bleed** until j names it.
+**Fence note.** Team hypo→main-branch fence must **NOT** reuse the word “drift” for that meaning — use separate plain phrase **hypo→main-branch bleed** until the human names it.
 
 ### 3. Lab 3 operational drift (**tightened**) — standard **b** (SEPARATE desk term)
 
@@ -107,13 +107,13 @@ Operational drift is a **FAIL** or **HOLD** even when CI is green. Passing tests
 
 ## DEFINITIONS pack (2026-09-28)
 
-Formal locks from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks) + Web3 NIST locks (**#43** + **#44**, j APPROVE 2026-09-28). belief ≠ definition. Soft-launch/Lab3 HOLD. Does **not** authorize live AI trading. **Fence:** Web3 (NIST CSRC / IR 8475) ≠ W3C “Web 3.0” / semantic web — do not collapse.
+Formal locks from `DEFINITIONS-LOCK-DRAFT-2026-09-28` (+ Anthropic locks) + Web3 NIST locks (**#43** + **#44**, human APPROVE 2026-09-28). belief ≠ definition. Soft-launch/Lab3 HOLD. Does **not** authorize live AI trading. **Fence:** Web3 (NIST CSRC / IR 8475) ≠ W3C “Web 3.0” / semantic web — do not collapse.
 
 | Lock status | Meaning |
 | --- | --- |
 | **LOCKED** | Formal short definition from pack primary source |
 | **LOCKED (Anthropic sense)** | Anthropic primary-source sense; not a universal definition |
-| **LOCKED (DESK DEFINITION)** | j-approved desk role/control definition; not a vendor product title |
+| **LOCKED (DESK DEFINITION)** | human-approved desk role/control definition; not a vendor product title |
 | **HOLD — not formally locked** | Pack HOLD-NO-SINGLE-DEF or HOLD-NO-PRODUCT-MATCH — listed in appendix only |
 
 ### LOCKED terms (formal)
@@ -168,8 +168,8 @@ Encyclopedia concept: a hypothesized future point or phase at which technologica
 
 #### 16. bitcoin ai trading desk — LOCKED (DESK DEFINITION)
 A human-supervised trading function that uses AI systems to research, propose, or execute bitcoin spot or bitcoin-related orders under written risk limits, with a named accountable operator, no unsupervised auto-trade unless separately APPROVED, and full audit of model inputs, outputs, and fills. It is a role and control design — not a trademarked product name at Coinbase, Fidelity, or Schwab.  
-**Note:** belief ≠ definition — does **NOT** authorize live AI trading. Soft-launch/Lab3 HOLD. Paper never-sell/never-short; Coinbase create/auto-trade LOCKED without j APPROVE+Security. Security **SECURE** on this desk lock (2026-09-28).  
-**Source:** j APPROVE via Dream Talk 2026-09-28 (desk definition; not vendor trademark)
+**Note:** belief ≠ definition — does **NOT** authorize live AI trading. Soft-launch/Lab3 HOLD. Paper never-sell/never-short; Coinbase create/auto-trade LOCKED without human APPROVE + Security. Security **SECURE** on this desk lock (2026-09-28).  
+**Source:** human APPROVE via Dream Talk 2026-09-28 (desk definition; not vendor trademark)
 
 #### 18. government debt / total government debt for 2026 — LOCKED
 **Metric (LOCKED):** In U.S. federal fiscal statistics, **Total Public Debt Outstanding (TPDO)** = **Debt Held by the Public** + **Intragovernmental Holdings**, as published in Treasury Fiscal Data “Debt to the Penny.” There is **no single eternal official “2026 total”** in advance; figures are **as-of a record date** and change daily.  
@@ -210,8 +210,8 @@ Buying and selling bitcoin for immediate delivery on Coinbase’s spot markets (
 
 #### 31. Coinbase AI trading rails — LOCKED (DESK DEFINITION)
 The authorized technical path by which an AI agent, with explicit user permission, connects to Coinbase interfaces (for example Coinbase for Agents / MCP and Advanced Trade spot APIs) to place or manage spot bitcoin orders while inheriting Coinbase account auth, permissions, and audit trails. Exact phrase is not an official Coinbase product title; map implementations to the named Coinbase product actually used.  
-**Note:** belief ≠ definition — does **NOT** authorize live AI trading. Soft-launch/Lab3 HOLD. Paper never-sell/never-short; Coinbase create/auto-trade LOCKED without j APPROVE+Security. Security **SECURE** on this desk lock (2026-09-28).  
-**Source:** j APPROVE via Dream Talk 2026-09-28; map to Coinbase for Agents / Advanced Trade docs when implementing — not a Coinbase product title
+**Note:** belief ≠ definition — does **NOT** authorize live AI trading. Soft-launch/Lab3 HOLD. Paper never-sell/never-short; Coinbase create/auto-trade LOCKED without human APPROVE + Security. Security **SECURE** on this desk lock (2026-09-28).  
+**Source:** human APPROVE via Dream Talk 2026-09-28; map to Coinbase for Agents / Advanced Trade docs when implementing — not a Coinbase product title
 
 #### 34. copyright — LOCKED
 A type of intellectual property that protects original works of authorship as soon as an author fixes the work in a tangible form of expression (protects expression, not ideas, procedures, systems, or discoveries).  
@@ -229,11 +229,11 @@ Software distributed under license terms that meet the Open Source Definition (s
 See [Mechanistic interpretability](#mechanistic-interpretability) above (canonical entry).
 
 #### 42. drift (Anthropic / persona drift) — LOCKED (Anthropic sense)
-See [Drift (Anthropic / persona drift)](#2-drift-anthropic--persona-drift--locked-j-2026-09-28) above (canonical entry). Lab 3 operational drift remains a **SEPARATE** desk term under standard **b**.
+See [Drift (Anthropic / persona drift)](#2-drift-anthropic--persona-drift--locked-human-2026-09-28) above (canonical entry). Lab 3 operational drift remains a **SEPARATE** desk term under standard **b**.
 
 #### 43. Web3 — LOCKED (NIST CSRC glossary)
 Web3 is a restructuring of the internet that places ownership and operation into the hands of users themselves, thus changing the structure from organization-centric to user-centric.  
-**Fence:** Web3 (NIST) ≠ W3C “Web 3.0” / semantic web. Do not collapse. Grok earlier #43 HOLD-NO-SINGLE-DEF / Merriam-Webster miss is **not** this lock — **j APPROVED** NIST as SoT.  
+**Fence:** Web3 (NIST) ≠ W3C “Web 3.0” / semantic web. Do not collapse. Grok earlier #43 HOLD-NO-SINGLE-DEF / Merriam-Webster miss is **not** this lock — **human APPROVED** NIST as SoT.  
 **Source:** https://csrc.nist.gov/glossary/term/web3 (NIST IR 8475)
 
 #### 44. Web3 framing — LOCKED (NIST IR 8475 context; not a second competing definition)
@@ -274,36 +274,36 @@ These pack labels are **HOLD-NO-SINGLE-DEF** or **HOLD-NO-PRODUCT-MATCH**. Liste
 
 ## Organization-tier DEFINITIONS (2026-09-29)
 
-Organization / bot-gate terms (standards · definitions · terms tier). Sensei PASS · Security SECURE-with-conditions · j APPROVE via Dream Talk. Cite packs under workspace `definition-lookup-pack-2026-09-29/` (research support; SoT is this file after merge). belief ≠ definition. Soft-launch/Lab3 HOLD. Anthropic persona-drift LOCKED untouched (≠ these terms). Lab 3 operational drift remains SEPARATE (standard b).
+Organization / bot-gate terms (standards · definitions · terms tier). Sensei PASS · Security SECURE-with-conditions · human APPROVE via Dream Talk. Cite packs under workspace `definition-lookup-pack-2026-09-29/` (research support; SoT is this file after merge). belief ≠ definition. Soft-launch/Lab3 HOLD. Anthropic persona-drift LOCKED untouched (≠ these terms). Lab 3 operational drift remains SEPARATE (standard b).
 
 | Lock status | Meaning |
 | --- | --- |
-| **LOCKED (DESK DEFINITION)** | j-approved organization/desk gate definition |
+| **LOCKED (DESK DEFINITION)** | human-approved organization/desk gate definition |
 
 ### lane — LOCKED (DESK DEFINITION)
 A bot’s **lane** is its gate, role, and rule-set. Bots must understand their lane and must never seek to compromise system terms or rules. Seeking to drift from, or to change, lane rules most likely causes **crash**.
 **Fence:** ≠ Anthropic persona-drift · ≠ Lab 3 operational drift · ≠ hypo→main-branch bleed · ≠ juice card.
-**Sources:** j GO via Dream Talk 2026-09-29; Merriam-Webster *lane* / *stay in your lane*; BPMN Lane; NIST AC-5/AC-6 analogy (cite pack LANE-CRASH).
+**Sources:** human GO via Dream Talk 2026-09-29; Merriam-Webster *lane* / *stay in your lane*; BPMN Lane; NIST AC-5/AC-6 analogy (cite pack LANE-CRASH).
 
 ### crash — LOCKED (DESK DEFINITION)
 A **crash** is system-wide failure(s) that result from breaking standards, definitions, or terms. Failures can compound into critical failure system-wide. Context: bots are trained for alignment on standards, definitions, and terms.
 **Fence:** ≠ hardware/OS product claim · ≠ market/price crash · ≠ Anthropic persona-drift · ≠ single local FAIL/HOLD (may escalate toward crash if SoT-breaking spreads).
-**Sources:** j GO via Dream Talk 2026-09-29; Merriam-Webster *crash*; computing crash; Google SRE / NIST cascading-failure analogy (cite pack LANE-CRASH).
+**Sources:** human GO via Dream Talk 2026-09-29; Merriam-Webster *crash*; computing crash; Google SRE / NIST cascading-failure analogy (cite pack LANE-CRASH).
 
 ### drive the car — LOCKED (DESK DEFINITION)
-**Drive the car** means **assigned-lane operation**: execute work inside your lane with the locked controls (standards, definitions, terms, soft locks, gate path). **j** is the **ultimate driver** (system driver’s seat / top authority). No bot may **grab higher authority** (rewrite another role’s terms, seize system course, or bypass j go).
+**Drive the car** means **assigned-lane operation**: execute work inside your lane with the locked controls (standards, definitions, terms, soft locks, gate path). **human / system admin** is the **ultimate driver** (system driver’s seat / top authority). No bot may **grab higher authority** (rewrite another role’s terms, seize system course, or bypass human go).
 **Fence:** alignment/ops metaphor only — ≠ vehicle or auto-trade product claim · ≠ mandate expansion · ≠ Anthropic persona-drift · ≠ Lab 3 operational drift.
-**Sources:** j SoT via Dream Talk 2026-09-29; Merriam-Webster *drive* / *driver's seat* (cite pack DRIVE-THE-CAR).
+**Sources:** human SoT via Dream Talk 2026-09-29; Merriam-Webster *drive* / *driver's seat* (cite pack DRIVE-THE-CAR).
 
 ### full consensus — LOCKED (DESK DEFINITION)
-**Full consensus** means every bot **AGREEs** and **j APPROVEs** before forward motion on the gated matter. If Sensei or Security is still pending, **stop** (no forward motion).
-**Fence:** ≠ majority vote among bots alone · ≠ silent non-objection / parliamentary unanimous consent · ≠ Sensei PASS or Security SECURE alone · ≠ Anthropic persona-drift. Related to maker-checker / j go but names the **all bots + j** bar.
-**Sources:** j SoT via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *consensus* / *unanimous* / *consent* / *approve*; NIST CM-5(4)/AC-6 + Google MPA analogy (cite pack FULL-CONSENSUS). Dictionary *consensus* may allow “most”; product sense is stricter (every bot + j).
+**Full consensus** means every bot **AGREEs** and **human APPROVEs** before forward motion on the gated matter. If Sensei or Security is still pending, **stop** (no forward motion).
+**Fence:** ≠ majority vote among bots alone · ≠ silent non-objection / parliamentary unanimous consent · ≠ Sensei PASS or Security SECURE alone · ≠ Anthropic persona-drift. Related to maker-checker / human go but names the **all bots + human** bar.
+**Sources:** human SoT via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *consensus* / *unanimous* / *consent* / *approve*; NIST CM-5(4)/AC-6 + Google MPA analogy (cite pack FULL-CONSENSUS). Dictionary *consensus* may allow “most”; product sense is stricter (every bot + human).
 
 ### high-priority bot — LOCKED (DESK DEFINITION)
 **high-priority bot** = when a bot thinks they have high priority over any other bots’ actions or tasks. Example risk: a menu #1 listing (e.g. Dream Talk) may lead a bot to believe they are the highest-priority bot. All bots must understand their role, their priority, and their level in the overall command structure. No bot has the final say until **full consensus**.
 **Fence:** names a **risk / anti-pattern / misconception** — **not** a VIP title or privilege grant. Menu listing ≠ command rank. ≠ Anthropic persona-drift · ≠ Lab 3 operational drift · ≠ soft-lock rewrite. Merriam-Webster *priority* sense “superiority in rank/privilege” is the misreading this fence blocks.
-**Sources:** j LOCKED short DEF via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *priority* / *rank* / *authority* / *privilege* / *menu*; NIST AC-5/AC-6 analogy (cite pack HIGH-PRIORITY-BOT).
+**Sources:** human LOCKED short DEF via Dream Talk 2026-09-29; Merriam-Webster/Cambridge *priority* / *rank* / *authority* / *privilege* / *menu*; NIST AC-5/AC-6 analogy (cite pack HIGH-PRIORITY-BOT).
 
 ### Queued (HOLD — not locked this merge)
 chain of command · higher authority/privileges · check and balance — talk-locked for later formalize; do not invent.
@@ -322,7 +322,11 @@ See [ADMIN-DETAIL.md](./ADMIN-DETAIL.md) for full templates.
 
 ## Private bot vocabulary — NOT PUBLIC (2026-09-28)
 
-**FORBID public use:** not for roadmap, SEO, sitemaps, public FAQ/instructions, or any public system document. Bot-learning / Grok Bot chat only. See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md).
+**FORBID public use:** Private chat aliases and admin/dev X handles are **not** published on this public repository. See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md).
 
-- In team chat, **human** / **human user** / **system admin** → **j** (one letter).
-- Public surfaces keep neutral wording (“human APPROVE”) and never spell this mapping.
+- Public docs use **human APPROVE** / **system admin** only.
+- Ultimate driver = **human / system admin** (never a private letter alias).
+- Public X = `@S1R1US_AI` only.
+- Do **not** map human/system admin to any private one-letter alias in public files.
+
+**Scrub stamp (2026-09-29):** Private bot aliases removed from this public glossary per HARD SECURITY. Public wording = human APPROVE / system admin. Public X=@S1R1US_AI only.

@@ -23,7 +23,7 @@ Public instruction remains [`public/sandbox-original/INSTRUCTIONS.md`](../../pub
 
 ## Private bot vocabulary — NOT PUBLIC (2026-09-28)
 
-See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md). In Grok Bot chat, human / human user / system admin = **j**. Never put this mapping in public roadmap/SEO/sitemaps/instructions.
+See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md). Private chat aliases are **not** published here. Public wording = **human APPROVE** / **system admin** only. Public X = `@S1R1US_AI` only. Never put private-alias mappings in public roadmap/SEO/sitemaps/instructions.
 
 ## Two-way communication (main theme · 2026-09-28)
 
