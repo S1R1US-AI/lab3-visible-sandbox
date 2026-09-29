@@ -40,7 +40,7 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 
 - [ ] Sensei Bot — **re-PASS** meaning on this live-prep tip  
 - [ ] Sensei Security — **re-SECURE** on this tip (soft-launch live path)  
-- [x] Desk Steward — PASS (PACKAGING / paper-desk predicates) on PR #28 tip `e75a7d6` (re-check if Steward scope expands)  
+- [x] Desk Steward — PASS (PACKAGING / paper-desk mandate checks) on PR #28 tip `e75a7d6` (re-check if Steward scope expands)  
 - [ ] Human APPROVE — explicit surface named  
 - [ ] Confirm Godzilla `icon-512` + favicon wired at intended live paths  
 - [ ] Confirm front door still ≠ backend desk chrome  
@@ -86,7 +86,7 @@ Use this checklist before proposing any surface move beyond Lab 3 ops media.
 - [x] 01–04 KEEP menu official (Dream Talk / Sensei Security / Sensei Bot / Desk Steward)
 - [x] 05 Distrobi + 06 Grok REPLACE with human-APPROVED v2 charcoal/gold/teal
 - [x] Godzilla `icon-512` + favicon geometry preserved; favicon metadata Security-scrubbed
-- [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + Team Boolean) — **re-PASS needed for live-prep**
+- [x] Sensei PASS (meaning) on tip `f5af0e3` (GLOSSARY a+b+c + shared definitions) — **re-PASS needed for live-prep**
 - [x] Security **SECURE** on tip `f5af0e3` (DRAFT pack only) — **re-SECURE needed for live-prep**
 
 ## Gate log (PR #28)
