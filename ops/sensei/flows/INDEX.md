@@ -14,9 +14,10 @@ Professional Mermaid workflows for Sensei Bot App. These diagrams are **ops docu
 
 Flow **07** is the primary handoff: propose → Sensei → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → Steward (if desk) → user APPROVE. Skill: `lab-3-sensei-workflow`.
 
-Flow **04** is the design-review architecture for that outer gate (control plane + noul contract + exit codes). Figure:
+Flow **04** is the design-review architecture for that outer gate (control plane + noul contract + exit codes). Figures:
 
-- [`public/admin-media/S1R1US-outer-jev-patch-gate.png`](../../../public/admin-media/S1R1US-outer-jev-patch-gate.png)
+- Studio poster (official Neural Network + bot marks + roadmap rail): [`ops/sensei/flows/assets/S1R1US-outer-jev-patch-gate-studio.svg`](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
+- Library PNG (HOLD until APPROVE 39): [`public/admin-media/S1R1US-outer-jev-patch-gate.png`](../../../public/admin-media/S1R1US-outer-jev-patch-gate.png)
 
 ## Companion Sensei modules
 

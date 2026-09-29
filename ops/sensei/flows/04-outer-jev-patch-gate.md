@@ -2,11 +2,43 @@
 
 Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** any model. Optional scorer: `score-patch.mjs`. No OpenJev. Not imported by `src/`.
 
-Design-review figure (ops control plane — same family as the sandbox logic cards):
+Canonical handoff sequence stays in [07-lab3-bot-workflow](./07-lab3-bot-workflow.md). This file is the architecture.
+
+---
+
+## Studio poster — official marks + roadmap rail
+
+GitHub-renderable control-plane poster. Uses the **APPROVED Neural Network** system mark (hub · rainbow · JEV interconnects), the official TypeSafe J-cube for the outer scorer, official bot marks for Sensei / Steward / Grok, and the Sensei [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
+
+![S1R1US Outer Jev patch gate — research studio poster](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
+
+Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
+
+<p>
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/Neural-Network-logo-card.png" alt="Neural Network system apex" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Security-logo-card.png" alt="Sensei Security" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Bot-logo-card.png" alt="Sensei Bot" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Desk-Steward-logo-card.png" alt="Desk Steward" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Grok-botlogo-card.png" alt="Grok Bot" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/7-B0T-logo-card.png" alt="7-B0T" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/9-B0T-logo-card.png" alt="9-B0T" width="72" height="72" />
+</p>
+
+| Mark | Role on this gate |
+| --- | --- |
+| **Neural Network** | System apex. Oversight / recursive engineer. Not a live-tape voter. |
+| **TypeSafe J-cube** | Outer scorer only (`jev-1.13.0` / System One). Code is System Two. |
+| **Sensei Security** | L1 deterministic hard rules. No model. |
+| **Sensei Bot 先生** | L5 glossary a+b+c. Standards, not merge. |
+| **Desk Steward** | L5 mandate / inventory if the patch touches the desk. |
+| **Grok Bot** | L0 proposer / builder. Does not self-merge. |
+| **7-B0T / 9-B0T** | Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+
+Library PNG target (HOLD until **APPROVE 39**):
 
 - [`public/admin-media/S1R1US-outer-jev-patch-gate.png`](../../../public/admin-media/S1R1US-outer-jev-patch-gate.png)
 
-Canonical handoff sequence stays in [07-lab3-bot-workflow](./07-lab3-bot-workflow.md). This file is the architecture.
+Jev engineering reference (official X, not a product import): System One is a parallel decision primitive — state + typed questions in, nouls out, code branches. Do not plug Jev into high-level product decisions inside `src/`. Program the gate.
 
 ---
 
