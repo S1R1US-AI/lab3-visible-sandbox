@@ -65,7 +65,12 @@
 - **HOLD:** live homepage HTML/meta, Discord, X posts, FAQ live post.
 - Cross-link `media/INDEX.md` ↔ `media/public/INDEX.md` (present); strengthen root README consumers later.
 
-### Phase 4 — Instruction module + video outline slots (no fake video) — **remaining**
+### Phase 4 — Instruction module + video outline slots (no fake video) — **partial 2026-09-28**
+
+- **Done (docs):** Two-way communication main theme — `COMMUNICATION-TWO-WAY.md`, media **D6**, TRAINING-OUTLINE storyboard slots expanded, INSTRUCTIONS/BOT-INTERFACE/GLOSSARY updated. Still **no** produced video file.
+- **Remaining:** public instruction reconcile; PNG export HOLD; produced training video still needs human APPROVE of script/assets.
+
+### Phase 4b — (legacy checklist) Instruction module + video outline — notes
 
 - Extend private TRAINING-OUTLINE / INSTRUCTIONS with a single “instruction module index” that points at M1–M5 + storyboard slots 1–6.
 - Do **not** invent or commit a fake video file.

@@ -29,7 +29,6 @@ Gate triad 07–09
         ▼
 Godzilla Mode / G0Dz1LLa M0De (SLEEVE)
   isolated aggressive sleeve · GM AUTO always rainbow
-  NOT site chrome (icon-512 / favicon = Godzilla dragon forever)
 ```
 
 ## Screensavers (APPROVED behavior · ops DRAFT)
