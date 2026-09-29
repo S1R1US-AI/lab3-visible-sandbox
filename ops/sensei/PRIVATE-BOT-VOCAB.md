@@ -1,43 +1,9 @@
 # Private bot vocabulary — NOT PUBLIC
 
-**Status:** Bot-learning only · Grok Bot team chat · **2026-09-28**  
-**Audience:** Lab bots 01–06 only  
-**FORBID:** roadmap · SEO · sitemaps · public FAQ · public instructions · live s1r1us.ai · any public system document · Distrobi public marketing copy
+**Status:** Public-safe stub · HARD SECURITY scrub · **2026-09-29**
 
-## j (system admin / human user)
+Private bot vocabulary is NOT published on this public repository.
 
-In Grok Bot chat and private Sensei ops:
-
-| Said in chat | Means |
-| --- | --- |
-| human | **j** |
-| human user | **j** |
-| system admin | **j** |
-
-One letter: **j**. This is how bots and j communicate the system-admin + human-user role.
-
-## Policy
-
-- Strictly **bot learning** and **internal chat alignment**.
-- Never reveal this mapping in public docs, SEO, roadmap, sitemaps, or shipped site copy.
-- Bots agree and stay aligned: when docs say “human APPROVE / human go / human visual SoT”, that is **j** in chat practice — without writing the letter **j** into public surfaces.
-
-## Related
-
-- Team Boolean / pause+clarify still apply (see GLOSSARY · COMMUNICATION-TWO-WAY).
-- Public X remains `@S1R1US_AI` only (unchanged).
-
----
-
-## Public actor classes (not secret — use these in public copy)
-
-See [SECURITY-ACTOR-DEFINITIONS.md](./SECURITY-ACTOR-DEFINITIONS.md) and Sensei Security DEFINITIONS §10.
-
-| ID | Public wording |
-|----|----------------|
-| ACTOR-01 | System Admin |
-| ACTOR-02 | Visitors / online users / phone-app users |
-| ACTOR-03 | White-label desk operator (copy-admin) |
-
-**Never** put the private admin alias (this file’s **j** mapping) in README, Terms, Privacy, FAQ, SEO, or other public docs.
-
+- Public docs use human APPROVE / system admin only.
+- Forbid private chat aliases and admin/dev X handles on public GitHub.
+- Public X = @S1R1US_AI only.
