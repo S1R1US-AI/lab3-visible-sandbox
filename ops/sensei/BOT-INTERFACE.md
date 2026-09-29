@@ -76,9 +76,23 @@ sequenceDiagram
 
 See [flows/07-lab3-bot-workflow.md](./flows/07-lab3-bot-workflow.md). Skill: `lab-3-sensei-workflow`.
 
+## Two-way communication (main theme)
+
+Human ↔ bot pauses are mandatory when meaning is unclear or before updates:
+
+1. Short clarifying question (Pause 1).
+2. Improve or human APPROVE/go before ship (Pause 2).
+3. Both sides treat consistent two-way communication as priority.
+
+See [COMMUNICATION-TWO-WAY.md](./COMMUNICATION-TWO-WAY.md) · [D6](./media/D6-two-way-communication.md).
+
 ## Anti-patterns
 
 - Skipping Sensei because “tests pass.”
 - Putting Sensei or TypeSafe into `src/`.
 - Treating Steward or Copilot APPROVE as user APPROVE.
 - Weakening never-sell / Coinbase create / FAQ / size locks for convenience.
+
+## Private bot vocabulary — NOT PUBLIC
+
+See [PRIVATE-BOT-VOCAB.md](./PRIVATE-BOT-VOCAB.md). Private chat aliases are **not** published on this public repository. Public wording = **human APPROVE** / **system admin** only. Public X = `@S1R1US_AI` only. Never ship private-alias mappings to roadmap, SEO, sitemaps, or public docs.

@@ -1,0 +1,13 @@
+flowchart TB
+  MSG[Human or bot message] --> U{Understood by both?}
+  U -->|No| P1[PAUSE 1 — short clarifying question]
+  P1 --> ANS[Answer / rephrase]
+  ANS --> U
+  U -->|Yes| PRE{About to update or ship?}
+  PRE -->|Yes| P2[PAUSE 2 — improve or human APPROVE/go]
+  P2 -->|Improve| FIX[Revise proposal]
+  FIX --> PRE
+  P2 -->|APPROVE / go| SHIP[Scoped update only]
+  PRE -->|No — info only| OK[Continue / FYI]
+  SHIP --> V[Visual or meaning smoke if UX]
+  V --> DONE[Done only after human SoT if visual]
