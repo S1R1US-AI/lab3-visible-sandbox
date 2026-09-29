@@ -12,9 +12,9 @@
   ];
 
   /* Custom alphabet from soft-launch greeting (unique glyphs, first-seen order):
-     「AI搭載のビットコイン蓄積器へようこそ、R0B0T0氏。私たちはAIビットコインヘッジトレーディングデスクです。バイ、コンピュート。9-B0T す。S1R1US」 */
+     「AI搭載のビットコイン蓄積器へようこそ。S1R1US.ai。私たちはAIビットコインヘッジトレーディングデスクです。バイ、コンピュート。9-B0T す。S1R1US」 */
   var CHARS =
-    '「AI搭載のビットコイン蓄積器へようこそ、R0BT氏。私たちはヘジレーディグスクですバピュ9-S1U」';
+    '「AI搭載のビットコイン蓄積器へようこそ。S1RU.ai私たちはヘジレーディグスクですバ、ピュ9-B0T 」';
 
   var FONT_FAMILY = '"Noto Sans JP", "IBM Plex Mono", "Hiragino Sans", "Yu Gothic", sans-serif';
 

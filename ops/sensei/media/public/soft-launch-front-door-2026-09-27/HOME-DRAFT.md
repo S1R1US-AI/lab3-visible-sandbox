@@ -48,7 +48,7 @@ Classic green ghost on charcoal — custom S1R1US JP/Latin glyph set + **Noto Sa
 
 - Green falling letters; charcoal `#121619` behind rain
 - Longer vertical trails; dual ghost layers
-- Alphabet from greeting: AI搭載のビットコイン蓄積器… / R0B0T0 / 9-B0T / S1R1US
+- Alphabet from greeting: AI搭載のビットコイン蓄積器… / S1R1US.ai / 9-B0T / S1R1US
 - Live ship still **HOLD**
 
 ## Theme notes
