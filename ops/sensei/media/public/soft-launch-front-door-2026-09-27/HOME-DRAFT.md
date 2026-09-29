@@ -31,6 +31,25 @@ Godzilla Mode / G0Dz1LLa M0De (SLEEVE)
   isolated aggressive sleeve · GM AUTO always rainbow
 ```
 
+## Screensavers (APPROVED behavior · ops DRAFT)
+
+Display-only Matrix overlays — **no auth / no saver-lock**. Spec: [`SCREENSAVERS.md`](./SCREENSAVERS.md).
+
+1. **GM intro** — first click on G0Dz1LLa M0De → rainbow saver **2.5s once/session**
+2. **GM idle** — in GM context, **5 min no click** → GM saver; **click/ESC** dismisses
+3. **Classic idle** — home, **5 min no click** → classic saver; **mousemove/click/ESC** dismisses
+
+Live ship still **HOLD**.
+
+## Matrix rain theme (APPROVED 2026-09-27)
+
+Classic green ghost on charcoal — custom S1R1US JP/Latin glyph set + **Noto Sans JP**.
+
+- Green falling letters; charcoal `#121619` behind rain
+- Longer vertical trails; dual ghost layers
+- Alphabet from greeting: AI搭載のビットコイン蓄積器… / S1R1US.ai / 9-B0T / S1R1US
+- Live ship still **HOLD**
+
 ## Theme notes
 
 | Item | Choice |

@@ -18,7 +18,7 @@
   --gold-dim: rgba(201, 162, 39, 0.18);
   --teal: #2ec4b6;
   --teal-dim: rgba(46, 196, 182, 0.16);
-  --matrix: rgba(46, 196, 120, 0.55);
+  --matrix: rgba(61, 255, 26, 0.42);
   --warn: #e6b35a;
   --danger: #c45c5c;
   --radius: 14px;
@@ -42,7 +42,7 @@ body {
   position: relative;
 }
 
-/* ——— Matrix rain ghost ——— */
+/* ——— Matrix rain ghost (classic greens on charcoal) ——— */
 .matrix-rain {
   position: fixed;
   inset: 0;
@@ -50,16 +50,38 @@ body {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.11;
+  /* Ghost: readable Matrix glyphs on laptop/phone; not screensaver-bright */
+  opacity: 0.40;
+}
+.matrix-rain-ghost2 {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.15;
+  /* normal blend — screen was adding green wash over charcoal */
 }
 .matrix-veil {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  /* Light charcoal veil — body/canvas fade are already #121619; do not crush green rain */
   background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(18, 22, 25, 0.55), transparent 70%),
-    linear-gradient(180deg, rgba(18, 22, 25, 0.35), rgba(18, 22, 25, 0.72) 40%, rgba(18, 22, 25, 0.9));
+    radial-gradient(ellipse 80% 55% at 50% 0%, rgba(18, 22, 25, 0.18), transparent 72%),
+    linear-gradient(180deg, rgba(18, 22, 25, 0.06), rgba(18, 22, 25, 0.16) 42%, rgba(18, 22, 25, 0.28));
+}
+/* Very subtle green atmosphere — charcoal stays the ground; green is the rain */
+.matrix-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 65% 50% at 50% 30%, rgba(61, 255, 26, 0.016), transparent 68%),
+    radial-gradient(ellipse 45% 35% at 78% 78%, rgba(47, 158, 44, 0.010), transparent 62%);
 }
 
 .wrap {
@@ -122,19 +144,38 @@ a:hover { text-decoration: underline; }
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1.15rem;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
   font-size: 0.92rem;
 }
-.nav a {
-  color: var(--muted);
+/* Unified prominent top-nav pills — gold/teal emphasis for all items */
+.nav a,
+.nav a.nav-discord,
+.nav a.nav-emphasis {
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 0.01em;
   text-decoration: none;
-  padding-bottom: 0.15rem;
-  border-bottom: 2px solid transparent;
+  padding: 0.2rem 0.55rem 0.25rem;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.14), rgba(46, 196, 182, 0.08));
+  box-shadow: 0 0 0 1px rgba(46, 196, 182, 0.12);
 }
-.nav a:hover { color: var(--text); }
-.nav a[aria-current="page"] {
+.nav a:hover,
+.nav a.nav-discord:hover,
+.nav a.nav-emphasis:hover {
   color: var(--text);
-  border-bottom-color: var(--gold);
+  border-color: var(--gold);
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.22), rgba(46, 196, 182, 0.12));
+  text-decoration: none;
+}
+.nav a[aria-current="page"],
+.nav a.nav-discord[aria-current="page"],
+.nav a.nav-emphasis[aria-current="page"] {
+  color: var(--text);
+  border-color: var(--gold);
+  box-shadow: 0 0 12px rgba(201, 162, 39, 0.22);
 }
 
 .header-mark {
@@ -859,4 +900,28 @@ a:hover { text-decoration: underline; }
 .nn-card img,
 .gm-card img {
   background: transparent !important;
+}
+
+/* ——— Fullscreen Matrix screensavers (classic + Godzilla Mode) ———
+   Separate from .matrix-rain ghost. No auth / no saver-lock. */
+.screensaver-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #000;
+  display: none;
+  pointer-events: auto;
+  cursor: none;
+}
+.screensaver-overlay.is-active,
+.screensaver-overlay:not([hidden]) {
+  display: block;
+}
+.screensaver-overlay[hidden] {
+  display: none !important;
+}
+.screensaver-overlay canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

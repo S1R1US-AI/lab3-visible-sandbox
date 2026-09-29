@@ -1,30 +1,44 @@
-# Deploy guards — soft-launch front-door DRAFT
+# Deploy guards — soft-launch front-door live-prep
 
-**Security HOLD remediation (2026-09-27)** — Distrobi
+**Live-prep tip (2026-09-28)** — Distrobi / Grok Bot
 
-## Must not serve live
+## Status of this surface
 
-This HTML/CSS/image pack under Lab 3 `ops/sensei/media/public/` is a **DRAFT deposit only**.
+| Gate | State |
+| --- | --- |
+| HTML live-prep (canonical / OG / index / DRAFT chrome strip) | **Done in tip** |
+| Sensei meaning re-PASS on this tip | **Pending** |
+| Security SECURE on this tip (soft-launch live path) | **Pending** |
+| Human live APPROVE (named surface) | **Pending** |
+| Wired to DigitalOcean / `S1R1US-LABs` `.output` | **NOT done** — do not deploy from this tip alone |
 
-- Do **not** copy or publish these files to DigitalOcean / `S1R1US-LABs` `main` / any host that serves `https://s1r1us.ai` until **per-surface** Sensei **PASS** + Security **SECURE** + human **APPROVE**.
-- `robots` = `noindex, nofollow` stays for the entire DRAFT life of this pack.
-- Live homepage / FAQ remain **HOLD**.
+This tip makes the pack **live-ready frontend theme**. It does **not** authorize DO deploy or merge.
 
-## Canonical / Open Graph policy (DRAFT)
+## Must not wire without gates
 
-| Tag | DRAFT policy | After live APPROVE |
-| --- | --- | --- |
-| `<link rel="canonical">` | **Withheld** (must not claim live URL) | Set to `https://s1r1us.ai/` |
-| `og:url` | **Withheld** | Set to `https://s1r1us.ai/` |
-| `og:image` / `twitter:image` | Relative pack paths OK for review | Absolute HTTPS asset URLs on live origin |
-| `s1r1us:production-target` | Documents intended live origin only | Unchanged |
-| `s1r1us:deploy-guard` | `must-not-serve-live-without-per-surface-APPROVE` | Remove or set to shipped |
+- Do **not** copy or publish these files to DigitalOcean / `S1R1US-LABs` `main` / any host that serves `https://s1r1us.ai` until **per-surface** Sensei **re-PASS** + Security **SECURE** + human **APPROVE**.
+- Backend / API / paper desk remain **HOLD** — front door HTML/CSS only.
+- Godzilla dragon `icon-512` + favicon = **NEVER overwrite**.
 
-Pointing DRAFT `canonical` / `og:url` at live `s1r1us.ai` while the pack is not the live front door is a **Security HOLD** risk (false ship signal / SEO confusion).
+## Canonical / Open Graph policy (live-prep)
+
+| Tag | Live-prep tip policy |
+| --- | --- |
+| `<link rel="canonical">` | `https://s1r1us.ai/` (+ `/hello-world/`, `/discord/`) |
+| `og:url` | Same live origins |
+| `og:image` / `twitter:image` | Absolute HTTPS on live origin — prefer `https://s1r1us.ai/images/icon-512.png` (home/HW); Discord hero `https://s1r1us.ai/discord/assets/discord-hero.png` |
+| `robots` | `index, follow` |
+| `s1r1us:draft` | **Removed** |
+| `s1r1us:deploy-guard` | `shipped` (frontend tip only — wire still gated) |
+| `s1r1us:production-target` | `https://s1r1us.ai` |
+
+Intended live asset path for site chrome OG: **`https://s1r1us.ai/images/icon-512.png`** once the pack is served at site root. Pack-relative `images/icon-512.png` remains the source file (do not overwrite Godzilla art).
 
 ## Favicon metadata
 
 Pack `images/favicon.svg` `<title>` / `<desc>` must stay aligned with SIM-locked / NFA / education posture. Do **not** restore “trading bots” or “bitcoin accumulation” agent language in SVG metadata.
 
-## Re-gate (2026-09-27)
-Security **SECURE** + Sensei **PASS** on tip `f5af0e3` apply to this **DRAFT** pack deposit only. Not live clearance. Canonical/OG remain withheld until human APPROVE per surface + explicit live wire.
+## Prior re-gates (history)
+
+- Security **SECURE** + Sensei **PASS** on tip `f5af0e3` / `e75a7d6` applied to **DRAFT** deposit only.
+- This live-prep tip **invalidates** prior meaning PASS for wire purposes — Sensei + Security must re-score before human APPROVE.
