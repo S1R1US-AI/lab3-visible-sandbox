@@ -1,5 +1,7 @@
 # DeVine (aka divine) — LOCKED 2026-10-05 (system admin)
 
+Lane: desk / marketing / QA communication standards. NOT GLOSSARY. NOT visitor doctrine. NOT product source.
+
 ## Short definition
 The term "divine" (aka DeVine) has two primary meanings:
 1. Relating to God or a God.
@@ -20,8 +22,8 @@ Historical Usage:
 --The first known use of "divine" dates back to the 14th century, indicating its long-standing presence in the English language.
 --This dual meaning reflects both a spiritual aspect and a cognitive process of understanding.
 
-Framing (desk/marketing/QA only · belief≠definition on spiritual claims):
+## Framing (desk/marketing/QA only · belief ≠ definition on spiritual claims)
 --Honesty and truth are DeVine. Deceit, lies, wicked ways, evil are the opposite of DeVine.
---U.S. Constitution and Bhagavad Gita are framed as DeVine in this communication lane (belief≠definition until Sensei→Security→system admin APPROVE for glossary).
+--U.S. Constitution and Bhagavad Gita are framed as DeVine in this communication lane (belief ≠ definition until Sensei → Security → system admin APPROVE for glossary).
 
-Status: LOCKED standards language for desk/marketing/QA communication. NOT GLOSSARY. NOT visitor doctrine. NOT product source.
+Status: LOCKED 2026-10-05. Soft-Launch PARKED · Soft locks Present · live frozen checkpoint 10-4-26.
