@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://s1r1us.ai/#organization",
+      "name": "S1R1US",
+      "url": "https://s1r1us.ai/",
+      "sameAs": [
+        "https://x.com/S1R1US_AI",
+        "https://github.com/S1R1US-AI",
+        "https://discord.gg/UrPerk3j5"
+      ],
+      "description": "Open-source Bitcoin and AI Research software. Paper simulation and education. Soft locks Present: never sell, never short. Not financial advice.",
+      "knowsAbout": [
+        "Bitcoin",
+        "AI Research",
+        "Bitcoin games",
+        "Bring Your Own Compute",
+        "AI Hedge Fund",
+        "AI Trading Desk"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://s1r1us.ai/#software",
+      "name": "S1R1US AI Bitcoin Research Software",
+      "url": "https://s1r1us.ai/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Bitcoin and AI Research tools for paper simulation, Bitcoin games, Bring Your Own Compute, AI Hedge Fund education, and AI Trading Desk display-only workflows. Not financial advice. Soft-Launch PARKED until 2026-11-01.",
+      "keywords": "Bitcoin, AI Research, Bitcoin games, Bring Your Own Compute, AI Hedge Fund, AI Trading Desk",
+      "publisher": {
+        "@id": "https://s1r1us.ai/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://s1r1us.ai/#website",
+      "url": "https://s1r1us.ai/",
+      "name": "S1R1US.ai",
+      "description": "Bitcoin · AI Research · Bitcoin games · Bring Your Own Compute · AI Hedge Fund · AI Trading Desk — education and paper only.",
+      "publisher": {
+        "@id": "https://s1r1us.ai/#organization"
+      },
+      "inLanguage": "en"
+    }
+  ],
+  "_distrobi_note": "DRAFT Lab 3 sandbox only. Soft-Launch PARKED. Soft locks Present. NOT LIVE. NOT MERGED. Correct spelling only for SEO keywords."
+}

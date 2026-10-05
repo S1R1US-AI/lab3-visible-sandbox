@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DRAFT · Lab 3 sandbox only · Soft-Launch PARKED · NOT LIVE · Distrobi 2026-10-05 -->
+<!-- Target keywords (correct spelling only): Bitcoin · AI Research · Bitcoin games · Bring Your Own Compute · AI Hedge Fund · AI Trading Desk -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://s1r1us.ai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://s1r1us.ai/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://s1r1us.ai/compute</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://s1r1us.ai/s1r1us</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://s1r1us.ai/sitemap</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://s1r1us.ai/copyright-terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>
