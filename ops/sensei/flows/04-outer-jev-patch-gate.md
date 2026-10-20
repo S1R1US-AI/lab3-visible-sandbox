@@ -67,6 +67,7 @@ flowchart TB
     R4["no silent merge"]
     R5["paper only · create locked"]
     R6["no invented key · no OpenJev"]
+    R7["auto trade LOCKED"]
   end
 
   subgraph L2["L2 · LEAK SCAN — scan-runtime.mjs"]
@@ -120,7 +121,7 @@ flowchart TB
   U -->|go| M
   U -->|no go| HOLD
 
-  class P,T,SRC,OPS,R1,R2,R3,R4,R5,R6,TOK plane
+  class P,T,SRC,OPS,R1,R2,R3,R4,R5,R6,R7,TOK plane
   class S1,FAIL fail
   class S0,CLEAR pass
   class KEY,CALL,HOLD hold
@@ -189,6 +190,7 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 - Never weaken drift-lock / shared-security locks
 - Never merge to main without the system admin's go: 06 writes → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
 - Never sell, never short, Coinbase create locked, paper only
+- Auto trade LOCKED
 - Never invent keys; never OpenJev stand-in
 
 ## Commands
@@ -196,8 +198,10 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 ```bash
 node ops/outer-jev/scan-runtime.mjs
 
-# optional — operator env only; never commit
-TYPESAFE_API_KEY=... node ops/outer-jev/score-patch.mjs --state state.json
+# optional — operator env only; never commit, never put a key on the command line
+# export it from your secrets manager, or type it hidden (stays out of shell history):
+read -s TYPESAFE_API_KEY && export TYPESAFE_API_KEY
+node ops/outer-jev/score-patch.mjs --state state.json
 
 # optional gateway (same System One shape):
 # TYPESAFE_BASE_URL=https://openrouter.ai/api TYPESAFE_API_KEY=$OPENROUTER_API_KEY \
