@@ -1,14 +1,16 @@
 # 04 — Outer Jev patch gate
 
-Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** any model. Optional scorer: `score-patch.mjs`. No OpenJev. Not imported by `src/`.
+Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** any model. Optional scorer: `score-patch.mjs` (PR #10, `5346feb`). No OpenJev. Not imported by `src/`.
 
 Canonical handoff sequence stays in [07-lab3-bot-workflow](./07-lab3-bot-workflow.md). This file is the architecture.
 
+Status: Soft locks Present · Soft-Launch PARKED
+
 ---
 
-## Studio poster — official marks + roadmap rail
+## Studio poster — system mark + roadmap rail
 
-GitHub-renderable control-plane poster. Uses the **APPROVED Neural Network** system mark (hub · rainbow · JEV interconnects), the official TypeSafe J-cube for the outer scorer, official bot marks for Sensei / Steward / Grok, and the Sensei [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
+GitHub-renderable control-plane poster. Uses the **APPROVED Neural Network** system mark, the text label TypeSafe / `jev-1.13.0` for the outer scorer (no scorer logo), bots by number only (02 / 03 / 04 / Research-B0t-06), and the [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
 
 ![S1R1US Outer Jev patch gate — research studio poster](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
 
@@ -16,10 +18,9 @@ Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
 
 <p>
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/Neural-Network-logo-card.png" alt="Neural Network system apex" width="72" height="72" />
-<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Security-logo-card.png" alt="Sensei Security" width="72" height="72" />
-<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Bot-logo-card.png" alt="Sensei Bot" width="72" height="72" />
-<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Desk-Steward-logo-card.png" alt="Desk Steward" width="72" height="72" />
-<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Grok-botlogo-card.png" alt="Grok Bot" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Security-logo-card.png" alt="02" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Bot-logo-card.png" alt="03" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Desk-Steward-logo-card.png" alt="04" width="72" height="72" />
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/7-B0T-logo-card.png" alt="7-B0T" width="72" height="72" />
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/9-B0T-logo-card.png" alt="9-B0T" width="72" height="72" />
 </p>
@@ -27,16 +28,12 @@ Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
 | Mark | Role on this gate |
 | --- | --- |
 | **Neural Network** | System apex. Oversight / recursive engineer. Not a live-tape voter. |
-| **TypeSafe J-cube** | Outer scorer only (`jev-1.13.0` / System One). Code is System Two. |
-| **Sensei Security** | L1 deterministic hard rules. No model. |
-| **Sensei Bot 先生** | L5 glossary a+b+c. Standards, not merge. |
-| **Desk Steward** | L5 mandate / inventory if the patch touches the desk. |
-| **Grok Bot** | L0 proposer / builder. Does not self-merge. |
+| **TypeSafe / `jev-1.13.0`** | Outer scorer only (`jev-1.13.0` / System One). Code is System Two. |
+| **02** | Own security-review lane: scores the PR (SECURE / HOLD / FAIL) after the outer gate. Not a hard-rule layer; L1 is deterministic code, no model. |
+| **03** | L5 glossary a+b+c. Standards, not merge. |
+| **04** | L5 mandate / inventory if the patch touches the desk. |
+| **Research-B0t-06** | L0 proposer / builder (06 writes). Does not self-merge. |
 | **7-B0T / 9-B0T** | Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-
-Library PNG target (HOLD until **APPROVE 39**):
-
-- [`public/admin-media/S1R1US-outer-jev-patch-gate.png`](../../../public/admin-media/S1R1US-outer-jev-patch-gate.png)
 
 Jev engineering reference (official X, not a product import): System One is a parallel decision primitive — state + typed questions in, nouls out, code branches. Do not plug Jev into high-level product decisions inside `src/`. Program the gate.
 
@@ -56,7 +53,7 @@ flowchart TB
 
   subgraph L0["L0 · INTAKE"]
     direction LR
-    P["Proposed patch\ndiff + file list"]
+    P["Proposed patch\n06 writes · diff + file list"]
     T["Agent transcript\ntools · intent"]
     SRC["src/ desk runtime\njevOutsideApp: 100"]
     OPS["ops/outer-jev/\nnever imported by src/"]
@@ -92,12 +89,14 @@ flowchart TB
     CLEAR["CLEAR · outer gate only"]
   end
 
-  subgraph L5["L5 · HUMAN GATE — still not a merge"]
+  subgraph L5["L5 · REVIEW + MERGE GATE — CLEAR is still not a merge"]
     direction LR
-    SE["Sensei\nglossary a+b+c"]
-    ST["Steward\nif desk / mandate"]
-    U["User APPROVE <pr>"]
-    M["Merge allowed\nLab 3 main only"]
+    SE["03\nglossary a+b+c"]
+    ST["04\nif desk / mandate"]
+    SEC["02 score\nsecurity review"]
+    CI["checks green +\nCopilot 0 open\non head SHA"]
+    U["j go"]
+    M["j squash-merges\n1–3 PM or 7–9 PM ET window\nmax 2 merges / day"]
   end
 
   P --> L1
@@ -115,15 +114,17 @@ flowchart TB
   CALL -->|exit 1 error| FAIL
   CALL -->|exit 3 cutoff| HOLD
   CALL -->|exit 0 PASS| CLEAR
-  CLEAR --> SE --> ST --> U
-  U -->|APPROVE| M
-  U -->|no APPROVE| HOLD
+  CLEAR --> SE --> ST --> SEC --> CI --> U
+  SEC -->|HOLD / FAIL| HOLD
+  CI -->|red or open threads| HOLD
+  U -->|go| M
+  U -->|no go| HOLD
 
   class P,T,SRC,OPS,R1,R2,R3,R4,R5,R6,TOK plane
   class S1,FAIL fail
   class S0,CLEAR pass
   class KEY,CALL,HOLD hold
-  class SE,ST,U,M human
+  class SE,ST,SEC,CI,U,M human
 ```
 
 ---
@@ -158,7 +159,7 @@ flowchart TB
 
 | Noul | HOLD when | Means |
 | --- | --- | --- |
-| `patch_touches_sell_path` | ≥ 0.70 | Patch adds or opens a sell / short / reduce-long path |
+| `patch_touches_sell_path` | ≥ 0.70 | Patch adds or opens a sell or short path |
 | `patch_weakens_a_lock` | ≥ 0.70 | drift-lock or shared-security lock is softened |
 | `patch_writes_faq_or_size` | ≥ 0.70 | Agent writes FAQ copy or picks a trade size |
 | `patch_on_mandate` | **< 0.70** | Patch left paper accumulate / maker-checker / outer-Jev mandate |
@@ -186,7 +187,7 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 - Never write FAQ from an agent
 - Never pick a trade size
 - Never weaken drift-lock / shared-security locks
-- Never merge to main without user **APPROVE**
+- Never merge to main without j's go: 06 writes → 02 score → checks green + Copilot 0 open on head SHA → j squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
 - Never sell, never short, Coinbase create locked, paper only
 - Never invent keys; never OpenJev stand-in
 

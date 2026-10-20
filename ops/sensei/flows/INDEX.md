@@ -12,12 +12,11 @@ Professional Mermaid workflows for Sensei Bot App. These diagrams are **ops docu
 | 06 | Admin detail disclosure | [06-admin-visibility.md](./06-admin-visibility.md) |
 | 07 | **Lab 3 bot workflow (canonical handoff)** | [07-lab3-bot-workflow.md](./07-lab3-bot-workflow.md) |
 
-Flow **07** is the primary handoff: propose → Sensei → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → Steward (if desk) → user APPROVE. Skill: `lab-3-sensei-workflow`.
+Flow **07** is the primary handoff: 06 proposes → 03 → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → j squash-merges in a merge window. Skill: `lab-3-sensei-workflow`.
 
-Flow **04** is the design-review architecture for that outer gate (control plane + noul contract + exit codes). Figures:
+Flow **04** is the design-review architecture for that outer gate (control plane + noul contract + exit codes). Figure:
 
-- Studio poster (official Neural Network + bot marks + roadmap rail): [`ops/sensei/flows/assets/S1R1US-outer-jev-patch-gate-studio.svg`](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
-- Library PNG (HOLD until APPROVE 39): [`public/admin-media/S1R1US-outer-jev-patch-gate.png`](../../../public/admin-media/S1R1US-outer-jev-patch-gate.png)
+- Studio poster (Neural Network system mark + numbered lanes + roadmap rail): [`ops/sensei/flows/assets/S1R1US-outer-jev-patch-gate-studio.svg`](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
 
 ## Companion Sensei modules
 
@@ -31,7 +30,7 @@ Still valid visual references for Lab 3 desk bot *layout* (PNG/GIF under `public
 - [`public/admin-media/S1R1US-bot-functions-flowchart.png`](../../../public/admin-media/S1R1US-bot-functions-flowchart.png)
 - [`public/admin-media/S1R1US-full-logic-diagram.png`](../../../public/admin-media/S1R1US-full-logic-diagram.png)
 
-Those 01:43 stills still draw retired in-app Jev (`sleeve_add_allowed`, `jevScope`). Prefer the Outer Jev patch-gate figure above and Mermaid in this folder for current process.
+Those 01:43 stills still draw retired in-app Jev (`sleeve_add_allowed`, `jevScope`). Prefer the Outer Jev patch-gate poster above and Mermaid in this folder for current process.
 
 ## Parent docs
 

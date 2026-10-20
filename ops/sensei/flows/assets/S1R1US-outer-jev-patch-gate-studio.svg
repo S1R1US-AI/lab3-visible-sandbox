@@ -65,18 +65,12 @@
     <text class="t" x="128" y="72" fill="#f2f4f6" font-size="34" font-weight="800" letter-spacing=".4">OUTER JEV PATCH GATE</text>
     <text class="t" x="128" y="98" fill="#9aa3ad" font-size="14">Architecture poster · scores patches / coding agents · not the live tape · ops/outer-jev only · jevOutsideApp: 100</text>
 
-    <!-- TypeSafe J cube -->
-    <g transform="translate(1428,8)">
-      <rect width="86" height="86" rx="18" fill="#E650BB"/>
-      <g fill="none" stroke="#111" stroke-width="3.2" stroke-linejoin="round">
-        <path d="M28 22h18l16 10v22l-16 10H28l-10-10V32z"/>
-        <path d="M46 22l16 10-16 10-16-10z"/>
-        <path d="M62 32v22l-16 10V42z"/>
-      </g>
-      <text class="t" x="43" y="108" text-anchor="middle" fill="#e650bb" font-size="11" font-weight="700">JEV 1.13.0</text>
-    </g>
+    <!-- Outer scorer: text label only (no scorer logo) -->
+    <text class="t" x="1584" y="38" text-anchor="end" fill="#e650bb" font-size="13" font-weight="700">TypeSafe / jev-1.13.0</text>
+    <text class="t" x="1584" y="56" text-anchor="end" fill="#9aa3ad" font-size="11">outer scorer only</text>
     <text class="t" x="1280" y="38" text-anchor="end" fill="#9aa3ad" font-size="12">DRAFT PR #39 · docs-only · no merge</text>
     <text class="t" x="1280" y="56" text-anchor="end" fill="#c9a227" font-size="12">System One scores · code decides</text>
+    <text class="t" x="1280" y="74" text-anchor="end" fill="#f0c14b" font-size="12" font-weight="700">Soft locks Present · Soft-Launch PARKED</text>
   </g>
 
   <rect x="48" y="156" width="1584" height="2" fill="url(#goldline)"/>
@@ -87,12 +81,12 @@
     <g transform="translate(0,30)">
       <rect width="372" height="46" rx="10" fill="#181c20" stroke="#2ec4b6"/>
       <text class="t" x="14" y="18" fill="#2ec4b6" font-size="11" font-weight="700">[x] NOW</text>
-      <text class="t" x="14" y="34" fill="#f2f4f6" font-size="12">Propose → Sensei → Outer Jev → Steward → APPROVE</text>
+      <text class="t" x="14" y="34" fill="#f2f4f6" font-size="11">06 → 03/04 → 02 score → checks + Copilot → j squash</text>
     </g>
     <g transform="translate(388,30)">
       <rect width="360" height="46" rx="10" fill="#181c20" stroke="#c9a227"/>
       <text class="t" x="14" y="18" fill="#c9a227" font-size="11" font-weight="700">[~] NEXT</text>
-      <text class="t" x="14" y="34" fill="#f2f4f6" font-size="12">Library PNG after APPROVE 39 · scan+score every PR</text>
+      <text class="t" x="14" y="34" fill="#f2f4f6" font-size="12">scan + score every PR · CI checks on head SHA</text>
     </g>
     <g transform="translate(764,30)">
       <rect width="360" height="46" rx="10" fill="#181c20" stroke="#3aa0ff"/>
@@ -112,11 +106,7 @@
     <g>
       <rect width="248" height="268" rx="14" fill="#181c20" stroke="#2c3658"/>
       <text class="t" x="16" y="26" fill="#c9a227" font-size="11" font-weight="700">L0 · INTAKE</text>
-      <circle cx="210" cy="22" r="14" fill="#111" stroke="#c9a227"/>
-      <path d="M204 26c2-6 12-6 14 0" fill="none" stroke="#f0c14b" stroke-width="1.6"/>
-      <circle cx="208" cy="18" r="2" fill="#3aa0ff"/>
-      <circle cx="214" cy="18" r="2" fill="#c9a227"/>
-      <text class="t" x="16" y="52" fill="#9aa3ad" font-size="11">Grok Bot / patch agent</text>
+      <text class="t" x="16" y="52" fill="#9aa3ad" font-size="11">Research-B0t-06 / patch agent · 06 writes</text>
       <rect x="14" y="66" width="220" height="42" rx="8" fill="#12182b"/>
       <text class="t" x="24" y="83" fill="#f2f4f6" font-size="12" font-weight="600">Proposed patch</text>
       <text class="mono" x="24" y="99" fill="#9aa3ad" font-size="10">diff + file list</text>
@@ -135,10 +125,7 @@
     <g transform="translate(264,0)">
       <rect width="248" height="268" rx="14" fill="#181c20" stroke="#2c3658"/>
       <text class="t" x="16" y="26" fill="#c9a227" font-size="11" font-weight="700">L1 · HARD RULES</text>
-      <!-- Sensei Security shield -->
-      <path d="M206 8l16 6v12c0 8-7 14-16 18-9-4-16-10-16-18V14z" fill="#0d2a26" stroke="#2ec4b6" stroke-width="1.6"/>
-      <circle cx="206" cy="22" r="3.4" fill="none" stroke="#c9a227" stroke-width="1.4"/>
-      <text class="t" x="16" y="48" fill="#9aa3ad" font-size="11">Sensei Security · no model</text>
+      <text class="t" x="16" y="48" fill="#9aa3ad" font-size="11">deterministic code · no model</text>
       <g font-size="11" class="t">
         <rect x="14" y="60" width="220" height="28" rx="7" fill="#12182b"/><text x="24" y="78" fill="#f2f4f6">R1 no sell / short path</text>
         <rect x="14" y="92" width="220" height="28" rx="7" fill="#12182b"/><text x="24" y="110" fill="#f2f4f6">R2 no FAQ / size by agent</text>
@@ -173,8 +160,6 @@
     <g transform="translate(792,0)">
       <rect width="248" height="268" rx="14" fill="#181c20" stroke="#e650bb"/>
       <text class="t" x="16" y="26" fill="#e650bb" font-size="11" font-weight="700">L3 · TYPED JEV</text>
-      <rect x="198" y="8" width="34" height="34" rx="8" fill="#E650BB"/>
-      <path d="M208 16h8l6 4v8l-6 4h-8l-4-4v-8z" fill="none" stroke="#111" stroke-width="1.5"/>
       <text class="t" x="16" y="50" fill="#9aa3ad" font-size="11">optional score-patch.mjs</text>
       <text class="mono" x="16" y="70" fill="#e7edf8" font-size="11">POST /v1/systemone</text>
       <text class="mono" x="16" y="88" fill="#9aa3ad" font-size="10">jev-1.13.0 · four atomic nouls</text>
@@ -198,7 +183,7 @@
       <text class="t" x="24" y="104" fill="#ffc0c7" font-size="11">do not merge · rule / leak / HTTP</text>
       <rect x="14" y="128" width="220" height="54" rx="10" fill="#2a210f" stroke="#ffb020"/>
       <text class="t" x="24" y="150" fill="#ffb020" font-size="14" font-weight="800">HOLD</text>
-      <text class="t" x="24" y="168" fill="#ffe0a0" font-size="11">no key · cutoff · no APPROVE</text>
+      <text class="t" x="24" y="168" fill="#ffe0a0" font-size="11">no key · cutoff · no j go</text>
       <rect x="14" y="192" width="220" height="54" rx="10" fill="#0d2a26" stroke="#3dd6c6"/>
       <text class="t" x="24" y="214" fill="#3dd6c6" font-size="14" font-weight="800">CLEAR</text>
       <text class="t" x="24" y="232" fill="#9feee4" font-size="11">outer gate only · still not a merge</text>
@@ -207,22 +192,20 @@
     <!-- L5 -->
     <g transform="translate(1320,0)">
       <rect width="264" height="268" rx="14" fill="#1a2238" stroke="#f0c14b"/>
-      <text class="t" x="16" y="26" fill="#f0c14b" font-size="11" font-weight="700">L5 · HUMAN GATE</text>
-      <!-- 先生 -->
-      <rect x="196" y="8" width="52" height="28" rx="6" fill="#f4ead2"/>
-      <text class="t" x="222" y="27" text-anchor="middle" fill="#1a1208" font-size="13" font-weight="800">先生</text>
-      <rect x="14" y="52" width="236" height="42" rx="8" fill="#12182b"/>
-      <text class="t" x="24" y="70" fill="#f2f4f6" font-size="12" font-weight="700">Sensei Bot</text>
-      <text class="t" x="24" y="86" fill="#9aa3ad" font-size="11">glossary a+b+c · standards</text>
-      <rect x="14" y="102" width="236" height="42" rx="8" fill="#12182b"/>
-      <text class="t" x="24" y="120" fill="#f2f4f6" font-size="12" font-weight="700">Desk Steward</text>
-      <text class="t" x="24" y="136" fill="#9aa3ad" font-size="11">mandate / inventory if desk</text>
-      <rect x="14" y="152" width="236" height="42" rx="8" fill="#12182b"/>
-      <text class="t" x="24" y="170" fill="#f0c14b" font-size="12" font-weight="700">User APPROVE &lt;pr&gt;</text>
-      <text class="t" x="24" y="186" fill="#9aa3ad" font-size="11">required words · no silent merge</text>
-      <rect x="14" y="202" width="236" height="48" rx="8" fill="#0d2a26" stroke="#3dd6c6"/>
-      <text class="t" x="24" y="222" fill="#3dd6c6" font-size="12" font-weight="700">Merge allowed</text>
-      <text class="t" x="24" y="238" fill="#9feee4" font-size="11">Lab 3 main only · after APPROVE</text>
+      <text class="t" x="16" y="26" fill="#f0c14b" font-size="11" font-weight="700">L5 · REVIEW + MERGE GATE</text>
+      <rect x="14" y="40" width="236" height="46" rx="8" fill="#12182b"/>
+      <text class="t" x="24" y="59" fill="#f2f4f6" font-size="12" font-weight="700">03 · 04 review</text>
+      <text class="t" x="24" y="76" fill="#9aa3ad" font-size="11">glossary a+b+c · mandate if desk</text>
+      <rect x="14" y="92" width="236" height="46" rx="8" fill="#12182b"/>
+      <text class="t" x="24" y="111" fill="#f2f4f6" font-size="12" font-weight="700">02 score</text>
+      <text class="t" x="24" y="128" fill="#9aa3ad" font-size="11">own security-review lane</text>
+      <rect x="14" y="144" width="236" height="46" rx="8" fill="#12182b"/>
+      <text class="t" x="24" y="163" fill="#f2f4f6" font-size="12" font-weight="700">Checks green + Copilot</text>
+      <text class="t" x="24" y="180" fill="#9aa3ad" font-size="11">0 open threads on head SHA</text>
+      <rect x="14" y="196" width="236" height="56" rx="8" fill="#0d2a26" stroke="#3dd6c6"/>
+      <text class="t" x="24" y="215" fill="#3dd6c6" font-size="12" font-weight="700">j go → j squash-merges</text>
+      <text class="t" x="24" y="231" fill="#9feee4" font-size="11">1–3 PM or 7–9 PM ET window</text>
+      <text class="t" x="24" y="246" fill="#9feee4" font-size="11">max 2 merges / day</text>
     </g>
   </g>
 
@@ -235,7 +218,7 @@
       <rect x="20" y="70" width="372" height="78" rx="10" fill="#12182b"/>
       <text x="34" y="94" fill="#ff5d70" font-weight="700">patch_touches_sell_path</text>
       <text x="34" y="114" fill="#9aa3ad">HOLD when ≥ 0.70</text>
-      <text x="34" y="132" fill="#f2f4f6">adds sell / short / reduce-long</text>
+      <text x="34" y="132" fill="#f2f4f6">adds sell or short path</text>
       <rect x="408" y="70" width="372" height="78" rx="10" fill="#12182b"/>
       <text x="422" y="94" fill="#ffb020" font-weight="700">patch_weakens_a_lock</text>
       <text x="422" y="114" fill="#9aa3ad">HOLD when ≥ 0.70</text>
@@ -274,18 +257,18 @@
       <text class="mono" x="20" y="58" fill="#f2f4f6" font-size="13">node ops/outer-jev/scan-runtime.mjs</text>
       <text class="mono" x="20" y="86" fill="#9aa3ad" font-size="12">TYPESAFE_API_KEY=... node ops/outer-jev/score-patch.mjs --state state.json</text>
       <text class="t" x="20" y="116" fill="#9aa3ad" font-size="12">Never commit keys. Never OpenJev stand-in. Never invent answers on HTTP error.</text>
-      <text class="t" x="20" y="140" fill="#f0c14b" font-size="12">CLEAR is not a merge. Reply APPROVE 39 or DISAPPROVE 39.</text>
+      <text class="t" x="20" y="140" fill="#f0c14b" font-size="12">CLEAR is not a merge. 06 writes → 02 score → checks + Copilot 0 open on head SHA → j squash-merges in a window.</text>
     </g>
   </g>
 
   <!-- FOOTER CAST -->
   <g transform="translate(48,1004)">
     <rect width="1584" height="132" rx="14" fill="#181c20" stroke="#2a333c"/>
-    <text class="t" x="20" y="26" fill="#c9a227" font-size="12" font-weight="700" letter-spacing="2">OFFICIAL MARKS ON THIS POSTER</text>
-    <text class="t" x="20" y="50" fill="#f2f4f6" font-size="13">Neural Network · system apex · JEV-engineered interconnects</text>
-    <text class="t" x="20" y="70" fill="#f2f4f6" font-size="13">TypeSafe J-cube · outer scorer only · not imported by src/</text>
-    <text class="t" x="20" y="90" fill="#f2f4f6" font-size="13">Sensei Security · Sensei Bot 先生 · Desk Steward · Grok Bot builder</text>
-    <text class="t" x="20" y="114" fill="#9aa3ad" font-size="12">Site chrome Godzilla dragon untouched · paper Lab 3 · no s1r1us.ai write · S1R1US.ai Proprietary · 2026-09-28</text>
+    <text class="t" x="20" y="26" fill="#c9a227" font-size="12" font-weight="700" letter-spacing="2">MARKS + LANES ON THIS POSTER</text>
+    <text class="t" x="20" y="50" fill="#f2f4f6" font-size="13">Neural Network · system apex (only logo on this poster)</text>
+    <text class="t" x="20" y="70" fill="#f2f4f6" font-size="13">TypeSafe / jev-1.13.0 · outer scorer only · not imported by src/</text>
+    <text class="t" x="20" y="90" fill="#f2f4f6" font-size="13">02 security review · 03 standards · 04 mandate · Research-B0t-06 builder</text>
+    <text class="t" x="20" y="114" fill="#9aa3ad" font-size="12">paper Lab 3 · no s1r1us.ai write · Soft locks Present · Soft-Launch PARKED · 2026-09-28</text>
     <text class="t" x="1560" y="70" text-anchor="end" fill="#9aa3ad" font-size="12">retired labels stay retired</text>
     <text class="mono" x="1560" y="90" text-anchor="end" fill="#6b7380" font-size="11">sleeve_add_allowed · jevScope · scoreSleeveAdd</text>
   </g>
