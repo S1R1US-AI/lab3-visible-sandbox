@@ -35,8 +35,8 @@ Official logo strip (2026-09-27 marks; cited, not re-authored):
 | **04** | L5 mandate / inventory if the patch touches the desk. |
 | **06** | L0 proposer / builder (06 writes). Does not self-merge. |
 | **7-B0T** | Purchase-call / CLIP board (SIM-locked). Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-| **8-B0T** | 07:30 Morning Report print only. No CLIP, does not trade. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-| **9-B0T** | Maker-checker propose lane (nineCall). ≤30% paper-profit sleeve, 1–30% risk slider, user Approve/Deny. Never sells. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **8-B0T** | Paper / SIM gate. In Lab 3 code (`eightCall`) it prints the 07:30 Morning Report line: no CLIP, no execution. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **9-B0T** | Maker (proposes, `nineCall`); Coordinator + user Approve/Deny are the checker. ≤30% paper-profit sleeve, 1–30% risk slider. Never sells. Gate still never sells, never sizes, never writes FAQ. |
 
 Quality Bot unnumbered; desk context only.
 
