@@ -95,8 +95,8 @@ flowchart TB
     ST["04\nif desk / mandate"]
     SEC["02 score\nsecurity review"]
     CI["checks green +\nCopilot 0 open\non head SHA"]
-    U["j go"]
-    M["j squash-merges\n1–3 PM or 7–9 PM ET window\nmax 2 merges / day"]
+    U["system admin's go"]
+    M["system admin squash-merges\n1–3 PM or 7–9 PM ET window\nmax 2 merges / day"]
   end
 
   P --> L1
@@ -187,7 +187,7 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 - Never write FAQ from an agent
 - Never pick a trade size
 - Never weaken drift-lock / shared-security locks
-- Never merge to main without j's go: 06 writes → 02 score → checks green + Copilot 0 open on head SHA → j squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
+- Never merge to main without the system admin's go: 06 writes → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
 - Never sell, never short, Coinbase create locked, paper only
 - Never invent keys; never OpenJev stand-in
 
