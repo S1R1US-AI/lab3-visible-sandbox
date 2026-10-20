@@ -30,13 +30,13 @@ Official logo strip (2026-09-27 marks; cited, not re-authored):
 | --- | --- |
 | **Neural Network** | System apex. Oversight / recursive engineer. Not a live-tape voter. |
 | **TypeSafe / `jev-1.13.0`** | Outer scorer only (`jev-1.13.0` / System One). Code is System Two. |
-| **02** | Own security-review lane: scores the PR (SECURE / HOLD / FAIL) after the outer gate. Not a hard-rule layer; L1 is deterministic code, no model. |
+| **02** | Own security-review lane: scores the PR (SECURE / HOLD / FAIL) after the outer gate. Not a hard-rule layer; L1 hard rules are a manual checklist in [QUESTIONS.md](../../outer-jev/QUESTIONS.md), always **before** any model call ([INSTRUMENTATION.md](../INSTRUMENTATION.md)). |
 | **03** | Standards lane (glossary a+b+c) — runs first, before Outer Jev L1–L4. Standards, not merge. |
 | **04** | L5 mandate / inventory if the patch touches the desk. |
 | **06** | L0 proposer / builder (06 writes). Does not self-merge. |
 | **7-B0T** | Purchase-call / CLIP board (SIM-locked). Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-| **8-B0T** | Maker-checker propose lane. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-| **9-B0T** | ≤30% paper-profit sleeve, 1–30% risk slider, user Approve/Deny. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **8-B0T** | 07:30 Morning Report print only. No CLIP, does not trade. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **9-B0T** | Maker-checker propose lane (nineCall). ≤30% paper-profit sleeve, 1–30% risk slider, user Approve/Deny. Never sells. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
 
 Quality Bot unnumbered; desk context only.
 
@@ -69,7 +69,7 @@ flowchart TB
     SE["03\nglossary a+b+c\nROADMAP + locks"]
   end
 
-  subgraph L1["L1 · DETERMINISTIC HARD RULES — no model"]
+  subgraph L1["L1 · HARD RULES — manual checklist (QUESTIONS.md) · always before any model call"]
     direction LR
     R1["no sell / short path"]
     R2["no FAQ / size by agent"]
