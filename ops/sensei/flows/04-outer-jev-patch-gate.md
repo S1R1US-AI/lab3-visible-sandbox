@@ -10,7 +10,7 @@ Status: Soft locks Present · Soft-Launch PARKED
 
 ## Studio poster — system mark + roadmap rail
 
-GitHub-renderable control-plane poster. Uses the **official Neural Network system mark**, the text label TypeSafe / `jev-1.13.0` for the outer scorer (no scorer logo), bots by number only (02 / 03 / 04 / Research-B0t-06), and the [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
+GitHub-renderable control-plane poster. Uses the **official Neural Network system mark**, the text label TypeSafe / `jev-1.13.0` for the outer scorer (no scorer logo), bots by number only (02 / 03 / 04 / 06), and the [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
 
 ![S1R1US Outer Jev patch gate — research studio poster](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
 
@@ -33,7 +33,7 @@ Official logo strip (2026-09-27 marks; cited, not re-authored):
 | **02** | Own security-review lane: scores the PR (SECURE / HOLD / FAIL) after the outer gate. Not a hard-rule layer; L1 is deterministic code, no model. |
 | **03** | Standards lane (glossary a+b+c) — runs first, before Outer Jev L1–L4. Standards, not merge. |
 | **04** | L5 mandate / inventory if the patch touches the desk. |
-| **Research-B0t-06** | L0 proposer / builder (06 writes). Does not self-merge. |
+| **06** | L0 proposer / builder (06 writes). Does not self-merge. |
 | **7-B0T** | Purchase-call / CLIP board (SIM-locked). Desk context only. Gate still never sells, never sizes, never writes FAQ. |
 | **8-B0T** | Maker-checker propose lane. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
 | **9-B0T** | ≤30% paper-profit sleeve, 1–30% risk slider, user Approve/Deny. Desk context only. Gate still never sells, never sizes, never writes FAQ. |

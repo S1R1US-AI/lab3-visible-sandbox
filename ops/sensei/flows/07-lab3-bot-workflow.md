@@ -11,10 +11,10 @@ Canonical gate (same as [INDEX](./INDEX.md) and the [04 hard rules](./04-outer-j
 ```mermaid
 sequenceDiagram
   participant P as 06 Proposer (+ Copilot)
-  participant S as 03 Sensei (glossary a+b+c)
+  participant S as 03 (glossary a+b+c)
   participant J as Outer Jev (ops)
-  participant D as 04 Desk Steward
-  participant SEC as 02 Sensei Security
+  participant D as 04
+  participant SEC as 02
   participant CI as Checks + Copilot (head SHA)
   participant A as System admin
 
@@ -68,7 +68,7 @@ sequenceDiagram
 
 ```mermaid
 flowchart TB
-  P[06 proposes] --> S[03 Sensei: glossary a+b+c + ROADMAP + locks]
+  P[06 proposes] --> S[03: glossary a+b+c + ROADMAP + locks]
   S -->|FAIL / HOLD| X[FAIL / HOLD — stop · do not merge]
   S -->|PASS provisional| H[Outer Jev hard rules — no model]
   H -->|violates| X
@@ -81,7 +81,7 @@ flowchart TB
   SP -->|exit 1 error| X
   SP -->|exit 0 PASS| DESK{Touches desk / mandate?}
   HOLD --> X
-  DESK -->|"yes · src/ · ops/outer-jev/ · drift-lock / desk tests · mandate doc · or unclear"| ST[04 Desk Steward mandate audit]
+  DESK -->|"yes · src/ · ops/outer-jev/ · drift-lock / desk tests · mandate doc · or unclear"| ST[04 mandate audit]
   DESK -->|"no · none of those paths · 04 skipped"| SEC[02 score — security review]
   ST -->|"FAIL · sell / short path · FAQ / size by agent · create unlocked · tape not display-only"| X
   ST -->|PASS| SEC

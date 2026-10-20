@@ -106,7 +106,7 @@
     <g>
       <rect width="248" height="268" rx="14" fill="#181c20" stroke="#2c3658"/>
       <text class="t" x="16" y="26" fill="#c9a227" font-size="11" font-weight="700">L0 · INTAKE</text>
-      <text class="t" x="16" y="52" fill="#9aa3ad" font-size="11">Research-B0t-06 / patch agent · 06 writes</text>
+      <text class="t" x="16" y="52" fill="#9aa3ad" font-size="11">06 / patch agent · 06 writes</text>
       <rect x="14" y="66" width="220" height="42" rx="8" fill="#12182b"/>
       <text class="t" x="24" y="83" fill="#f2f4f6" font-size="12" font-weight="600">Proposed patch</text>
       <text class="mono" x="24" y="99" fill="#9aa3ad" font-size="10">diff + file list</text>
@@ -269,7 +269,7 @@
     <text class="t" x="20" y="26" fill="#c9a227" font-size="12" font-weight="700" letter-spacing="2">MARKS + LANES ON THIS POSTER</text>
     <text class="t" x="20" y="50" fill="#f2f4f6" font-size="13">Neural Network · system apex (only logo on this poster)</text>
     <text class="t" x="20" y="70" fill="#f2f4f6" font-size="13">TypeSafe / jev-1.13.0 · outer scorer only · not imported by src/</text>
-    <text class="t" x="20" y="90" fill="#f2f4f6" font-size="13">02 security review · 03 standards · 04 mandate · Research-B0t-06 builder</text>
+    <text class="t" x="20" y="90" fill="#f2f4f6" font-size="13">02 security review · 03 standards · 04 mandate · 06 builder</text>
     <text class="t" x="20" y="114" fill="#9aa3ad" font-size="12">paper Lab 3 · no s1r1us.ai write · Soft locks Present · Soft-Launch PARKED · 2026-10-20</text>
     <text class="t" x="1560" y="70" text-anchor="end" fill="#9aa3ad" font-size="12">retired labels stay retired</text>
     <text class="mono" x="1560" y="90" text-anchor="end" fill="#6b7380" font-size="11">sleeve_add_allowed · jevScope · scoreSleeveAdd</text>
