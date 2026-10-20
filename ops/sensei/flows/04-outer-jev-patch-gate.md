@@ -34,6 +34,8 @@ Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
 | **04** | L5 mandate / inventory if the patch touches the desk. |
 | **Research-B0t-06** | L0 proposer / builder (06 writes). Does not self-merge. |
 | **7-B0T / 9-B0T** | Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **8-B0T** | Maker-checker propose lane. Desk context only; proposes, never merges. Gate still never sells, never sizes, never writes FAQ. |
+| **Quality Bot** | Unnumbered QC. Desk context only. Not a mandate voter and not a merge gate. |
 
 Jev engineering reference (official X, not a product import): System One is a parallel decision primitive — state + typed questions in, nouls out, code branches. Do not plug Jev into high-level product decisions inside `src/`. Program the gate.
 
@@ -105,19 +107,27 @@ flowchart TB
   SRC --> L1
   OPS --> L1
   L1 -->|any rule hits| FAIL
-  L1 -->|all clear| L2
+  L1 -->|PASS · all clear| L2
   TOK --> S0
   TOK --> S1
   S1 --> FAIL
-  S0 --> KEY
+  S0 -->|PASS| KEY
   KEY -->|absent · exit 2| HOLD
   KEY -->|present| CALL
   CALL -->|exit 1 error| FAIL
   CALL -->|exit 3 cutoff| HOLD
   CALL -->|exit 0 PASS| CLEAR
-  CLEAR --> SE --> ST --> SEC --> CI --> U
+  CLEAR -->|PASS| SE
+  SE -->|FAIL| FAIL
+  SE -->|HOLD| HOLD
+  SE -->|"PASS · touches src/ (desk · tape · Coinbase · approve · FAQ · size) · ops/outer-jev/ · drift-lock / desk tests · any mandate doc incl. this file · or unclear"| ST
+  SE -->|"PASS · 04 skipped only if the patch touches none of those paths (unclear → 04 runs)"| SEC
+  ST -->|"FAIL · sell / short path · FAQ / size by agent · create unlocked · tape not display-only"| FAIL
+  ST -->|PASS| SEC
   SEC -->|HOLD / FAIL| HOLD
+  SEC -->|PASS · SECURE| CI
   CI -->|red or open threads| HOLD
+  CI -->|PASS · green + 0 open on head SHA| U
   U -->|go| M
   U -->|no go| HOLD
 
@@ -127,6 +137,8 @@ flowchart TB
   class KEY,CALL,HOLD hold
   class SE,ST,SEC,CI,U,M human
 ```
+
+Fail-closed: **FAIL** and **HOLD** are terminal (do not merge) and have no onward edge. Only arrows labeled **PASS** (or the system admin's **go**) move a patch forward. 04 path rule: 04 always runs if the patch touches `src/` (desk, tape, Coinbase, approve, FAQ or size), `ops/outer-jev/`, the drift-lock or desk tests, or any doc that states the mandate (this file included). When unclear, 04 runs. A 04 FAIL (sell or short path, FAQ or size set by an agent, create left unlocked, tape not display-only) stops the flow, and so does a 03 FAIL or HOLD.
 
 ---
 

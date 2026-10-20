@@ -12,7 +12,7 @@ Professional Mermaid workflows for Sensei Bot App. These diagrams are **ops docu
 | 06 | Admin detail disclosure | [06-admin-visibility.md](./06-admin-visibility.md) |
 | 07 | **Lab 3 bot workflow (canonical handoff)** | [07-lab3-bot-workflow.md](./07-lab3-bot-workflow.md) |
 
-Flow **07** is the primary handoff: 06 proposes → 03 → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window. Skill: `lab-3-sensei-workflow`.
+Flow **07** is the primary handoff: 06 proposes → 03 → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day). Any FAIL or HOLD stops the flow: do not merge. Skill: `lab-3-sensei-workflow`.
 
 Flow **04** is the design-review architecture for that outer gate (control plane + noul contract + exit codes). Figure:
 
