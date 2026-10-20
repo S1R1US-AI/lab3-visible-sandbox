@@ -21,7 +21,7 @@ flowchart TD
   B -->|No — unclear or mixed| H[HOLD and ask human]
   H --> A
   B -->|Yes| C[1. STANDARDS / DEFINITIONS first]
-  C --> C1[Shared glossary + Team Boolean]
+  C --> C1[Shared glossary / definitions]
   C1 --> C2[Sensei: PASS / HOLD / FAIL meaning]
   C2 --> C3[Security: SECURE / HOLD / FAIL controls]
   C3 --> D[2. ROLES / LANES]
@@ -60,7 +60,7 @@ S1R1US bots communicate by agreeing on shared definitions before acting. Each bo
 
 | Public step | Sensei private diagram |
 |-------------|------------------------|
-| Standards / Boolean / dual gates | D1 |
+| Standards / shared definitions / dual gates | D1 |
 | Sandbox diamond after APPROVE, before ship | D2 |
 | Roles 01–06 | D3 |
 | Lane-owner diagram → Sensei meaning → Security controls → human APPROVE | D4 |

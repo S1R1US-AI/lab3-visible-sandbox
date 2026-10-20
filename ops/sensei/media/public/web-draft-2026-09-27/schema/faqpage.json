@@ -7,7 +7,7 @@
       "name": "How do S1R1US bots communicate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They lock shared standards and definitions first. Only after the glossary and Team Boolean are clear do they assign roles and lanes. After human APPROVE, each bot self-improves inside its own lane. If meaning is unclear, they HOLD and ask."
+        "text": "They lock shared standards and definitions first. Only after the glossary and shared definitions are clear do they assign roles and lanes. After human APPROVE, each bot self-improves inside its own lane. If meaning is unclear, they HOLD and ask."
       }
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "@type": "Question",
-      "name": "What is Boolean HOLD?",
+      "name": "What is HOLD when unclear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When a claim or ask is unclear, mixed, or unverified, bots HOLD: they pause, do not invent meaning, and ask the human."
