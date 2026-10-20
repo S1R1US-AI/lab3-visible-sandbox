@@ -1,6 +1,6 @@
 # 04 — Outer Jev patch gate
 
-Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** any model. Optional scorer: `score-patch.mjs` (PR #10, `5346feb`). No OpenJev. Not imported by `src/`.
+Jev scores **patches / coding agents**, not the live tape. Lives only under `ops/outer-jev/`. Hard rules run **before** Outer Jev / any scoring model. Optional scorer: `score-patch.mjs` (PR #10, `5346feb`). No OpenJev. Not imported by `src/`.
 
 Canonical handoff sequence stays in [07-lab3-bot-workflow](./07-lab3-bot-workflow.md). This file is the architecture.
 
@@ -201,7 +201,7 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 
 ---
 
-## Hard rules (always, before any model)
+## Hard rules (always, before Outer Jev / any scoring model)
 
 - Never add a sell tool
 - Never write FAQ from an agent
@@ -222,9 +222,9 @@ node ops/outer-jev/scan-runtime.mjs
 read -s TYPESAFE_API_KEY && export TYPESAFE_API_KEY
 node ops/outer-jev/score-patch.mjs --state state.json
 
-# optional gateway (same System One shape):
-# TYPESAFE_BASE_URL=https://openrouter.ai/api TYPESAFE_API_KEY=$OPENROUTER_API_KEY \
-#   node ops/outer-jev/score-patch.mjs --state state.json
+# optional gateway (same System One shape; key already exported above via read -s, never inline):
+# export TYPESAFE_BASE_URL=https://openrouter.ai/api
+# node ops/outer-jev/score-patch.mjs --state state.json
 ```
 
 Key location: operator env only — never commit. See `ops/outer-jev/CONFIG.md`, `QUESTIONS.md`, and [INSTRUMENTATION.md](../INSTRUMENTATION.md).

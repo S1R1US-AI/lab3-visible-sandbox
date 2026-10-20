@@ -2,7 +2,7 @@
 
 Primary handoff for Lab 3 paper desk patches. Cite [GLOSSARY.md](../GLOSSARY.md) (a+b+c), [BOT-INTERFACE.md](../BOT-INTERFACE.md), and [`ops/outer-jev/`](../../outer-jev/). Skill: **lab-3-sensei-workflow**. No OpenJev. No merge without the system admin's go.
 
-Canonical gate (same as [INDEX](./INDEX.md) and the [04 hard rules](./04-outer-jev-patch-gate.md#hard-rules-always-before-any-model)): 06 proposes → 03 → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day). Any FAIL or HOLD stops the flow: do not merge.
+Canonical gate (same as [INDEX](./INDEX.md) and the [04 hard rules](./04-outer-jev-patch-gate.md#hard-rules-always-before-outer-jev--any-scoring-model)): 06 proposes → 03 → Outer Jev (`scan-runtime.mjs` + optional `score-patch.mjs`) → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day). Any FAIL or HOLD stops the flow: do not merge.
 
 04 path rule (same as [04](./04-outer-jev-patch-gate.md#control-plane)): 04 always runs if the patch touches `src/` (desk, tape, Coinbase, approve, FAQ or size), `ops/outer-jev/`, the drift-lock or desk tests, or any doc that states the mandate. When unclear, 04 runs.
 
