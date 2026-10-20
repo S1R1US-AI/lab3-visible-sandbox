@@ -107,8 +107,12 @@ flowchart TB
 
 ```bash
 node ops/outer-jev/scan-runtime.mjs
-# optional key in operator env only — never commit; never invent; never OpenJev
-TYPESAFE_API_KEY=... node ops/outer-jev/score-patch.mjs --state state.json
-# optional gateway:
-# TYPESAFE_BASE_URL=https://openrouter.ai/api TYPESAFE_API_KEY=$OPENROUTER_API_KEY ...
+# optional — operator env only; never commit, never invent, never OpenJev,
+# never put a key on the command line. Export it from your secrets manager,
+# or type it hidden (stays out of shell history):
+read -s TYPESAFE_API_KEY && export TYPESAFE_API_KEY
+node ops/outer-jev/score-patch.mjs --state state.json
+# optional gateway (key already exported in the environment, never inline):
+# export TYPESAFE_BASE_URL=https://openrouter.ai/api
+# node ops/outer-jev/score-patch.mjs --state state.json
 ```

@@ -10,11 +10,11 @@ Status: Soft locks Present · Soft-Launch PARKED
 
 ## Studio poster — system mark + roadmap rail
 
-GitHub-renderable control-plane poster. Uses the **APPROVED Neural Network** system mark, the text label TypeSafe / `jev-1.13.0` for the outer scorer (no scorer logo), bots by number only (02 / 03 / 04 / Research-B0t-06), and the [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
+GitHub-renderable control-plane poster. Uses the **official Neural Network system mark**, the text label TypeSafe / `jev-1.13.0` for the outer scorer (no scorer logo), bots by number only (02 / 03 / 04 / Research-B0t-06), and the [ROADMAP](../ROADMAP.md) Now / Next / Later / Never rail.
 
 ![S1R1US Outer Jev patch gate — research studio poster](./assets/S1R1US-outer-jev-patch-gate-studio.svg)
 
-Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
+Official logo strip (2026-09-27 marks; cited, not re-authored):
 
 <p>
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/Neural-Network-logo-card.png" alt="Neural Network system apex" width="72" height="72" />
@@ -22,6 +22,7 @@ Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Sensei-Bot-logo-card.png" alt="03" width="72" height="72" />
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/Desk-Steward-logo-card.png" alt="04" width="72" height="72" />
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/7-B0T-logo-card.png" alt="7-B0T" width="72" height="72" />
+<img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/8-B0T-logo-card.png" alt="8-B0T" width="72" height="72" />
 <img src="../media/public/soft-launch-front-door-2026-09-27/images/bots/9-B0T-logo-card.png" alt="9-B0T" width="72" height="72" />
 </p>
 
@@ -30,12 +31,14 @@ Official logo strip (already APPROVED 2026-09-27 — cited, not re-authored):
 | **Neural Network** | System apex. Oversight / recursive engineer. Not a live-tape voter. |
 | **TypeSafe / `jev-1.13.0`** | Outer scorer only (`jev-1.13.0` / System One). Code is System Two. |
 | **02** | Own security-review lane: scores the PR (SECURE / HOLD / FAIL) after the outer gate. Not a hard-rule layer; L1 is deterministic code, no model. |
-| **03** | L5 glossary a+b+c. Standards, not merge. |
+| **03** | Standards lane (glossary a+b+c) — runs first, before Outer Jev L1–L4. Standards, not merge. |
 | **04** | L5 mandate / inventory if the patch touches the desk. |
 | **Research-B0t-06** | L0 proposer / builder (06 writes). Does not self-merge. |
-| **7-B0T / 9-B0T** | Desk context only. Gate still never sells, never sizes, never writes FAQ. |
-| **8-B0T** | Maker-checker propose lane. Desk context only; proposes, never merges. Gate still never sells, never sizes, never writes FAQ. |
-| **Quality Bot** | Unnumbered QC. Desk context only. Not a mandate voter and not a merge gate. |
+| **7-B0T** | Purchase-call / CLIP board (SIM-locked). Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **8-B0T** | Maker-checker propose lane. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+| **9-B0T** | ≤30% paper-profit sleeve, 1–30% risk slider, user Approve/Deny. Desk context only. Gate still never sells, never sizes, never writes FAQ. |
+
+Quality Bot unnumbered; desk context only.
 
 Jev engineering reference (official X, not a product import): System One is a parallel decision primitive — state + typed questions in, nouls out, code branches. Do not plug Jev into high-level product decisions inside `src/`. Program the gate.
 
@@ -59,6 +62,11 @@ flowchart TB
     T["Agent transcript\ntools · intent"]
     SRC["src/ desk runtime\njevOutsideApp: 100"]
     OPS["ops/outer-jev/\nnever imported by src/"]
+  end
+
+  subgraph STD["03 · STANDARDS — runs before Outer Jev"]
+    direction LR
+    SE["03\nglossary a+b+c\nROADMAP + locks"]
   end
 
   subgraph L1["L1 · DETERMINISTIC HARD RULES — no model"]
@@ -92,9 +100,8 @@ flowchart TB
     CLEAR["CLEAR · outer gate only"]
   end
 
-  subgraph L5["L5 · REVIEW + MERGE GATE — CLEAR is still not a merge"]
+  subgraph L5["L5 · MANDATE + MERGE GATE — CLEAR is still not a merge"]
     direction LR
-    SE["03\nglossary a+b+c"]
     ST["04\nif desk / mandate"]
     SEC["02 score\nsecurity review"]
     CI["checks green +\nCopilot 0 open\non head SHA"]
@@ -102,10 +109,13 @@ flowchart TB
     M["system admin squash-merges\n1–3 PM or 7–9 PM ET window\nmax 2 merges / day"]
   end
 
-  P --> L1
-  T --> L1
-  SRC --> L1
-  OPS --> L1
+  P --> SE
+  T --> SE
+  SRC --> SE
+  OPS --> SE
+  SE -->|FAIL| FAIL
+  SE -->|HOLD| HOLD
+  SE -->|PASS provisional| L1
   L1 -->|any rule hits| FAIL
   L1 -->|PASS · all clear| L2
   TOK --> S0
@@ -117,11 +127,8 @@ flowchart TB
   CALL -->|exit 1 error| FAIL
   CALL -->|exit 3 cutoff| HOLD
   CALL -->|exit 0 PASS| CLEAR
-  CLEAR -->|PASS| SE
-  SE -->|FAIL| FAIL
-  SE -->|HOLD| HOLD
-  SE -->|"PASS · touches src/ (desk · tape · Coinbase · approve · FAQ · size) · ops/outer-jev/ · drift-lock / desk tests · any mandate doc incl. this file · or unclear"| ST
-  SE -->|"PASS · 04 skipped only if the patch touches none of those paths (unclear → 04 runs)"| SEC
+  CLEAR -->|"PASS · touches src/ (desk · tape · Coinbase · approve · FAQ · size) · ops/outer-jev/ · drift-lock / desk tests · any mandate doc incl. this file · or unclear"| ST
+  CLEAR -->|"PASS · 04 skipped only if the patch touches none of those paths (unclear → 04 runs)"| SEC
   ST -->|"FAIL · sell / short path · FAQ / size by agent · create unlocked · tape not display-only"| FAIL
   ST -->|PASS| SEC
   SEC -->|HOLD / FAIL| HOLD
@@ -138,7 +145,7 @@ flowchart TB
   class SE,ST,SEC,CI,U,M human
 ```
 
-Fail-closed: **FAIL** and **HOLD** are terminal (do not merge) and have no onward edge. Only arrows labeled **PASS** (or the system admin's **go**) move a patch forward. 04 path rule: 04 always runs if the patch touches `src/` (desk, tape, Coinbase, approve, FAQ or size), `ops/outer-jev/`, the drift-lock or desk tests, or any doc that states the mandate (this file included). When unclear, 04 runs. A 04 FAIL (sell or short path, FAQ or size set by an agent, create left unlocked, tape not display-only) stops the flow, and so does a 03 FAIL or HOLD.
+Fail-closed: **FAIL** and **HOLD** are terminal (do not merge) and have no onward edge. Only arrows labeled **PASS** (or the system admin's **go**) move a patch forward. Lane order matches [Flow 07](./07-lab3-bot-workflow.md) and [INDEX](./INDEX.md): 03 runs first, then Outer Jev (L1–L4), then 04 (if desk), 02, checks + Copilot, and the system admin. 04 path rule: 04 always runs if the patch touches `src/` (desk, tape, Coinbase, approve, FAQ or size), `ops/outer-jev/`, the drift-lock or desk tests, or any doc that states the mandate (this file included). When unclear, 04 runs. A 04 FAIL (sell or short path, FAQ or size set by an agent, create left unlocked, tape not display-only) stops the flow, and so does a 03 FAIL or HOLD.
 
 ---
 
@@ -200,7 +207,7 @@ Cutoff `0.70` is code in `ops/outer-jev/score-patch.mjs`. Jev returns nouls. Cod
 - Never write FAQ from an agent
 - Never pick a trade size
 - Never weaken drift-lock / shared-security locks
-- Never merge to main without the system admin's go: 06 writes → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
+- Never merge to main without the system admin's go: 06 proposes → 03 → Outer Jev → 04 (if desk) → 02 score → checks green + Copilot 0 open on head SHA → system admin squash-merges in a merge window (1–3 PM or 7–9 PM ET, max 2 / day)
 - Never sell, never short, Coinbase create locked, paper only
 - Auto trade LOCKED
 - Never invent keys; never OpenJev stand-in
